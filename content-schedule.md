@@ -4,11 +4,11 @@
 | Date     | Title                                                       | Category | Status    |
 | -------- | ----------------------------------------------------------- | -------- | --------- |
 | Feb 16   | FilterTrace                                                 | Tools    | Scheduled |
-| Feb 19   | The K12 Cyber Reality Check                                 | Thoughts | Drafted   |
+| Feb 19   | The K12 Cyber Reality Check                                 | Thoughts | Scheduled |
 | Feb 23   | Software Catalog                                            | Tools    | To-do     |
-| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Drafted   |
+| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Scheduled |
 | Mar 2    | Change Keeper                                               | Tools    | To-do     |
-| Mar 5    | Who’s Actually Attacking K12?                               | Thoughts | Drafted   |
+| Mar 5    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled |
 | Mar 9    | WebLoad Troubleshooter                                      | Tools    | To-do     |
 | Mar 12   | How Attackers Actually Get In                               | Thoughts | Drafted   |
 | Mar 16   | DocKeeper                                                   | Tools    | To-do     |
