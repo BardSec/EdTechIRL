@@ -8,7 +8,7 @@
 | Feb 26   | Why Attackers Target School Districts                       | Thoughts | Scheduled |          |          |
 | Mar 2    | Change Keeper                                               | Tools    | To-do     |          |          |
 | Mar 5    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled |          |          |
-| Mar 9    | WebLoad Troubleshooter                                      | Tools    | Drafted   |          |          |
+| Mar 9    | WebLoad Troubleshooter                                      | Tools    | Scheduled | To do         |  To do        |
 | Mar 12   | How Attackers Actually Get In                               | Thoughts | Scheduled | To do    | To do    |
 | Mar 16   | DocKeeper                                                   | Tools    | To-do     |          |          |
 | Mar 19   | When Systems Go Down                                        | Thoughts | Drafted   |          |          |
