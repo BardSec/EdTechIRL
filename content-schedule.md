@@ -11,6 +11,7 @@
 | Mar 4    | K12 Cyber Watch: An EdTechIRL landing page for K12 cyber news         | Tools    | Scheduled | To do         |          |
 | Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled | To do         |          |
 | Mar 9    | WebLoad Troubleshooter                                      | Tools    | Scheduled | To do    | To do   |
+| Mar 11   | TN Bill Watch                                               | Tools | To-do | To do    | To do    |
 | Mar 13   | How Attackers Actually Get In                               | Thoughts | Scheduled | To do    | To do    |
 | Mar 16   | DocKeeper                                                   | Tools    | To-do     |          |          |
 | Mar 18   | Cloudflare Radar                                            | Tools    | To-do     |          |          |
@@ -19,7 +20,7 @@
 | Mar 25   | Time Trackinator                                            | Tools | To-do   |          |          |
 | Mar 27   | The Vendor Problem                                          | Thoughts | Drafted   |          |          |
 | Mar 30   | Azure Log Hack - McNulty                                    | Tools    | To-do     |          |          |
-| Apr 1    |                                                             | Thoughts | Drafted   |          |          |
+| Apr 1    |                                                             | Tools    | To-do   |          |          |
 | Apr 3    | Cyber Risk is an Equity Issue                               | Thoughts | Drafted   |          |          |
 | Apr 6    | Anonymized Attack Library?                                  |          | To-do     |          |          |
 | Apr 8    |                                                             |          | To-do     |          |          |
