@@ -5,7 +5,7 @@
 | Feb 16   | FilterTrace                                                 | Tools    | Published |          |          |
 | Feb 19   | The K12 Cyber Reality Check                                 | Thoughts | Published |          |          |
 | Feb 23   | Software Catalog                                            | Tools    | Published |          |          |
-| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Scheduled |          |          |
+| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Published|          |          |
 | Mar 2    | Audit Azure App Registrations with Entra App Hunter         | Tools    | Scheduled | To do         |          |
 | Mar 5    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled | To do         |          |
 | Mar 9    | WebLoad Troubleshooter                                      | Tools    | Scheduled | To do    | To do   |
