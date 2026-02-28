@@ -2,11 +2,11 @@
 
 | Date     | Title                                                       | Category | Status    | LinkedIn | ST Notes |
 | -------- | ----------------------------------------------------------- | -------- | --------- | -------- | -------- |
-| Feb 16   | FilterTrace                                                 | Tools    | Published |          |          |
-| Feb 19   | The K12 Cyber Reality Check                                 | Thoughts | Published |          |          |
-| Feb 23   | Software Catalog                                            | Tools    | Published |          |          |
-| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Published|          |          |
-| Feb 27   | Check Your (Least) Privilege                                | Tools | Published|          |          |
+| Feb 16   | FilterTrace                                                 | Tools    | Published |     X     |          |
+| Feb 19   | The K12 Cyber Reality Check                                 | Thoughts | Published |     X     |          |
+| Feb 23   | Software Catalog                                            | Tools    | Published |     X     |          |
+| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Published|      X    |          |
+| Feb 27   | Check Your (Least) Privilege                                | Tools | Published|    X      |          |
 | Mar 2    | Audit Azure App Registrations with Entra App Hunter         | Tools    | Scheduled | To do         |          |
 | Mar 4    | K12 Cyber Watch: An EdTechIRL landing page for K12 cyber news         | Tools    | Scheduled | To do         |          |
 | Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled | To do         |          |
