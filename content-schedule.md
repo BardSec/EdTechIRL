@@ -8,9 +8,9 @@
 | Feb 26   | Why Attackers Target School Districts                       | Thoughts | Published|          |          |
 | Mar 2    | Audit Azure App Registrations with Entra App Hunter         | Tools    | Scheduled | To do         |          |
 | Mar 4    | K12 Cyber Watch: An EdTechIRL landing page for K12 cyber news         | Tools    | Scheduled | To do         |          |
-| Mar 5    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled | To do         |          |
+| Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled | To do         |          |
 | Mar 9    | WebLoad Troubleshooter                                      | Tools    | Scheduled | To do    | To do   |
-| Mar 12   | How Attackers Actually Get In                               | Thoughts | Scheduled | To do    | To do    |
+| Mar 13   | How Attackers Actually Get In                               | Thoughts | Scheduled | To do    | To do    |
 | Mar 16   | DocKeeper                                                   | Tools    | To-do     |          |          |
 | Mar 19   | When Systems Go Down                                        | Thoughts | Drafted   |          |          |
 | Mar 23   | Change Keeper                                               | Tools    | To-do     |          |          |
