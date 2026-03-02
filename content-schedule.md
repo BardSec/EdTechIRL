@@ -7,9 +7,9 @@
 | Feb 23   | Software Catalog                                            | Tools    | Published |     X     |          |
 | Feb 26   | Why Attackers Target School Districts                       | Thoughts | Published|      X    |          |
 | Feb 27   | Check Your (Least) Privilege                                | Tools | Published|    X      |          |
-| Mar 2    | Audit Azure App Registrations with Entra App Hunter         | Tools    | Scheduled | To do         |          |
-| Mar 4    | K12 Cyber Watch: An EdTechIRL landing page for K12 cyber news         | Tools    | Scheduled | To do         |          |
-| Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled | To do         |          |
+| Mar 2    | Audit Azure App Registrations with Entra App Hunter         | Tools    | Published | X     |          |
+| Mar 4    | K12 Cyber Watch: An EdTechIRL landing page for K12 cyber news         | Tools    | Scheduled | Scheduled         |          |
+| Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Scheduled | Scheduled         |          |
 | Mar 9    | WebLoad Troubleshooter                                      | Tools    | Scheduled | To do    | To do   |
 | Mar 11   | TN Bill Watch                                               | Tools | To-do | To do    | To do    |
 | Mar 13   | How Attackers Actually Get In                               | Thoughts | Scheduled | To do    | To do    |
