@@ -16,7 +16,7 @@
 | Mar 11   | TN Bill Watch                                               | Tools | Scheduled | Scheduled    | 
 | Mar 13   | How Attackers Actually Get In                               | Thoughts | Scheduled | Scheduled    | 
 | March|   Week 3                                                          |          |      |          | 
-| Mar 16   | DocKeeper                                                   | Tools    | To-do     |          |          
+| Mar 16   | DocKeeper                                                   | Tools    | Scheduled     | Scheduled         |          
 | Mar 18   | Cloudflare Radar                                            | Tools    | To-do     |          |          
 | Mar 20   | When Systems Go Down                                        | Thoughts | Scheduled   | Scheduled         | 
 | March|   Week 4                                                          |          |      |          | 
