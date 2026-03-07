@@ -12,7 +12,7 @@
 | Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Published | X         |          
 | Mar 9    | WebLoad Troubleshooter                                      | Tools    | Scheduled | Scheduled     | 
 | Mar 11   | TN Bill Watch                                               | Tools | To-do | To do    | 
-| Mar 13   | How Attackers Actually Get In                               | Thoughts | Scheduled | To do    | 
+| Mar 13   | How Attackers Actually Get In                               | Thoughts | Scheduled | Scheduled    | 
 | Mar 16   | DocKeeper                                                   | Tools    | To-do     |          |          
 | Mar 18   | Cloudflare Radar                                            | Tools    | To-do     |          |          
 | Mar 20   | When Systems Go Down                                        | Thoughts | Scheduled   | Scheduled         |          
