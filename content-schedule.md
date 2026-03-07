@@ -22,7 +22,7 @@
 | March|   Week 4                                                          |          |      |          | 
 | Mar 23   | Change Keeper                                               | Tools    | To-do     |          |          
 | Mar 25   | Time Trackinator                                            | Tools | To-do   |          |          
-| Mar 27   | The Vendor Problem                                          | Thoughts | Drafted   |          | 
+| Mar 27   | The Vendor Problem                                          | Thoughts | Scheduled   | Scheduled         | 
 | April |   Week 1                                                          |          |      |          | 
 | Mar 30   | Azure Log Hack - McNulty                                    | Tools    | To-do     |          |          
 | Apr 1    |                                                             | Tools    | To-do   |          |          
