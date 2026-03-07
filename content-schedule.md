@@ -26,7 +26,7 @@
 | April |   Week 1                                                          |          |      |          | 
 | Mar 30   | Azure Log Hack - McNulty                                    | Tools    | To-do     |          |          
 | Apr 1    |                                                             | Tools    | To-do   |          |          
-| Apr 3    | Cyber Risk is an Equity Issue                               | Thoughts | Drafted   |          |
+| Apr 3    | Cyber Risk is an Equity Issue                               | Thoughts | Scheduled   | Scheduled         |
 | April|   Week 2                                                          |          |      |          | 
 | Apr 6    | Anonymized Attack Library?                                  |          | To-do     |          |          
 | Apr 8    |                                                             |          | To-do     |          |         
