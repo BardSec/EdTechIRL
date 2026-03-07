@@ -2,15 +2,15 @@
 
 | Date     | Title                                                       | Category | Status    | LinkedIn | 
 | -------- | ----------------------------------------------------------- | -------- | --------- | -------- | 
-| Feb 16   | FilterTrace                                                 | Tools    | Published |     X     |  
-| Feb 19   | The K12 Cyber Reality Check                                 | Thoughts | Published |     X     |          
-| Feb 23   | Software Catalog                                            | Tools    | Published |     X     |         |
-| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Published|      X    |          
-| Feb 27   | Check Your (Least) Privilege                                | Tools | Published|    X      |   
+| Feb 16   | FilterTrace                                                 | Tools    | Published |     Published     |  
+| Feb 19   | The K12 Cyber Reality Check                                 | Thoughts | Published |     Published     |          
+| Feb 23   | Software Catalog                                            | Tools    | Published |     Published     |         |
+| Feb 26   | Why Attackers Target School Districts                       | Thoughts | Published|      Published    |          
+| Feb 27   | Check Your (Least) Privilege                                | Tools | Published|    Published      |   
 | March|   Week 1                                                          |          |      |          | 
-| Mar 2    | Audit Azure App Registrations with Entra App Hunter         | Tools    | Published | X     |          |
-| Mar 4    | K12 Cyber Watch: An EdTechIRL landing page for K12 cyber news         | Tools    | Published | X        |          
-| Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Published | X         |
+| Mar 2    | Audit Azure App Registrations with Entra App Hunter         | Tools    | Published | Published     |          |
+| Mar 4    | K12 Cyber Watch: An EdTechIRL landing page for K12 cyber news         | Tools    | Published | Published        |          
+| Mar 6    | Who’s Actually Attacking K12?                               | Thoughts | Published | Published         |
 | March|   Week 2                                                          |          |      |          |   
 | Mar 9    | WebLoad Troubleshooter                                      | Tools    | Scheduled | Scheduled     | 
 | Mar 11   | TN Bill Watch                                               | Tools | Scheduled | Scheduled    | 
