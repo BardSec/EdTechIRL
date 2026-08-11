@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/setapp-mac-app-repository-as-a-service
 
 *MARaaS? 240+ Mac Apps for $9.99/month - My Top 6 Picks *
 
-[![](https://substackcdn.com/image/fetch/$s_!g9bu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab2b3bc4-65d8-401c-acf5-379f42ee3905_1024x1024.webp)](https://substackcdn.com/image/fetch/$s_!g9bu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fab2b3bc4-65d8-401c-acf5-379f42ee3905_1024x1024.webp)
+[![](images/ab2b3bc4-65d8-401c-acf5-379f42ee3905_1024x1024.webp)](images/ab2b3bc4-65d8-401c-acf5-379f42ee3905_1024x1024.webp)
 
 As a new Mac user, I’m always looking for new apps and tools to optimize my Mac. I really like and appreciate that a lot of Mac tools are one-time purchases and not subscription-based software, BUT while I’m experimenting and trying things out, all the $2.99-$19.99 purchases were starting to add up. This is especially tough for apps I’m not sure that I want to commit to.
 
@@ -22,7 +22,7 @@ Below are the top 6 tools I’ve been wearing out in the two months I’ve subsc
 
 ## Ulysses
 
-[![](https://substackcdn.com/image/fetch/$s_!uFrt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e54da8a-a0eb-462b-869c-19c13b1453a4_2536x1454.png)](https://substackcdn.com/image/fetch/$s_!uFrt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3e54da8a-a0eb-462b-869c-19c13b1453a4_2536x1454.png)
+[![](images/3e54da8a-a0eb-462b-869c-19c13b1453a4_2536x1454.png)](images/3e54da8a-a0eb-462b-869c-19c13b1453a4_2536x1454.png)
 
 ### What’s it do?
 
@@ -47,7 +47,7 @@ $5.99/month
 
 ## Paste
 
-[![](https://substackcdn.com/image/fetch/$s_!3tGX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb32d7fa1-b14f-45d9-94ef-a813d52c69aa_2904x1766.png)](https://substackcdn.com/image/fetch/$s_!3tGX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb32d7fa1-b14f-45d9-94ef-a813d52c69aa_2904x1766.png)
+[![](images/b32d7fa1-b14f-45d9-94ef-a813d52c69aa_2904x1766.png)](images/b32d7fa1-b14f-45d9-94ef-a813d52c69aa_2904x1766.png)
 
 ### What’s it do?
 
@@ -74,7 +74,7 @@ $3.99/month
 
 ## Proxyman
 
-[![](https://substackcdn.com/image/fetch/$s_!DWHH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa53ceb5b-cf6c-4130-ab5a-8c101a1426e7_2766x1338.png)](https://substackcdn.com/image/fetch/$s_!DWHH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa53ceb5b-cf6c-4130-ab5a-8c101a1426e7_2766x1338.png)
+[![](images/a53ceb5b-cf6c-4130-ab5a-8c101a1426e7_2766x1338.png)](images/a53ceb5b-cf6c-4130-ab5a-8c101a1426e7_2766x1338.png)
 
 ### What’s it do?
 
@@ -99,7 +99,7 @@ $69 - one time, single license
 
 ## Permute
 
-[![Permute - Media Converter for macOS - Charlie Monroe Software](https://substackcdn.com/image/fetch/$s_!PZQX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F255827cd-7d6b-44d1-82ab-3719a6348fbd_780x600.jpeg "Permute - Media Converter for macOS - Charlie Monroe Software")](https://substackcdn.com/image/fetch/$s_!PZQX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F255827cd-7d6b-44d1-82ab-3719a6348fbd_780x600.jpeg)
+[![Permute - Media Converter for macOS - Charlie Monroe Software](images/255827cd-7d6b-44d1-82ab-3719a6348fbd_780x600.jpeg "Permute - Media Converter for macOS - Charlie Monroe Software")](images/255827cd-7d6b-44d1-82ab-3719a6348fbd_780x600.jpeg)
 
 ### What’s it do?
 
@@ -124,7 +124,7 @@ $14.99/one-time
 
 ## NotchNook
 
-[![](https://substackcdn.com/image/fetch/$s_!BTZY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997cc0a-c9bd-4642-8d2a-fef8836d1a91_2904x1768.png)](https://substackcdn.com/image/fetch/$s_!BTZY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9997cc0a-c9bd-4642-8d2a-fef8836d1a91_2904x1768.png)
+[![](images/9997cc0a-c9bd-4642-8d2a-fef8836d1a91_2904x1768.png)](images/9997cc0a-c9bd-4642-8d2a-fef8836d1a91_2904x1768.png)
 
 ### What’s it do?
 
@@ -140,7 +140,7 @@ $14.99/one-time
 
 The main settings I have configured in NotchNook are (left to right): Mirror for my webcam, Calendar, and Media Controls. Simple, but super handy!
 
-[![](https://substackcdn.com/image/fetch/$s_!Ijh6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff47edee2-c834-4561-a276-2246345ee36e_1664x330.png)](https://substackcdn.com/image/fetch/$s_!Ijh6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff47edee2-c834-4561-a276-2246345ee36e_1664x330.png)
+[![](images/f47edee2-c834-4561-a276-2246345ee36e_1664x330.png)](images/f47edee2-c834-4561-a276-2246345ee36e_1664x330.png)
 
 ### Regular Price:
 
@@ -150,7 +150,7 @@ $3/month or $25/one-time
 
 ## WiFi Signal
 
-[![](https://substackcdn.com/image/fetch/$s_!fuXB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ea28f85-45ab-4689-b520-99d2b59d2f72_2286x1510.png)](https://substackcdn.com/image/fetch/$s_!fuXB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3ea28f85-45ab-4689-b520-99d2b59d2f72_2286x1510.png)
+[![](images/3ea28f85-45ab-4689-b520-99d2b59d2f72_2286x1510.png)](images/3ea28f85-45ab-4689-b520-99d2b59d2f72_2286x1510.png)
 
 ### What’s it do?
 

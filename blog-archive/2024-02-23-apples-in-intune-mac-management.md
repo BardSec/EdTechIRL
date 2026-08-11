@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/apples-in-intune-mac-management
 
 *Exploring how far Intune has come for managing MacOS devices. The final part of my Apples in Intune series.*
 
-[![](https://substackcdn.com/image/fetch/$s_!OrP5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51259b5-8488-46c2-8cf4-562db7c48be9_1024x1024.webp)](https://substackcdn.com/image/fetch/$s_!OrP5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff51259b5-8488-46c2-8cf4-562db7c48be9_1024x1024.webp)
+[![](images/f51259b5-8488-46c2-8cf4-562db7c48be9_1024x1024.webp)](images/f51259b5-8488-46c2-8cf4-562db7c48be9_1024x1024.webp)
 
 ### Introduction
 
@@ -40,7 +40,7 @@ Once you have your devices set up and ready to be distributed, the management si
 
 Microsoft also has a lot of new features coming for mac that are very exciting. During the Microsoft Technical Takeoff, employees from Microsoft shared with us the following roadmap.
 
-[![](https://substackcdn.com/image/fetch/$s_!tIFU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba8da52a-1099-45e2-b56e-5a766f27b399_2511x1273.png)](https://substackcdn.com/image/fetch/$s_!tIFU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fba8da52a-1099-45e2-b56e-5a766f27b399_2511x1273.png)
+[![](images/ba8da52a-1099-45e2-b56e-5a766f27b399_2511x1273.png)](images/ba8da52a-1099-45e2-b56e-5a766f27b399_2511x1273.png)
 
 [Link to Video](https://www.youtube.com/watch?v=dviJhnCax-Q)
 

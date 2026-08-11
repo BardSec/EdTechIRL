@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/ms-isac-releases-k-12-cybersecurity
 
 # MS-ISAC Releases K-12 Cybersecurity Assessment for SY2021-2022
 
-[![](https://substackcdn.com/image/fetch/$s_!fxc2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4fc7b06b-469b-4d2a-8b27-e47a2d99a3b1_876x723.png)](https://substackcdn.com/image/fetch/$s_!fxc2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F4fc7b06b-469b-4d2a-8b27-e47a2d99a3b1_876x723.png)
+[![](images/4fc7b06b-469b-4d2a-8b27-e47a2d99a3b1_876x723.png)](images/4fc7b06b-469b-4d2a-8b27-e47a2d99a3b1_876x723.png)
 
 MS-ISAC and CIS today released a K-12 Cybersecurity Assessment based on data for the 2021-22 school year gathered from the 2021 Nationwide Cybersecurity Review (NCSR), MS-ISAC member feedback, the CIS (Center for Internet Security) SOC, and threat and data analysis from the CIS Cyber Threat Intelligence Team (CTT).
 

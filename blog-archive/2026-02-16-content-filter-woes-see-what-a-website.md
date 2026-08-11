@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/content-filter-woes-see-what-a-website
 
 *Chrome Extension #3: FilterTrace*
 
-[![](https://substackcdn.com/image/fetch/$s_!_kOK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61c6c393-fa0c-432f-b612-0d56af347617_1015x590.png)](https://substackcdn.com/image/fetch/$s_!_kOK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61c6c393-fa0c-432f-b612-0d56af347617_1015x590.png)
+[![](images/61c6c393-fa0c-432f-b612-0d56af347617_1015x590.png)](images/61c6c393-fa0c-432f-b612-0d56af347617_1015x590.png)
 
 When a website doesn’t load correctly, the first question is usually *why*. In regulated environments that require content filtering like schools, that question often turns into a guessing game. Is a script blocked? An image host? An API call? Browser dev tools can answer that, but they’re often more than you need, and not always practical when you’re just trying to quickly identify which domain is causing the problem.
 

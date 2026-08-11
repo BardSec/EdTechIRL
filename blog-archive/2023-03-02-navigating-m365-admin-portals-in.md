@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/navigating-m365-admin-portals-in
 
 *Speed up your navigation and quit getting lost following breadcrumbs*
 
-[![](https://substackcdn.com/image/fetch/$s_!qKqG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Feb34fecd-237c-4d57-b216-a64aff2feffa_1280x720.png)](https://substackcdn.com/image/fetch/$s_!qKqG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Feb34fecd-237c-4d57-b216-a64aff2feffa_1280x720.png)
+[![](images/eb34fecd-237c-4d57-b216-a64aff2feffa_1280x720.png)](images/eb34fecd-237c-4d57-b216-a64aff2feffa_1280x720.png)
 
 This is really cool tool, but admittedly has a very niche audience: Microsoft 365 administrators.
 

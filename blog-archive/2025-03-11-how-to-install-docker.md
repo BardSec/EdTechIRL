@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/how-to-install-docker
 
 *The Cornerstone of Countless Projects*
 
-[![A majestic whale skydiving through the clouds with a standard parachute. The whale has a joyful expression, gracefully falling through the bright blue sky with fluffy white clouds. The scene is whimsical and surreal, capturing the wonder of an unexpected adventure.](https://substackcdn.com/image/fetch/$s_!VJMw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e00be1b-4017-44ce-a273-9cca3a964eab_1024x1024.webp "A majestic whale skydiving through the clouds with a standard parachute. The whale has a joyful expression, gracefully falling through the bright blue sky with fluffy white clouds. The scene is whimsical and surreal, capturing the wonder of an unexpected adventure.")](https://substackcdn.com/image/fetch/$s_!VJMw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e00be1b-4017-44ce-a273-9cca3a964eab_1024x1024.webp)
+[![A majestic whale skydiving through the clouds with a standard parachute. The whale has a joyful expression, gracefully falling through the bright blue sky with fluffy white clouds. The scene is whimsical and surreal, capturing the wonder of an unexpected adventure.](images/2e00be1b-4017-44ce-a273-9cca3a964eab_1024x1024.webp "A majestic whale skydiving through the clouds with a standard parachute. The whale has a joyful expression, gracefully falling through the bright blue sky with fluffy white clouds. The scene is whimsical and surreal, capturing the wonder of an unexpected adventure.")](images/2e00be1b-4017-44ce-a273-9cca3a964eab_1024x1024.webp)
 
 Docker is a platform used to run applications in lightweight, portable environments called containers, and it’s the starting point for a tons of tech projects. To help speed up the process of getting Docker in place, below is a quick installation guide that assumes you have an Ubuntu machine primed and ready to go.
 
@@ -38,7 +38,7 @@ sudo apt-get update
 
 Paste that block into your server’s terminal and hit enter, and it will do its thing:
 
-[![](https://substackcdn.com/image/fetch/$s_!gu41!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa9cfdd9-248a-4322-8831-d2e9f7cb70d6_943x659.png)](https://substackcdn.com/image/fetch/$s_!gu41!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faa9cfdd9-248a-4322-8831-d2e9f7cb70d6_943x659.png)
+[![](images/aa9cfdd9-248a-4322-8831-d2e9f7cb70d6_943x659.png)](images/aa9cfdd9-248a-4322-8831-d2e9f7cb70d6_943x659.png)
 
 Next, you’ll copy and paste this command (also from the Docker Ubuntu install page linked above):
 
@@ -54,6 +54,6 @@ sudo docker run hello-world
 
 If successful, you should see:
 
-[![](https://substackcdn.com/image/fetch/$s_!h0eq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2df0a140-9c1c-4aa1-a37f-37de712c1224_842x566.png)](https://substackcdn.com/image/fetch/$s_!h0eq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2df0a140-9c1c-4aa1-a37f-37de712c1224_842x566.png)
+[![](images/2df0a140-9c1c-4aa1-a37f-37de712c1224_842x566.png)](images/2df0a140-9c1c-4aa1-a37f-37de712c1224_842x566.png)
 
 And that’s it—Docker is up and running!

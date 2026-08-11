@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/say-hello-to-macbook-neo
 
 *Why Apple’s New Laptop Matters for K‑12 and Higher Ed*
 
-[![Editorial illustration of a MacBook Neo on a K–12 tech leader’s desk, styled for an edtech blog header image.](https://substackcdn.com/image/fetch/$s_!gB-P!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5d629bf-203d-45d0-bad4-c56087aebac2_1376x768.png "Editorial illustration of a MacBook Neo on a K–12 tech leader’s desk, styled for an edtech blog header image.")](https://substackcdn.com/image/fetch/$s_!gB-P!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5d629bf-203d-45d0-bad4-c56087aebac2_1376x768.png)
+[![Editorial illustration of a MacBook Neo on a K–12 tech leader’s desk, styled for an edtech blog header image.](images/a5d629bf-203d-45d0-bad4-c56087aebac2_1376x768.png "Editorial illustration of a MacBook Neo on a K–12 tech leader’s desk, styled for an edtech blog header image.")](images/a5d629bf-203d-45d0-bad4-c56087aebac2_1376x768.png)
 
 Apple’s new MacBook Neo is not just another laptop announcement; it is a signal that Apple wants to compete head‑on in the budget‑conscious education space with a device that still feels unmistakably “Mac.” With an education price starting at $494, all‑day battery life, and Apple silicon under the hood, this is the first MacBook in years that many districts and colleges will at least have to put on their comparison chart next to Chromebooks and entry‑level Windows devices.
 
@@ -46,7 +46,7 @@ MacBook Neo ships with macOS Tahoe and the broader Apple Intelligence feature se
 
 This deeply integrated intelligence raises interesting questions for teaching writing, research, and media literacy in Mac environments. On one hand, it can help struggling writers structure drafts or clarify meaning; on the other, it forces schools to revisit policies around AI assistance, originality, and assessment in a world where the OS itself is assisting students. For IT leaders, the on‑device nature of these features, combined with industry‑leading encryption and automatic security updates, gives a more privacy‑preserving alternative to browser‑based AI tools that may be harder to govern.
 
-[![](https://substackcdn.com/image/fetch/$s_!iauH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd183f9e0-3225-4a87-ad90-983a44258a26_768x1024.jpeg)](https://substackcdn.com/image/fetch/$s_!iauH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd183f9e0-3225-4a87-ad90-983a44258a26_768x1024.jpeg)
+[![](images/d183f9e0-3225-4a87-ad90-983a44258a26_768x1024.jpeg)](images/d183f9e0-3225-4a87-ad90-983a44258a26_768x1024.jpeg)
 
 ## Connectivity and Peripherals: Enough for Most Classrooms
 
@@ -84,7 +84,7 @@ As reported in [MacRumors](https://www.macrumors.com/2026/03/05/macbook-neo-firs
 
 Battery testing tells a similarly encouraging story for school days. Apple rates Neo for up to 16 hours of video playback and around 11 hours of wireless web use on its 36.5‑watt‑hour battery, matching the cycle‑count expectations of recent MacBook Air and Pro models. In Tom’s Guide’s web‑browsing test at 150 nits, Neo came in at about 13 hours and 28 minutes of continuous use, which is short of the 16‑hour marketing number, but still enough to get through a full instructional day plus homework on a single charge, and well ahead of several competing budget Windows devices. For one‑to‑one programs where power outlets are scarce and carts can’t always be perfectly charged, that endurance is arguably more important than any one benchmark score.
 
-[![](https://substackcdn.com/image/fetch/$s_!eJpz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f50ba60-10aa-43cd-bba6-2611f3dd9214_2848x1600.png)](https://substackcdn.com/image/fetch/$s_!eJpz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f50ba60-10aa-43cd-bba6-2611f3dd9214_2848x1600.png)
+[![](images/0f50ba60-10aa-43cd-bba6-2611f3dd9214_2848x1600.png)](images/0f50ba60-10aa-43cd-bba6-2611f3dd9214_2848x1600.png)
 
 ## Why Benchmarks Matter for TCO, Not Just Speed Tests
 

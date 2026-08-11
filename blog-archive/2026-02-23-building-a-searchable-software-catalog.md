@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/building-a-searchable-software-catalog
 
 *Clone it and use as-is, or fork it and make it your own*
 
-[![](https://substackcdn.com/image/fetch/$s_!RBYL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed20739b-3aec-4056-8f5d-172ee4e71c7b_800x800.png)](https://substackcdn.com/image/fetch/$s_!RBYL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fed20739b-3aec-4056-8f5d-172ee4e71c7b_800x800.png)
+[![](images/ed20739b-3aec-4056-8f5d-172ee4e71c7b_800x800.png)](images/ed20739b-3aec-4056-8f5d-172ee4e71c7b_800x800.png)
 
 School districts often maintain long lists of approved educational software. These lists may live in spreadsheets, internal documents, ticketing systems, or, more chaotically, spread across multiple locations. This makes software catalogs historically difficult to generate, search, filter, and maintain. As the number of tools grows, so does the complexity of managing cost, privacy agreements, rostering methods, and approval status. Especially considering the SaaS explosion in EdTech, many districts were wholly unprepared to manage software at scale.
 
@@ -37,7 +37,7 @@ Without a central system, staff often rely on email threads or static documents.
 
 The software catalog aims to bring clarity and structure to this process.
 
-[![](https://substackcdn.com/image/fetch/$s_!tNpA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08e9c45a-7e03-4825-a28e-bfe196eed12b_1441x819.png)](https://substackcdn.com/image/fetch/$s_!tNpA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08e9c45a-7e03-4825-a28e-bfe196eed12b_1441x819.png)
+[![](images/08e9c45a-7e03-4825-a28e-bfe196eed12b_1441x819.png)](images/08e9c45a-7e03-4825-a28e-bfe196eed12b_1441x819.png)
 
 ## **What the Application Does**
 
@@ -51,9 +51,9 @@ At its core, the application is a searchable, filterable directory of software u
 
 District staff can quickly browse approved tools, while administrators maintain full control over the catalog’s content.
 
-[![](https://substackcdn.com/image/fetch/$s_!OkoF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf3777fc-9b48-4c15-8b4f-0e5b1f140092_1048x418.png)](https://substackcdn.com/image/fetch/$s_!OkoF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbf3777fc-9b48-4c15-8b4f-0e5b1f140092_1048x418.png)
+[![](images/bf3777fc-9b48-4c15-8b4f-0e5b1f140092_1048x418.png)](images/bf3777fc-9b48-4c15-8b4f-0e5b1f140092_1048x418.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!I8Ol!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85e9736a-988d-453b-a0b5-0a48c88059af_673x799.png)](https://substackcdn.com/image/fetch/$s_!I8Ol!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85e9736a-988d-453b-a0b5-0a48c88059af_673x799.png)
+[![](images/85e9736a-988d-453b-a0b5-0a48c88059af_673x799.png)](images/85e9736a-988d-453b-a0b5-0a48c88059af_673x799.png)
 
 ## **Authentication and Access Control**
 

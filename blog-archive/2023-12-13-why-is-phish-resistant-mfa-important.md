@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/why-is-phish-resistant-mfa-important
 
 *Not all MFA is created equal*
 
-[![](https://substackcdn.com/image/fetch/$s_!a6oA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd34315e-8d5f-4740-9200-4899f660df5a_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!a6oA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd34315e-8d5f-4740-9200-4899f660df5a_1024x1024.png)
+[![](images/bd34315e-8d5f-4740-9200-4899f660df5a_1024x1024.png)](images/bd34315e-8d5f-4740-9200-4899f660df5a_1024x1024.png)
 
 One criticism of Multi-Factor Authentication (MFA) is that since it can be bypassed by attackers then it shouldn’t be trusted. While it’s true that there are MFA bypass attacks, MFA still provides an obstacle that gives an extra layer of protection between your users and the bad guys. However, just because some forms of MFA are vulnerable to attack doesn’t mean that all MFA is vulnerable.
 

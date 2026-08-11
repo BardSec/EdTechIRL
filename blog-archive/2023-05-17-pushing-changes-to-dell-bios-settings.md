@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/pushing-changes-to-dell-bios-settings
 
 *Now revised with a powershell script alternative!*
 
-[![](https://substackcdn.com/image/fetch/$s_!zA3s!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F804d31b6-0abf-4bca-82f8-e43eee5975f3_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!zA3s!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F804d31b6-0abf-4bca-82f8-e43eee5975f3_1024x1024.png)
+[![](images/804d31b6-0abf-4bca-82f8-e43eee5975f3_1024x1024.png)](images/804d31b6-0abf-4bca-82f8-e43eee5975f3_1024x1024.png)
 
 ### Introduction
 
@@ -28,17 +28,17 @@ If you want to choose settings for a specific model of Dell Device, you can inst
 
 You also have the option to use one of Dell’s recommended packages. These are prebulit by dell with their recommended BIOS settings.
 
-[![](https://substackcdn.com/image/fetch/$s_!Z-ET!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8ae174a-cfd2-43f1-bc7e-160a56ebf7d3_1060x618.png)](https://substackcdn.com/image/fetch/$s_!Z-ET!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff8ae174a-cfd2-43f1-bc7e-160a56ebf7d3_1060x618.png)
+[![](images/f8ae174a-cfd2-43f1-bc7e-160a56ebf7d3_1060x618.png)](images/f8ae174a-cfd2-43f1-bc7e-160a56ebf7d3_1060x618.png)
 
 Once you are on the right tab, you can click the ‘edit’ button at the top and go through the list of BIOS settings that you wish to configure. For this example, we are going to keep it simple and just set a simple admin BIOS password. If you would like to do this too, note that it is referred to as a ‘SetupPwd’ in this tool.
 
-[![](https://substackcdn.com/image/fetch/$s_!OiAi!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6c1aa7-93aa-4610-a34c-8c7024a16d4d_707x397.png)](https://substackcdn.com/image/fetch/$s_!OiAi!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fec6c1aa7-93aa-4610-a34c-8c7024a16d4d_707x397.png)
+[![](images/ec6c1aa7-93aa-4610-a34c-8c7024a16d4d_707x397.png)](images/ec6c1aa7-93aa-4610-a34c-8c7024a16d4d_707x397.png)
 
 Once you have configured all settings changes, we will click the ‘Export .EXE’ option at the bottom of the wizard. Once you do, you will need to specify the current BIOS, system, or HDD passwords of your device, if there is one.
 
 Once it has been exported, you should have a folder that contains your EXE’s. Note that there is two, one for 32-bit and the other for 64-bit operating systems.
 
-[![](https://substackcdn.com/image/fetch/$s_!JVUA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5254ce8f-3f96-4471-85e3-eda97dbee062_685x234.png)](https://substackcdn.com/image/fetch/$s_!JVUA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5254ce8f-3f96-4471-85e3-eda97dbee062_685x234.png)
+[![](images/5254ce8f-3f96-4471-85e3-eda97dbee062_685x234.png)](images/5254ce8f-3f96-4471-85e3-eda97dbee062_685x234.png)
 
 ### TEST TEST TEST TEST TEST TEST TEST TEST
 
@@ -52,7 +52,7 @@ Next, we will write an installation script.
 
 My installation script is short and sweet. It runs the installer and then creates a folder.
 
-[![](https://substackcdn.com/image/fetch/$s_!e41z!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8844296e-2e37-470f-bfcb-d6483663bb16_558x184.png)](https://substackcdn.com/image/fetch/$s_!e41z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8844296e-2e37-470f-bfcb-d6483663bb16_558x184.png)
+[![](images/8844296e-2e37-470f-bfcb-d6483663bb16_558x184.png)](images/8844296e-2e37-470f-bfcb-d6483663bb16_558x184.png)
 
 Again, I would test this on a device to make sure this does kick off the installer, changes the BIOS settings on your end user device, and that it creates the folder.
 
@@ -62,21 +62,21 @@ Lastly, we will need to package the program and upload it to Intune. I am packag
 
 When you package it, I would package everything that was created when you exported your BIOS configuration as an EXE, and of course add your install script as well.
 
-[![](https://substackcdn.com/image/fetch/$s_!xRFl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e724e35-29c5-49d8-ae3c-7dd73d6e49bb_642x220.png)](https://substackcdn.com/image/fetch/$s_!xRFl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e724e35-29c5-49d8-ae3c-7dd73d6e49bb_642x220.png)
+[![](images/0e724e35-29c5-49d8-ae3c-7dd73d6e49bb_642x220.png)](images/0e724e35-29c5-49d8-ae3c-7dd73d6e49bb_642x220.png)
 
 Zip it up into a .intunewin file and upload it to intune.
 
 For the install script, you will need to have it launch powershell and run your install script. For uninstall script, I just put in to launch powershell.exe . This obviously won’t uninstall the script. If you wanted to create an uninstall script, you could set up a second package that is blank as far as BIOS settings goes and run that as the uninstall script. For me, this won’t be necessary. If I ever need to change the BIOS settings that are being pushed to the device, I will either update the .intunewin file with a new configure exe and detection rule, or create a whole new package from scratch to replace the current one.
 
-[![](https://substackcdn.com/image/fetch/$s_!5XP8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85a0f2df-bd7e-483d-8097-30450c2e8bff_777x162.png)](https://substackcdn.com/image/fetch/$s_!5XP8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F85a0f2df-bd7e-483d-8097-30450c2e8bff_777x162.png)
+[![](images/85a0f2df-bd7e-483d-8097-30450c2e8bff_777x162.png)](images/85a0f2df-bd7e-483d-8097-30450c2e8bff_777x162.png)
 
 Under detection rules, I am having it check to see if the folder in my script was created. If it detects that folder after the script has ran, it will consider it a successful install.
 
-[![](https://substackcdn.com/image/fetch/$s_!-9yd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffddb1b92-7bee-488b-a0f9-55c3e21cdb9f_564x366.png)](https://substackcdn.com/image/fetch/$s_!-9yd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffddb1b92-7bee-488b-a0f9-55c3e21cdb9f_564x366.png)
+[![](images/fddb1b92-7bee-488b-a0f9-55c3e21cdb9f_564x366.png)](images/fddb1b92-7bee-488b-a0f9-55c3e21cdb9f_564x366.png)
 
 Lastly, I would consider creating a filter (under Devices then Filters in Intune) before assigning this to devices. I made one that checks to see if the device is manufactured by Dell.
 
-[![](https://substackcdn.com/image/fetch/$s_!2u8z!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e3335bf-8821-488c-adea-eb6874f6c6f6_753x589.png)](https://substackcdn.com/image/fetch/$s_!2u8z!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9e3335bf-8821-488c-adea-eb6874f6c6f6_753x589.png)
+[![](images/9e3335bf-8821-488c-adea-eb6874f6c6f6_753x589.png)](images/9e3335bf-8821-488c-adea-eb6874f6c6f6_753x589.png)
 
 Then whenever you assign the app to a group, make sure to have it filter to *include* devices within this filter. This means that Intune will only push this app to devices that meet the criteria of this filter. That way, if you have a non-Dell device in the group you are assigning the BIOS app to, it will not attempt to push this package to it.
 

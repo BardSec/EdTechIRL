@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/ipads-in-intune-pushing-apps-to-an
 
 *The hidden Intune iPad enrollment option that allows for Device Staging!*
 
-[![](https://substackcdn.com/image/fetch/$s_!gpnc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f5e9aba-bb67-47d2-a1f9-a5bc4f02588f_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!gpnc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3f5e9aba-bb67-47d2-a1f9-a5bc4f02588f_1024x1024.png)
+[![](images/3f5e9aba-bb67-47d2-a1f9-a5bc4f02588f_1024x1024.png)](images/3f5e9aba-bb67-47d2-a1f9-a5bc4f02588f_1024x1024.png)
 
 ### Introduction
 
@@ -34,7 +34,7 @@ The way I discovered is to actually enroll without user affinity, and then using
 
 As mentioned before, the enrollment profile you are needing is **Enroll without user affinity**. The other settings do not matter as much, but here is what I have set.
 
-[![](https://substackcdn.com/image/fetch/$s_!rRGP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b98d35-192e-4fbc-a43b-fab35d032c8a_542x498.png)](https://substackcdn.com/image/fetch/$s_!rRGP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F79b98d35-192e-4fbc-a43b-fab35d032c8a_542x498.png)
+[![](images/79b98d35-192e-4fbc-a43b-fab35d032c8a_542x498.png)](images/79b98d35-192e-4fbc-a43b-fab35d032c8a_542x498.png)
 
 To create an enrollment profile, this is located under **Devices > iOS/iPadOS > iOS/iPadOS Enrollment > Enrollment Program Tokens > (your enrollment token you have set up) > Profiles**
 
@@ -44,7 +44,7 @@ Next, we will create an App Configuration Profile. This is found under **Apps > 
 
 Here are the settings you will want to apply.
 
-[![](https://substackcdn.com/image/fetch/$s_!UF5V!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa312e62b-402e-4f32-a4d0-194dc1ab8974_917x430.png)](https://substackcdn.com/image/fetch/$s_!UF5V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa312e62b-402e-4f32-a4d0-194dc1ab8974_917x430.png)
+[![](images/a312e62b-402e-4f32-a4d0-194dc1ab8974_917x430.png)](images/a312e62b-402e-4f32-a4d0-194dc1ab8974_917x430.png)
 
 `<dict>`
 

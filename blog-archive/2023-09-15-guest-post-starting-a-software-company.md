@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/guest-post-starting-a-software-company
 
 *Part 1: Making the Right Tool for the Job*
 
-[![](https://substackcdn.com/image/fetch/$s_!Q8qb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F446466df-f513-4106-bf23-1384cafd0f34_856x453.png)](https://scoresurgeprep.com/)
+[![](images/446466df-f513-4106-bf23-1384cafd0f34_856x453.png)](https://scoresurgeprep.com/)
 
 In the course of working in education and technology, there are frequently times when a tool isn’t quite the perfect fit or doesn’t do EXACTLY what you want. It can be hard when you know something should be technically possible but is just outside your reach. This was the case with our first guest author, Jill Pope. Hearing Jill’s story of starting her own software company to fill a void in affordable ACT-prep for students (and the accompanying data reporting for teachers) is a motivating experience for anyone who’s ever thought “I bet I could make a solution…” Part one of this two-part series will cover what Jill’s software is, why she created it, and the process of planning and implementation she followed.
 
@@ -24,13 +24,13 @@ And then I decided to create a software company!
 
 Our ScoreSurge program generates detailed reports on specific skills tested on the ACT by allowing students to input answers from retired ACT tests. We utilize a Red/Yellow/Green color-coding to indicate a student’s or a group’s performance in reference to the ACT readiness benchmarks. Detailed reporting allows students, teachers, and schools to identify what areas to focus on in order to improve performance efficiently and effectively. Equally important, the reports help define exactly what skills and question types are regularly asked on the ACT for both students and teachers.
 
-[![](https://substackcdn.com/image/fetch/$s_!MSmJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52214318-3693-4535-aa1d-ed3d4fdcac4d_1148x467.png)](https://substackcdn.com/image/fetch/$s_!MSmJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F52214318-3693-4535-aa1d-ed3d4fdcac4d_1148x467.png)
+[![](images/52214318-3693-4535-aa1d-ed3d4fdcac4d_1148x467.png)](images/52214318-3693-4535-aa1d-ed3d4fdcac4d_1148x467.png)
 
 One of our product users and students who recently scored a 36 put it this way: “The ACT is a game, and learning how to play the game is what you get from a solid prep program.”
 
 One of our primary goals is to provide detailed analysis by experts in the curriculum covered by the test at a price that anyone can afford. A student can use the product individually for as little as $15, or schools can contract for as little as $3 per student. Most of the high schools we contract with spend a few thousand dollars to gain full access for a year for all juniors.
 
-[![](https://substackcdn.com/image/fetch/$s_!k0rA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f08ee03-972c-4a2b-ad54-8f54386904e3_1080x1080.png)](https://substackcdn.com/image/fetch/$s_!k0rA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8f08ee03-972c-4a2b-ad54-8f54386904e3_1080x1080.png)
+[![](images/8f08ee03-972c-4a2b-ad54-8f54386904e3_1080x1080.png)](images/8f08ee03-972c-4a2b-ad54-8f54386904e3_1080x1080.png)
 
 The ACT is a game, and learning how to play the game is what you get from a solid prep program.
 
@@ -46,7 +46,7 @@ I decided to create ScoreSurgePrep.com for reasons like these as well as the opp
 
 So, where to even begin?!
 
-[![](https://substackcdn.com/image/fetch/$s_!oXa0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9e1ebb4-e797-498d-8455-8c13a20bfd69_1080x1080.png)](https://substackcdn.com/image/fetch/$s_!oXa0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9e1ebb4-e797-498d-8455-8c13a20bfd69_1080x1080.png)
+[![](images/d9e1ebb4-e797-498d-8455-8c13a20bfd69_1080x1080.png)](images/d9e1ebb4-e797-498d-8455-8c13a20bfd69_1080x1080.png)
 
 ## How?
 

@@ -10,13 +10,13 @@ source: https://www.edtechirl.com/p/syncing-vpp-and-dep-in-intune-using
 
 *Quick scripts for syncing your Apple Apps and Devices!*
 
-[![](https://substackcdn.com/image/fetch/$s_!VqRZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6297be8-420f-45fc-bd3e-219a7396015b_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!VqRZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa6297be8-420f-45fc-bd3e-219a7396015b_1024x1024.png)
+[![](images/a6297be8-420f-45fc-bd3e-219a7396015b_1024x1024.png)](images/a6297be8-420f-45fc-bd3e-219a7396015b_1024x1024.png)
 
 ### Introduction
 
 One small gripe I have with syncing VPP in Intune is how close the sync button is to the Revoke Licenses and Delete button. I’m sure there’s another user confirmation required if you do click one of these buttons, but the idea of it makes me nervous. It feels like a bad day waiting to happen.
 
-[![](https://substackcdn.com/image/fetch/$s_!qt51!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05a595b6-fbcf-46db-9e97-f13905e531d6_588x298.png)](https://substackcdn.com/image/fetch/$s_!qt51!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05a595b6-fbcf-46db-9e97-f13905e531d6_588x298.png)
+[![](images/05a595b6-fbcf-46db-9e97-f13905e531d6_588x298.png)](images/05a595b6-fbcf-46db-9e97-f13905e531d6_588x298.png)
 
 As a solution to this, I went ahead and leveraged Graph API to create scripts that will sync all VPP tokens in a given tenant, and a script that will sync DEP (AKA Enrollment Program Tokens) while we’re at it too.
 
@@ -36,4 +36,4 @@ Not sure if there’s any other IT Stream Deck users, but if so, these scripts a
 
 `cmd /c start /min "" powershell -WindowStyle Hidden -executionpolicy bypass -noninteractive "C:\PathtoScript.ps1"`
 
-[![](https://substackcdn.com/image/fetch/$s_!E1ij!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa268adaf-d15b-4bdd-bf70-f1a1f199429d_185x94.png)](https://substackcdn.com/image/fetch/$s_!E1ij!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa268adaf-d15b-4bdd-bf70-f1a1f199429d_185x94.png)
+[![](images/a268adaf-d15b-4bdd-bf70-f1a1f199429d_185x94.png)](images/a268adaf-d15b-4bdd-bf70-f1a1f199429d_185x94.png)

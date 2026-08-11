@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/teams-security-baselines-disabling
 
 *Spending 10 minutes or less on this will help your M365 environment be a little more secure*
 
-[![](https://substackcdn.com/image/fetch/$s_!6wK8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e9efd5f-b503-4d43-b12f-7a9b8c51d47f_800x500.png)](https://substackcdn.com/image/fetch/$s_!6wK8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4e9efd5f-b503-4d43-b12f-7a9b8c51d47f_800x500.png)
+[![](images/4e9efd5f-b503-4d43-b12f-7a9b8c51d47f_800x500.png)](images/4e9efd5f-b503-4d43-b12f-7a9b8c51d47f_800x500.png)
 
 In Oct. 2022, CISA released a document called [Microsoft Teams: M365 Minimum Viable Secure Configuration Baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Teams%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf). This document outlines 13 steps to take to raise your Microsoft Teams environment to a minimum viable security posture. In this series, we’ll take a look at these 13 steps over a series of articles.
 
@@ -39,7 +39,7 @@ To disable control requests from external participants:
 3. Select the appropriate Policy — probably the Global (tenant-wide default) policy, but if you’ve created additional Policies, you’ll need to check those as well. If you have a legitimate need for a subgroup of your organization to maintain this feature, creating a new policy for that subgroup would be the way to handle this.
 4. When you’ve selected the policy, scroll down to Content Sharing and toggle “External participants can give or request control” from ON to OFF.
 
-[![](https://substackcdn.com/image/fetch/$s_!rc5O!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f54bbe6-d63c-4540-add1-f3f0caa09215_1086x560.png)](https://substackcdn.com/image/fetch/$s_!rc5O!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f54bbe6-d63c-4540-add1-f3f0caa09215_1086x560.png)
+[![](images/0f54bbe6-d63c-4540-add1-f3f0caa09215_1086x560.png)](images/0f54bbe6-d63c-4540-add1-f3f0caa09215_1086x560.png)
 
 ## Resources:
 

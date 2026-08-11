@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/add-email-to-a-custom-domain
 
 # Add Email to a Custom Domain
 
-[![](https://substackcdn.com/image/fetch/$s_!_BJ6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0d72ad3-5467-4f11-aa1b-da6d69332abb_767x435.png)](https://youtu.be/-hjhHFnW4tA)
+[![](images/e0d72ad3-5467-4f11-aa1b-da6d69332abb_767x435.png)](images/-hjhHFnW4tA.jpg)
 
 You can tell I’m an optimistic person by looking over the list of domains I’ve purchased over the years. Every purchase is hope in the future: hope that future Andy will follow through with an idea, plan, or project. Some are temporary (pleasepleasedont.click served its purpose before expiring), some had a complete lifecycle and ran their course completely (independentmaryville.com had a good run in the early 2000’s), some have never made it past the brainstorming stage (I’ve not given up on skeezypdf.com yet!), and others have hit the mark and are still running (hello, edtechirl.com).
 

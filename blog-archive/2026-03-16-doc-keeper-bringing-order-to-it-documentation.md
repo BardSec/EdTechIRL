@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/doc-keeper-bringing-order-to-it-documentatio
 
 # Doc Keeper: Bringing Order to IT Documentation Chaos
 
-[![](https://substackcdn.com/image/fetch/$s_!2J0A!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93480024-b4e8-4362-8a39-e8c64f33a9bc_2848x1600.png)](https://substackcdn.com/image/fetch/$s_!2J0A!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F93480024-b4e8-4362-8a39-e8c64f33a9bc_2848x1600.png)
+[![](images/93480024-b4e8-4362-8a39-e8c64f33a9bc_2848x1600.png)](images/93480024-b4e8-4362-8a39-e8c64f33a9bc_2848x1600.png)
 
 If you work in IT, you know how documentation sprawls. Over time, your once-pristine Google Drive or SharePoint collection becomes a maze of folders within folders, each holding pieces of valuable technical knowledge: troubleshooting guides, vendor setups, install notes, license keys, and those one-off “don’t forget this” PDFs.
 
@@ -39,9 +39,9 @@ Most IT departments already have good documentation. The issue isn’t content; 
 
 It’s a tool built not to disrupt your workflow, but to amplify the systems you already trust.
 
-[![](https://substackcdn.com/image/fetch/$s_!Ne9H!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F836ef4df-ceb2-46dd-8bf0-941390db37e5_1100x785.png)](https://substackcdn.com/image/fetch/$s_!Ne9H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F836ef4df-ceb2-46dd-8bf0-941390db37e5_1100x785.png)
+[![](images/836ef4df-ceb2-46dd-8bf0-941390db37e5_1100x785.png)](images/836ef4df-ceb2-46dd-8bf0-941390db37e5_1100x785.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!DUDa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2824bcd2-b913-4065-9af9-aa23c757ce9e_613x611.png)](https://substackcdn.com/image/fetch/$s_!DUDa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2824bcd2-b913-4065-9af9-aa23c757ce9e_613x611.png)
+[![](images/2824bcd2-b913-4065-9af9-aa23c757ce9e_613x611.png)](images/2824bcd2-b913-4065-9af9-aa23c757ce9e_613x611.png)
 
 ## Ready to Try It?
 

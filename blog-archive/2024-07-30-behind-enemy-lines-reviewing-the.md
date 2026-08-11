@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/behind-enemy-lines-reviewing-the
 
 *We're going to be going over a video of a student hacking their school issued laptop and go through the steps on how to defend against the exploits in the video.*
 
-[![](https://substackcdn.com/image/fetch/$s_!466v!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4a07f7f-5329-4598-b0e2-9e12dfbca0fa_1024x1024.jpeg)](https://substackcdn.com/image/fetch/$s_!466v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb4a07f7f-5329-4598-b0e2-9e12dfbca0fa_1024x1024.jpeg)
+[![](images/b4a07f7f-5329-4598-b0e2-9e12dfbca0fa_1024x1024.jpeg)](images/b4a07f7f-5329-4598-b0e2-9e12dfbca0fa_1024x1024.jpeg)
 
 One of the best compliments I had gotten during my IT career came from a student. While assisting in a classroom and trying to manually install a testing software, I said to the teacher “I’m not 100% sure, but I believe it is getting blocked by our Application Blocker policy”. To which the student replied “I’m sure it is! These things are locked down like Fort Knox!”. Little did this kid know, I am the one who blocks the games they’re trying to smuggle onto their devices.
 

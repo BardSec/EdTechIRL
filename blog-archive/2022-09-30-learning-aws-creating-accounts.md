@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/learning-aws-creating-accounts
 
 # Learning AWS #2: Creating Accounts
 
-[![](https://images.unsplash.com/photo-1632594737623-bea601083890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw0fHxiZWdpbm5pbmd8ZW58MHx8fHwxNjY0NTA5NzA0&ixlib=rb-1.2.1&q=80&w=1080)](https://images.unsplash.com/photo-1632594737623-bea601083890?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw0fHxiZWdpbm5pbmd8ZW58MHx8fHwxNjY0NTA5NzA0&ixlib=rb-1.2.1&q=80&w=1080)
+[![](images/photo-1632594737623-bea601083890.jpg)](images/photo-1632594737623-bea601083890.jpg)
 
 Photo by [Maxime Horlaville](https://unsplash.com/@mxhpics) on [Unsplash](https://unsplash.com)
 

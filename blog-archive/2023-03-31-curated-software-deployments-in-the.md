@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/curated-software-deployments-in-the
 
 *Let's get granular with our grouping!!*
 
-[![](https://substackcdn.com/image/fetch/$s_!YhXZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99874c88-ad5e-42ce-bfae-f47ffab28026_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!YhXZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F99874c88-ad5e-42ce-bfae-f47ffab28026_1024x1024.png)
+[![](images/99874c88-ad5e-42ce-bfae-f47ffab28026_1024x1024.png)](images/99874c88-ad5e-42ce-bfae-f47ffab28026_1024x1024.png)
 
 ### Introduction
 
@@ -34,9 +34,9 @@ I see this as the basic way to use Intune and really most other MDMs. The great 
 
 In our first experience with this, we wanted to create individual user groups based on the school the user is housed at (for both staff and students). To do this, we used Classlink’s Roster Server to pull data from our Student Information System and write it back to our Local AD in the form of Extensible Attributes. After it is written back to AD, our Local AD server then syncs this information to Azure AD using the AAD connector. We are then able to create a group using dynamic rules that automatically adds all users from a particular school, based on that extensible attribute.
 
-[![](https://substackcdn.com/image/fetch/$s_!Jr1X!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4b63c8e-18c7-4ef7-8be7-90434a189e89_1684x452.png)](https://substackcdn.com/image/fetch/$s_!Jr1X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd4b63c8e-18c7-4ef7-8be7-90434a189e89_1684x452.png)
+[![](images/d4b63c8e-18c7-4ef7-8be7-90434a189e89_1684x452.png)](images/d4b63c8e-18c7-4ef7-8be7-90434a189e89_1684x452.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!Rfcz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0aceba8-568d-4bde-b110-38c3d699f899_1252x815.png)](https://substackcdn.com/image/fetch/$s_!Rfcz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa0aceba8-568d-4bde-b110-38c3d699f899_1252x815.png)
+[![](images/a0aceba8-568d-4bde-b110-38c3d699f899_1252x815.png)](images/a0aceba8-568d-4bde-b110-38c3d699f899_1252x815.png)
 
 Using this, we can create groups based on anything in our SIS. Some examples we have thought of that would be useful are Department codes, student grade level, class based groups, as long as the criteria exists in a field in your SIS, you should be able to make it an extensible attribute.
 

@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/getting-a-list-of-last-logged-on
 
 *Solving a common K-12 problem using the Microsoft Graph API!*
 
-[![](https://substackcdn.com/image/fetch/$s_!aCoP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f97b95d-3d70-473e-b358-cf99df1de181_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!aCoP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2f97b95d-3d70-473e-b358-cf99df1de181_1024x1024.png)
+[![](images/2f97b95d-3d70-473e-b358-cf99df1de181_1024x1024.png)](images/2f97b95d-3d70-473e-b358-cf99df1de181_1024x1024.png)
 
 ### Introduction
 
@@ -20,7 +20,7 @@ About a month ago, I had a situation come up at our High School where a student 
 
 I have created a script that leverages Microsoft Graph API to get a list of last logged on users on a given device along with time stamps. Pretty neat huh?
 
-[![](https://substackcdn.com/image/fetch/$s_!01Xz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F399e2ec3-6cf6-41e9-989b-95c4163bbf05_1721x940.png)](https://substackcdn.com/image/fetch/$s_!01Xz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F399e2ec3-6cf6-41e9-989b-95c4163bbf05_1721x940.png)
+[![](images/399e2ec3-6cf6-41e9-989b-95c4163bbf05_1721x940.png)](images/399e2ec3-6cf6-41e9-989b-95c4163bbf05_1721x940.png)
 
 The script can be found using the link below to my GitHub.
 
@@ -34,7 +34,7 @@ Once you open the script, there are a couple of commands you will need to run to
 
 Once they are installed and you run the script, it will ask you to authenticate to your Azure Tenant.
 
-[![](https://substackcdn.com/image/fetch/$s_!b7VB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd674d622-14f5-4e6b-908f-3370b0550527_710x1005.png)](https://substackcdn.com/image/fetch/$s_!b7VB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd674d622-14f5-4e6b-908f-3370b0550527_710x1005.png)
+[![](images/d674d622-14f5-4e6b-908f-3370b0550527_710x1005.png)](images/d674d622-14f5-4e6b-908f-3370b0550527_710x1005.png)
 
 After you sign in, you will be asked to give the device’s hostname. Once you type that in and hit enter, it will give you the data.
 

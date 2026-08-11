@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/apis-the-automation-pie-in-the-sky
 
 *Start leveraging REST APIs to automate complex tasks!*
 
-[![](https://substackcdn.com/image/fetch/$s_!jYYq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa07fd7-ea30-4686-8360-28881439d764_1080x1080.png)](https://substackcdn.com/image/fetch/$s_!jYYq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdaa07fd7-ea30-4686-8360-28881439d764_1080x1080.png)
+[![](images/daa07fd7-ea30-4686-8360-28881439d764_1080x1080.png)](images/daa07fd7-ea30-4686-8360-28881439d764_1080x1080.png)
 
 This article is going to cover how APIs can be leveraged to make life easier for IT Admins, and why you should be adding this to your list of skills. It is also going to cover the types of things you can do with APIs, give a basic idea of how they work, and show you how to get started.
 
@@ -124,7 +124,7 @@ RawContentLength  : 1478
 
 Now that you know each component of an API request, let’s put it all together and make a request to GET the information of asset 2597 from SNIPE’s example database.
 
-[![](https://substackcdn.com/image/fetch/$s_!Riur!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbed3d85-0d92-4f7e-b2f6-45232b173a0a_2512x1002.png)](https://substackcdn.com/image/fetch/$s_!Riur!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbbed3d85-0d92-4f7e-b2f6-45232b173a0a_2512x1002.png)
+[![](images/bbed3d85-0d92-4f7e-b2f6-45232b173a0a_2512x1002.png)](images/bbed3d85-0d92-4f7e-b2f6-45232b173a0a_2512x1002.png)
 
 As you can see below, I am able to format my request and pull all of the information successfully on the asset with ID 2597.
 
@@ -134,6 +134,6 @@ Documentation, documentation, documentation. To use an API, documentation is bas
 
 Some docs even have API explorers where it shows you all possible requests, how to format each type of request, and gives a code sample for each language. Below is an example of Snipe IT’s awesome explorer that is built into their docs.
 
-[![](https://substackcdn.com/image/fetch/$s_!URhb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F557b49b6-dbb6-4165-baca-4e91a10078a1_2917x1226.png)](https://substackcdn.com/image/fetch/$s_!URhb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F557b49b6-dbb6-4165-baca-4e91a10078a1_2917x1226.png)
+[![](images/557b49b6-dbb6-4165-baca-4e91a10078a1_2917x1226.png)](images/557b49b6-dbb6-4165-baca-4e91a10078a1_2917x1226.png)
 
 I hope this information is helpful and leads some of you all to save some man hours and reduce your workloads like it has for me.

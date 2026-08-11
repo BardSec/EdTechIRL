@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/automating-interactive-program-installs
 
 *Automating what isn't meant to be automated!*
 
-[![](https://substackcdn.com/image/fetch/$s_!AwdC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7fb1189-abe6-4ac4-9bc0-27718ebf74e3_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!AwdC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa7fb1189-abe6-4ac4-9bc0-27718ebf74e3_1024x1024.png)
+[![](images/a7fb1189-abe6-4ac4-9bc0-27718ebf74e3_1024x1024.png)](images/a7fb1189-abe6-4ac4-9bc0-27718ebf74e3_1024x1024.png)
 
 ### Introduction
 
@@ -37,19 +37,19 @@ The first thing we need to do is walk through our installer and figure out a way
 
 My automation script looked like this, after I finished. Be sure to get the script working locally, before moving forward. If the script has issues here with the install, it will continue to have issues after being packaged and pushed.
 
-[![](https://substackcdn.com/image/fetch/$s_!B5dl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe82fcb69-0067-4822-8e1f-a588e77f90bd_783x677.png)](https://substackcdn.com/image/fetch/$s_!B5dl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe82fcb69-0067-4822-8e1f-a588e77f90bd_783x677.png)
+[![](images/e82fcb69-0067-4822-8e1f-a588e77f90bd_783x677.png)](images/e82fcb69-0067-4822-8e1f-a588e77f90bd_783x677.png)
 
 After you have perfected your script, you will need to compile it into an executable.
 
-[![](https://substackcdn.com/image/fetch/$s_!YxSf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d149dac-8fad-4c7d-89dc-881a23044c00_1920x1080.gif)](https://substackcdn.com/image/fetch/$s_!YxSf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1d149dac-8fad-4c7d-89dc-881a23044c00_1920x1080.gif)
+[![](images/1d149dac-8fad-4c7d-89dc-881a23044c00_1920x1080.gif)](images/1d149dac-8fad-4c7d-89dc-881a23044c00_1920x1080.gif)
 
 ### Packaging the Program
 
 Next, we will need to package everything together. I’m going to assume that if you’re having this issue, that you’re familiar with Win32 packaging. If not there are plenty of great tutorials on it. Your source folder should have **ServiceUI.exe, TheInstaller.exe, and AutoITCompiledScript.exe** . It will look something like this.
 
-[![](https://substackcdn.com/image/fetch/$s_!Rixa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c559d7f-eaab-49a9-b270-d4f2233e3efb_620x168.png)](https://substackcdn.com/image/fetch/$s_!Rixa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2c559d7f-eaab-49a9-b270-d4f2233e3efb_620x168.png)
+[![](images/2c559d7f-eaab-49a9-b270-d4f2233e3efb_620x168.png)](images/2c559d7f-eaab-49a9-b270-d4f2233e3efb_620x168.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!vj5l!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a89d68d-8c3f-49a4-bdbb-2b776b29f451_1920x1080.gif)](https://substackcdn.com/image/fetch/$s_!vj5l!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5a89d68d-8c3f-49a4-bdbb-2b776b29f451_1920x1080.gif)
+[![](images/5a89d68d-8c3f-49a4-bdbb-2b776b29f451_1920x1080.gif)](images/5a89d68d-8c3f-49a4-bdbb-2b776b29f451_1920x1080.gif)
 
 ###### Note: ServiceUI.exe can be found after installing the Microsoft Deployment Toolkit at this directory
 
@@ -67,7 +67,7 @@ Open Intune and go to add a Win32 Application. Here you will need to make sure t
 
 Mine looks like this.
 
-[![](https://substackcdn.com/image/fetch/$s_!tFas!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508331c1-da3e-473f-a140-066c7fad4c52_789x542.png)](https://substackcdn.com/image/fetch/$s_!tFas!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F508331c1-da3e-473f-a140-066c7fad4c52_789x542.png)
+[![](images/508331c1-da3e-473f-a140-066c7fad4c52_789x542.png)](images/508331c1-da3e-473f-a140-066c7fad4c52_789x542.png)
 
 Using this install command is important, because without the ServiceUI executable, everything will run in the system context and none of the pop up boxes will appear, nor will any of the keystrokes or mouse clicks from our script happen.
 

@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/k12-cyber-watch-an-edtechirl-landing
 
 *Because even in 2026, RSS is still cool*
 
-[![](https://substackcdn.com/image/fetch/$s_!_BPD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40a005f1-e4ff-4da3-9583-6a263adcebcd_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!_BPD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40a005f1-e4ff-4da3-9583-6a263adcebcd_1536x1024.png)
+[![](images/40a005f1-e4ff-4da3-9583-6a263adcebcd_1536x1024.png)](images/40a005f1-e4ff-4da3-9583-6a263adcebcd_1536x1024.png)
 
 I’m launching something new under the EdTech IRL umbrella: **K12 Cyber Watch**, now live at **[news.edtechirl.com](https://news.edtechirl.com)**.
 
@@ -18,7 +18,7 @@ If you’ve ever tried to monitor school-focused security news through general i
 
 K12 Cyber Watch filters that signal.
 
-[![](https://substackcdn.com/image/fetch/$s_!GR3W!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90c29ef2-432b-4ebf-9b0a-ca20cd63c561_1269x661.png)](https://substackcdn.com/image/fetch/$s_!GR3W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90c29ef2-432b-4ebf-9b0a-ca20cd63c561_1269x661.png)
+[![](images/90c29ef2-432b-4ebf-9b0a-ca20cd63c561_1269x661.png)](images/90c29ef2-432b-4ebf-9b0a-ca20cd63c561_1269x661.png)
 
 The tool aggregates articles from 20+ sources, including CISA, EdScoop, StateScoop, Bleeping Computer, Dark Reading, SecurityWeek, targeted Google News searches, EdTech IRL, and the Zero Breach Zone podcast. General security feeds are checked against a K12 keyword list so that only education-relevant stories surface, and K12 feeds are checked against a cybersecurity keyword list. Articles are deduplicated and cached in memory, refreshing every fifteen minutes, with no database required.
 

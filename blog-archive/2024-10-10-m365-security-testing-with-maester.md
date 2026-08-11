@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/m365-security-testing-with-maester
 
 *Brain-meltingly simple security configuration audit for your tenant*
 
-[![](https://substackcdn.com/image/fetch/$s_!aW2C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f93dc5c-7dd9-4f14-bf7f-50d6a1727376_1024x1024.webp)](https://substackcdn.com/image/fetch/$s_!aW2C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7f93dc5c-7dd9-4f14-bf7f-50d6a1727376_1024x1024.webp)
+[![](images/7f93dc5c-7dd9-4f14-bf7f-50d6a1727376_1024x1024.webp)](images/7f93dc5c-7dd9-4f14-bf7f-50d6a1727376_1024x1024.webp)
 
 First off, if you do anything with Microsoft Entra, and specifically if you deal with Identity, you should keep track of Merill Fernando if you don’t already do so. His website is [here (merill.net)](https://merill.net/about/) and he puts out an [Entra News Substack (found here)](https://entra.news/) that should be required reading for folks in this space. I’ve done articles previously on some of his work like [cmd.ms (article here)](https://www.edtechirl.com/p/navigating-m365-admin-portals-in?r=ef58q) and [Conditional Access Analyer (here)](https://www.edtechirl.com/p/document-conditional-access-in-a)
 
@@ -32,19 +32,19 @@ Let’s start with what Maester gives you first, then we’ll work backwards to 
 
 After running Maester, you’ll receive an HTML file that will look like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!ekee!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74e320cc-5308-4f67-8f92-a36003e0428c_1272x1029.png)](https://substackcdn.com/image/fetch/$s_!ekee!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F74e320cc-5308-4f67-8f92-a36003e0428c_1272x1029.png)
+[![](images/74e320cc-5308-4f67-8f92-a36003e0428c_1272x1029.png)](images/74e320cc-5308-4f67-8f92-a36003e0428c_1272x1029.png)
 
 ### Test Summary
 
 The Test Summary dashboard gives you an overview of how many tests were run, how many passed, how many failed, and how many weren’t tested for some reason. My 14 “Not tested” items were for some custom tests and tests that were designed for a tenant with different Microsoft licensing than what I have in my tenant. Like the Microsoft Secure Score, this test summary gives you a snapshot of how your Microsoft tenant security looks at a point in time. If you run this regularly, you can have an on-going snapshot of your security posture in this area, with the additional bonus that it’s all already documented in an easy to digest format.
 
-[![](https://substackcdn.com/image/fetch/$s_!zatW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcce497b9-62ce-446d-bbab-08afa0271491_1228x481.png)](https://substackcdn.com/image/fetch/$s_!zatW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcce497b9-62ce-446d-bbab-08afa0271491_1228x481.png)
+[![](images/cce497b9-62ce-446d-bbab-08afa0271491_1228x481.png)](images/cce497b9-62ce-446d-bbab-08afa0271491_1228x481.png)
 
 ### Test Details
 
 In the Test Details section, there is a rundown of the tests that were run against your Microsoft environment:
 
-[![](https://substackcdn.com/image/fetch/$s_!TaNv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5001611a-a675-4d22-843f-6c40cd251aef_1235x641.png)](https://substackcdn.com/image/fetch/$s_!TaNv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5001611a-a675-4d22-843f-6c40cd251aef_1235x641.png)
+[![](images/5001611a-a675-4d22-843f-6c40cd251aef_1235x641.png)](images/5001611a-a675-4d22-843f-6c40cd251aef_1235x641.png)
 
 Out of the box, they’re from three different sources:
 
@@ -62,7 +62,7 @@ The tests with the prefix **MS** are based on the CISA Secure Cloud Business App
 
 The layout of the Test Details page is simple but powerful. At a glance, you can see the standard/control being assessed and whether it passed or failed. The power for using this tool for improvement comes in viewing the **Info** link for failed tests. Clicking on the info link provides a view like this:
 
-[![](https://substackcdn.com/image/fetch/$s_!ew20!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36cfd351-4d47-4022-9eed-bd4b1d612833_722x949.png)](https://substackcdn.com/image/fetch/$s_!ew20!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F36cfd351-4d47-4022-9eed-bd4b1d612833_722x949.png)
+[![](images/36cfd351-4d47-4022-9eed-bd4b1d612833_722x949.png)](images/36cfd351-4d47-4022-9eed-bd4b1d612833_722x949.png)
 
 The **Info** dialog window shows what configuration setting caused the test to fail, along with how the control should be configured to pass. There are links to documentation at both Maester.dev and Micrsoft to explain the control. The script or API query used for the test is also included. In short — it tells you what you need to change to pass the test.
 

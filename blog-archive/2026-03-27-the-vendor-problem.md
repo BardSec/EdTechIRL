@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/the-vendor-problem
 
 *Post 6: Why Third-Party Breaches Are the Biggest Blind Spot in K12*
 
-[![](https://substackcdn.com/image/fetch/$s_!0A8b!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4868196-2f31-4a1a-a3ed-a9303ea37e5f_2848x1600.png)](https://substackcdn.com/image/fetch/$s_!0A8b!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4868196-2f31-4a1a-a3ed-a9303ea37e5f_2848x1600.png)
+[![](images/e4868196-2f31-4a1a-a3ed-a9303ea37e5f_2848x1600.png)](images/e4868196-2f31-4a1a-a3ed-a9303ea37e5f_2848x1600.png)
 
 When a school district suffers a data breach, the first question from the public tends to be direct: “How did the district get hacked?” Increasingly, though, the most accurate answer is that the district itself wasn’t actually hacked at all. A growing share of K12 cyber incidents now trace back to the companies providing the digital tools schools rely on every day. Student information systems, assessment platforms, communication apps, fundraising tools, transportation software, and countless learning apps all handle or store sensitive student and staff data, and most of these systems live outside a district’s direct control.
 

@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/teams-security-baselines-cloud-recording-16e
 
 *Spending 10 minutes or less will help your M365 environment be a little more secure*
 
-[![](https://substackcdn.com/image/fetch/$s_!bXe4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55bd74d0-b2a4-4566-9dac-5bd47df28082_800x500.png)](https://substackcdn.com/image/fetch/$s_!bXe4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F55bd74d0-b2a4-4566-9dac-5bd47df28082_800x500.png)
+[![](images/55bd74d0-b2a4-4566-9dac-5bd47df28082_800x500.png)](images/55bd74d0-b2a4-4566-9dac-5bd47df28082_800x500.png)
 
 In Oct. 2022, CISA released a document called [Microsoft Teams: M365 Minimum Viable Secure Configuration Baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Teams%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf). This document outlines 13 steps to take to raise your Microsoft Teams environment to a minimum viable security posture. In this series, we’ll take a look at these 13 steps over a series of articles.
 
@@ -34,7 +34,7 @@ If exceptions need to be made to this policy, additional settings can be set up 
 
 Login to the Teams Admin Center (teams.cmd.ms) and navigate to **Meetings**—> **Live Events Policies**. Select the appropriate policy (Global - Org-wide default) and set the **Record an event** setting to **Organizer Can Record.**
 
-[![](https://substackcdn.com/image/fetch/$s_!zrZS!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff493858-6f87-45e8-b961-961cc6de49fc_1075x561.png)](https://substackcdn.com/image/fetch/$s_!zrZS!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff493858-6f87-45e8-b961-961cc6de49fc_1075x561.png)
+[![](images/ff493858-6f87-45e8-b961-961cc6de49fc_1075x561.png)](images/ff493858-6f87-45e8-b961-961cc6de49fc_1075x561.png)
 
 ## Resources:
 

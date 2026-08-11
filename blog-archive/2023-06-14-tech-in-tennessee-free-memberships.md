@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/tech-in-tennessee-free-memberships
 
 # Tech in Tennessee: Free Memberships Available for Tennessee Ed Tech Association (TETA)
 
-[![](https://substackcdn.com/image/fetch/$s_!OL9X!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f256569-235d-43d4-9181-1aa9df67c20e_1280x504.jpeg)](https://substackcdn.com/image/fetch/$s_!OL9X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f256569-235d-43d4-9181-1aa9df67c20e_1280x504.jpeg)
+[![](images/4f256569-235d-43d4-9181-1aa9df67c20e_1280x504.jpeg)](images/4f256569-235d-43d4-9181-1aa9df67c20e_1280x504.jpeg)
 
 Collaboration is key… we started EdTechIRL out of a hope to be able to have a place to discuss and learn and share about things in the edtech world. One of the organizations that we’re all members of is the [Tennessee Educational Technology Association](https://www.teta.org/), and they’ve recently made an exciting change and removed the financial barrier from joining. **Starting this spring, membership became free for all K-12 employees, preservice teachers, students enrolled in teacher prep programs, and other prospective members in similar positions.**
 

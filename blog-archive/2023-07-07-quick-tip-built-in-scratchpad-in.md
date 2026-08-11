@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/quick-tip-built-in-scratchpad-in
 
 *Keep ephemeral data at hand without leaving the browser*
 
-[![](https://substackcdn.com/image/fetch/$s_!7VWP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2cba1291-fbc8-4f11-91d4-91615515619d_1010x643.png)](https://substackcdn.com/image/fetch/$s_!7VWP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2cba1291-fbc8-4f11-91d4-91615515619d_1010x643.png)
+[![](images/2cba1291-fbc8-4f11-91d4-91615515619d_1010x643.png)](images/2cba1291-fbc8-4f11-91d4-91615515619d_1010x643.png)
 
 If you’re like me, there’s a good chance you have an instance (or 20) of Notepad open on your desktop at any given time. If you don’t like having to jump out of your browser to use Notepad, there’s a built-in feature in both Chrome and Edge that can give you your own personal little offline pastebin to be able to jot down details or paste an image.
 
@@ -20,7 +20,7 @@ To access this, simply type the following into the address bar of your browser w
 
 It should open up a blank window like below that has a place for editable text or images:
 
-[![](https://substackcdn.com/image/fetch/$s_!sgtK!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4cd4424-b01c-4b0a-b70c-f1302141af00_681x484.png)](https://substackcdn.com/image/fetch/$s_!sgtK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4cd4424-b01c-4b0a-b70c-f1302141af00_681x484.png)
+[![](images/e4cd4424-b01c-4b0a-b70c-f1302141af00_681x484.png)](images/e4cd4424-b01c-4b0a-b70c-f1302141af00_681x484.png)
 
 ## A couple of caveats:
 

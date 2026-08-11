@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/guest-post-starting-a-software-company-aa6
 
 *Technical specifications, successes, challenges, and final thoughts*
 
-[![](https://substackcdn.com/image/fetch/$s_!fMbr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60c81f1e-8072-4e1f-b563-1d7059232069_856x453.png)](https://substackcdn.com/image/fetch/$s_!fMbr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F60c81f1e-8072-4e1f-b563-1d7059232069_856x453.png)
+[![](images/60c81f1e-8072-4e1f-b563-1d7059232069_856x453.png)](images/60c81f1e-8072-4e1f-b563-1d7059232069_856x453.png)
 
 In [part 1](https://www.edtechirl.com/p/guest-post-starting-a-software-company), I described what ScoreSurge is, why I created it, and how I did it.
 
@@ -24,7 +24,7 @@ I used my background in data analysis and database design, along with my (extrem
 
 We searched for any access to local programmers but were unsuccessful in locating anyone with the skills we needed and interest in the project. We decided to use Upwork to contract with programmers, which gave us global access. The group we chose was based in India. They consulted with us on the design and created wireframes to mockup the interface, which helped both of us understand what we were trying to achieve. We emailed and met virtually for a few months to develop the plan, and then they created a detailed budget. The positives of working with the group in India were the cost savings and willingness to take on the project. By working with a group that would charge $15/ hour, I was able to create a working product that could generate income. The downside was that I was reliant on a group that I had limited contact with and oversight of. They were professional, but even under the best scenario, there is a lot of trust in the process. In the end, it worked. There were issues with the quality of the programming that I had to go back and clean up, but for the price I paid, it was a tradeoff worth making.
 
-[![](https://substackcdn.com/image/fetch/$s_!-A_V!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2287b5d8-fecc-4704-af2f-894ca5880907_800x600.jpeg)](https://substackcdn.com/image/fetch/$s_!-A_V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2287b5d8-fecc-4704-af2f-894ca5880907_800x600.jpeg)
+[![](images/2287b5d8-fecc-4704-af2f-894ca5880907_800x600.jpeg)](images/2287b5d8-fecc-4704-af2f-894ca5880907_800x600.jpeg)
 
 The program is set up as an EC2 instance Ubuntu server in AWS cloud-based services. We are currently set up with an RDS database. I use Stripe to manage payments online and have the ability to work with schools that prefer P.O.s and check payments. We have recently upgraded to a larger server instance and are working to improve the import process to utilize IMS OneRoster standards as well as improve the efficiency of the design. Through a social media post, I had the good luck to have a former student reach out to me. He asked some questions and expressed a willingness to help on the project. As a very accomplished full-stack programmer who now works in a project management role, his skill set and advice have been invaluable as we evaluate the product. He has reviewed the code and prioritized the areas of highest need in order to maintain and improve the product at a high level of service. He has validated the security and enhanced our capacity as we grow.
 
@@ -34,7 +34,7 @@ By far the biggest challenge has been locating and hiring full stack developers.
 
 For me personally, the biggest challenge is the sales and marketing. It is not in my personality to sell anything. I am constantly allowing people to add users, extend contracts, etc. because I want people to be successful. I am not comfortable selling myself or the product because I feel like I am bragging. I have always focused on substance over appearance. Therefore, I have little to no experience in marketing because it does not interest me. I have really had to push myself to fully engage in the process.
 
-[![](https://substackcdn.com/image/fetch/$s_!25M1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f773103-5c26-4f74-8d3e-fb2678ddcc75_1024x512.png)](https://substackcdn.com/image/fetch/$s_!25M1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0f773103-5c26-4f74-8d3e-fb2678ddcc75_1024x512.png)
+[![](images/0f773103-5c26-4f74-8d3e-fb2678ddcc75_1024x512.png)](images/0f773103-5c26-4f74-8d3e-fb2678ddcc75_1024x512.png)
 
 ## Successes & Rewards
 
@@ -62,7 +62,7 @@ I think the most rewarding result was a young man who is autistic and had decide
 
 Yes, I would do it again. I would be much more “schooled” this time and wouldn’t be working in the dark. But hindsight is always 20/20.
 
-[![](https://substackcdn.com/image/fetch/$s_!_tac!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde1ffa3b-ea33-44d4-9ad7-8c86043fd681_788x566.png)](https://scoresurgeprep.com/)
+[![](images/de1ffa3b-ea33-44d4-9ad7-8c86043fd681_788x566.png)](https://scoresurgeprep.com/)
 
 ## Resources:
 

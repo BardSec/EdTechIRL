@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/prevent-admin-account-lock-out-with
 
 # Prevent Admin Account Lock-out with a Break Glass Account
 
-[![](https://substackcdn.com/image/fetch/$s_!yeWH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde186fdf-b641-42e4-be16-acc2a24afe11_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!yeWH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fde186fdf-b641-42e4-be16-acc2a24afe11_1024x1024.png)
+[![](images/de186fdf-b641-42e4-be16-acc2a24afe11_1024x1024.png)](images/de186fdf-b641-42e4-be16-acc2a24afe11_1024x1024.png)
 
 A break glass account is an account that you create that has the highest level of admin access to a system, but that you don’t use and you keep locked away for safe keeping. It’s something that’s very quick and easy (and basically free) to implement.
 
@@ -40,7 +40,7 @@ To make sure it’s viable, you should test your BG account quarterly to make su
 
 In addition to testing, you should also monitor for its usage. In the case of Microsoft 365, if you’re saving sign-in logs, you can configure an alert for sign-in attempts on your BG account (Azure.cmd.ms —> Entra ID —> Monitoring —> Diagnostic Settings or by going straight to the log analytics workspace associated with your signin logs). The cost for this in my Azure environment is $1.50/month. If you’re not already saving sign-in logs there is an additional cost associated with that, but it’s something that should ideally already be happening anyway.
 
-[![](https://substackcdn.com/image/fetch/$s_!w86C!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F285844d1-1f23-42f0-bbce-a138039aa1bf_2210x802.png)](https://substackcdn.com/image/fetch/$s_!w86C!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F285844d1-1f23-42f0-bbce-a138039aa1bf_2210x802.png)
+[![](images/285844d1-1f23-42f0-bbce-a138039aa1bf_2210x802.png)](images/285844d1-1f23-42f0-bbce-a138039aa1bf_2210x802.png)
 
 When configuring the alerts, you’re basically setting up and scheduling a query to check for login attempts on the break glass account in your sign in logs. In my instance, if there are more than 0 login attempts to my BG account in 5 minutes, I get notified by an email. If you are keeping your BG account sufficiently obscure, then this notification should only alert when you’re testing the account (and it SHOULD alert when you test). If you receive alerts at any other point, you know that there is a problem. A really solid step-by-step for this process can be found here: Monitor your Azure AD Break Glass Accounts with Azure Monitor – Daniel Chronlund Cloud Security Blog — (<https://danielchronlund.com/2020/01/22/monitor-your-azure-ad-break-glass-accounts-with-azure-monitor/>).
 

@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/getting-started
 
 # Getting Started
 
-[![](https://substackcdn.com/image/fetch/$s_!Qlb5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9eef6d5-fd9f-48ce-9b63-ed5ec471b2ec_379x253.png)](https://substackcdn.com/image/fetch/$s_!Qlb5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff9eef6d5-fd9f-48ce-9b63-ed5ec471b2ec_379x253.png)
+[![](images/f9eef6d5-fd9f-48ce-9b63-ed5ec471b2ec_379x253.png)](images/f9eef6d5-fd9f-48ce-9b63-ed5ec471b2ec_379x253.png)
 
 My previous home lab setup was getting a little cramped, and I’d have to pick and choose which VMs I wanted to run and couldn’t run everything at the same time. Thanks to the relatively low cost of refurbished servers ($449 on [Amazon](https://www.amazon.com/High-End-Dell-PowerEdge-R720-2-60Ghz/dp/B075Z3F37Z/ref=sr_1_3?crid=367RRYYZCTX0U&keywords=high+end+virtualization+server+r720&qid=1679524728&sprefix=high+end+virtualization+server+r720%2Caps%2C179&sr=8-3) for the specs above at the time of writing), it was time to migrate from the [Antsle](https://shop.antsle.com/product/antsle-one-d-4-cores/) I’ve been using as a mini-test environment.
 

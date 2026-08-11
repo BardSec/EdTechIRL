@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/when-systems-go-down
 
 *Pt 5: Instructional Disruption, Costs, and the Human Impact of K12 Cyber Incidents*
 
-[![](https://substackcdn.com/image/fetch/$s_!NNGP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff616dae9-db3c-40f3-832b-3af32a8c8639_1376x768.png)](https://substackcdn.com/image/fetch/$s_!NNGP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff616dae9-db3c-40f3-832b-3af32a8c8639_1376x768.png)
+[![](images/f616dae9-db3c-40f3-832b-3af32a8c8639_1376x768.png)](images/f616dae9-db3c-40f3-832b-3af32a8c8639_1376x768.png)
 
 For district leaders, a cyber incident doesn’t begin with malware or log files. It begins with phone calls.
 

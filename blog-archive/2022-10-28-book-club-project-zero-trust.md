@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/book-club-project-zero-trust
 
 *An introduction to the Zero Trust design principles and methodology as implemented in a fictional company*
 
-[![](https://substackcdn.com/image/fetch/$s_!VT3T!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F976d5d22-accf-4a54-86d7-0a47ca000e12_638x739.png)](https://substackcdn.com/image/fetch/$s_!VT3T!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F976d5d22-accf-4a54-86d7-0a47ca000e12_638x739.png)
+[![](images/976d5d22-accf-4a54-86d7-0a47ca000e12_638x739.png)](images/976d5d22-accf-4a54-86d7-0a47ca000e12_638x739.png)
 
 Project Zero Trust by George Finney
 

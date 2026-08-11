@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/teams-security-baselines-automatic
 
 *Spending 10 minutes or less on this will help your M365 environment be a little more secure*
 
-[![](https://substackcdn.com/image/fetch/$s_!OwbB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53b8c721-10e7-4840-b6d5-da8d3371e127_800x500.png)](https://substackcdn.com/image/fetch/$s_!OwbB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F53b8c721-10e7-4840-b6d5-da8d3371e127_800x500.png)
+[![](images/53b8c721-10e7-4840-b6d5-da8d3371e127_800x500.png)](images/53b8c721-10e7-4840-b6d5-da8d3371e127_800x500.png)
 
 In Oct. 2022, CISA released a document called [Microsoft Teams: M365 Minimum Viable Secure Configuration Baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Teams%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf). This document outlines 13 steps to take to raise your Microsoft Teams environment to a minimum viable security posture. In this series, we’ll take a look at these 13 steps over a series of articles.
 
@@ -44,11 +44,11 @@ Navigate to Meetings —> Meeting Policies and select the Global (org-wide defau
 
 Under “Meeting join and lobby,” set “Who can bypass the lobby” to the most appropriate option that isn’t Everyone. For many, “People in my org” will be the most appropriate, but for more granularity you may select “Only organizers and co-organizers.” In an educational environment, something to keep in mind is that if you set it to “People in my org,” students will be able to bypass the lobby, which is likely an undesirable state.
 
-[![](https://substackcdn.com/image/fetch/$s_!GLpE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4227901e-5e6d-4845-843d-3b44c1f9a03b_1008x656.png)](https://substackcdn.com/image/fetch/$s_!GLpE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4227901e-5e6d-4845-843d-3b44c1f9a03b_1008x656.png)
+[![](images/4227901e-5e6d-4845-843d-3b44c1f9a03b_1008x656.png)](images/4227901e-5e6d-4845-843d-3b44c1f9a03b_1008x656.png)
 
 Additionally, “People dialing in can bypass the lobby” should also be set to Off like below.
 
-[![](https://substackcdn.com/image/fetch/$s_!0eiC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3945bd64-6cbd-4b74-b786-68bd2aa62c2e_1054x451.png)](https://substackcdn.com/image/fetch/$s_!0eiC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3945bd64-6cbd-4b74-b786-68bd2aa62c2e_1054x451.png)
+[![](images/3945bd64-6cbd-4b74-b786-68bd2aa62c2e_1054x451.png)](images/3945bd64-6cbd-4b74-b786-68bd2aa62c2e_1054x451.png)
 
 ## Resources:
 

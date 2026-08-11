@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/head-in-the-cloud
 
 *Welcome to the world's most dull journal*
 
-[![](https://substackcdn.com/image/fetch/$s_!oUGz!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F67404456-a996-4300-8989-531c7e24b348_500x500.png)](https://substackcdn.com/image/fetch/$s_!oUGz!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F67404456-a996-4300-8989-531c7e24b348_500x500.png)
+[![](images/67404456-a996-4300-8989-531c7e24b348_500x500.png)](images/67404456-a996-4300-8989-531c7e24b348_500x500.png)
 
 After two years of putzing aimlessly with cloud, I’m starting to plan with direction. My goal is to level-up my tech skills with experience building AWS solutions. One of my favorite things about technology that pulled me into tech in the first place is a love for creating things, and cloud is the ultimate environment for being able to move from idea to product with minimal cost or infrastructure.
 

@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/3-are-you-down-with-cmd
 
 *AWS CLI Tools*
 
-[![opened black laptop computer](https://images.unsplash.com/photo-1526925539332-aa3b66e35444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwyN3x8Y29kaW5nfGVufDB8fHx8MTY2NDUxMDA1NQ&ixlib=rb-1.2.1&q=80&w=1080 "opened black laptop computer")](https://images.unsplash.com/photo-1526925539332-aa3b66e35444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwyN3x8Y29kaW5nfGVufDB8fHx8MTY2NDUxMDA1NQ&ixlib=rb-1.2.1&q=80&w=1080)
+[![opened black laptop computer](images/photo-1526925539332-aa3b66e35444.jpg "opened black laptop computer")](images/photo-1526925539332-aa3b66e35444.jpg)
 
 Photo by [AltumCode](https://unsplash.com/@altumcode) on [Unsplash](https://unsplash.com)
 
@@ -38,11 +38,11 @@ The AWS CLI can also be installed for Mac using Homebrew of Linux using APT or Y
 
 To be able to interact with AWS programmatically through the command line, I needed to create and download access keys that can be loaded into the AWS CLI tool. To do this, I logged in to both the General IAM Admin account and the Production IAM Admin account I created previously.
 
-[![](https://substackcdn.com/image/fetch/$s_!D_lU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F40ec014d-d92f-484d-9601-ac611f17a34c_726x880.png)](https://substackcdn.com/image/fetch/$s_!D_lU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F40ec014d-d92f-484d-9601-ac611f17a34c_726x880.png)
+[![](images/40ec014d-d92f-484d-9601-ac611f17a34c_726x880.png)](images/40ec014d-d92f-484d-9601-ac611f17a34c_726x880.png)
 
 After logging in, I open the account settings and selected “Security Credentials” and scrolled down to “Access keys for CLI, SDK, & API access”:
 
-[![](https://substackcdn.com/image/fetch/$s_!qsYF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f4f60c2-9023-4465-8651-795f95707b15_2132x592.png)](https://substackcdn.com/image/fetch/$s_!qsYF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9f4f60c2-9023-4465-8651-795f95707b15_2132x592.png)
+[![](images/9f4f60c2-9023-4465-8651-795f95707b15_2132x592.png)](images/9f4f60c2-9023-4465-8651-795f95707b15_2132x592.png)
 
 After clicking “Create access key,” there is an option to view the access key or download the access key to a csv. Your key is made up of a Public Key and a Private Secret. This screen is the only time you have a chance to see the Private Secret, so it’s super important to make a record of your note at this time, otherwise you’ll have to deactivate it and create a new one. It’s also important to note that this key pair has access to your account, so it should be safeguarded. Don’t share it. I wouldn’t even print it or save it to a cloud service. I would copy it and put it in my password manager, and leave it there.
 

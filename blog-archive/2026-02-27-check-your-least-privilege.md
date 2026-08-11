@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/check-your-least-privilege
 
 *Seeing Privilege Clearly in Microsoft Entra with Check yr Priv - Entra Role Visualizer*
 
-[![](https://substackcdn.com/image/fetch/$s_!EFZc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0721c4e-3ba8-4020-8090-4e99c3f8ed86_800x800.png)](https://substackcdn.com/image/fetch/$s_!EFZc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb0721c4e-3ba8-4020-8090-4e99c3f8ed86_800x800.png)
+[![](images/b0721c4e-3ba8-4020-8090-4e99c3f8ed86_800x800.png)](images/b0721c4e-3ba8-4020-8090-4e99c3f8ed86_800x800.png)
 
 Every Microsoft 365 tenant has a privilege story.
 
@@ -43,7 +43,7 @@ In K12 and higher education environments, where staffing shifts frequently, resp
 
 ## **What Check yr Priv Does**
 
-[![](https://substackcdn.com/image/fetch/$s_!bAai!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb7dfe57-3bde-4006-b53a-9d326f341f97_1275x757.png)](https://substackcdn.com/image/fetch/$s_!bAai!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feb7dfe57-3bde-4006-b53a-9d326f341f97_1275x757.png)
+[![](images/eb7dfe57-3bde-4006-b53a-9d326f341f97_1275x757.png)](images/eb7dfe57-3bde-4006-b53a-9d326f341f97_1275x757.png)
 
 The app connects to your Entra tenant using delegated Microsoft Graph permissions and reads:
 
@@ -55,15 +55,15 @@ It then overlays those datasets to surface something more meaningful than a list
 
 When you sign in, you see a summary of active assignments, PIM-eligible roles, and how many high-privilege roles are covered by Conditional Access or MFA requirements. If there are permanently active high-privilege assignments without policy protection, they’re surfaced immediately with no hunting required.
 
-[![](https://substackcdn.com/image/fetch/$s_!zrK4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb99c85d-2967-4a77-aba2-de2cb34a9ff4_1251x103.png)](https://substackcdn.com/image/fetch/$s_!zrK4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffb99c85d-2967-4a77-aba2-de2cb34a9ff4_1251x103.png)
+[![](images/fb99c85d-2967-4a77-aba2-de2cb34a9ff4_1251x103.png)](images/fb99c85d-2967-4a77-aba2-de2cb34a9ff4_1251x103.png)
 
 There’s also a visual indicator showing the percentage of high-privilege active assignments covered by Conditional Access or MFA. It isn’t a compliance metric. It’s a clarity metric.
 
-[![](https://substackcdn.com/image/fetch/$s_!AG7i!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4525719b-40fe-477f-bd9f-9644ed87c778_239x298.png)](https://substackcdn.com/image/fetch/$s_!AG7i!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4525719b-40fe-477f-bd9f-9644ed87c778_239x298.png)
+[![](images/4525719b-40fe-477f-bd9f-9644ed87c778_239x298.png)](images/4525719b-40fe-477f-bd9f-9644ed87c778_239x298.png)
 
 You can filter down to high-privilege roles only. Or to unprotected assignments only. Or export a CSV of the data. The goal isn’t exhaustiveness for its own sake. It’s focus.
 
-[![](https://substackcdn.com/image/fetch/$s_!t0tu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7dc2844-28ea-4406-8b26-3a77817436cc_997x349.png)](https://substackcdn.com/image/fetch/$s_!t0tu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe7dc2844-28ea-4406-8b26-3a77817436cc_997x349.png)
+[![](images/e7dc2844-28ea-4406-8b26-3a77817436cc_997x349.png)](images/e7dc2844-28ea-4406-8b26-3a77817436cc_997x349.png)
 
 Want to play in the dashboard? Go [explore a demo here](https://priv.bardsec.com). (There is a Microsoft signin button for show, but it won’t actually login to Microsoft… if you’re paranoid (like you should be), you can open it in incognito mode to feel at ease that it isn’t grabbing your tokens or anything).
 

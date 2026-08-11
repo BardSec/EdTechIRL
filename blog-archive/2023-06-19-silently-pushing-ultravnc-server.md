@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/silently-pushing-ultravnc-server
 
 *Unattended remote access on your local network... for FREE*
 
-[![](https://substackcdn.com/image/fetch/$s_!_0Rg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1c0ce0a-3dcb-4670-8235-96b225dc9b46_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!_0Rg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd1c0ce0a-3dcb-4670-8235-96b225dc9b46_1024x1024.png)
+[![](images/d1c0ce0a-3dcb-4670-8235-96b225dc9b46_1024x1024.png)](images/d1c0ce0a-3dcb-4670-8235-96b225dc9b46_1024x1024.png)
 
 ### Introduction
 
@@ -27,21 +27,21 @@ UltraVNC has some great features as well, including file transfer, 2-way chat, s
 
 First, we are going to need to get the package ready to be converted into a .intunewin file. To do this, I would go ahead and create your source folder and throw in your UltraVNC installer inside of it.
 
-[![](https://substackcdn.com/image/fetch/$s_!SxVX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a912f9d-de72-4663-bd63-86e91b8026d9_677x125.png)](https://substackcdn.com/image/fetch/$s_!SxVX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3a912f9d-de72-4663-bd63-86e91b8026d9_677x125.png)
+[![](images/3a912f9d-de72-4663-bd63-86e91b8026d9_677x125.png)](images/3a912f9d-de72-4663-bd63-86e91b8026d9_677x125.png)
 
 Next, we are going to launch the installer from the command line with the argument */saveinf=”installerselections.inf” .* This will create an installer configuration file after we finish installing the program. This file is used to represent the selections you made while going through the installer. We will need this for later.
 
 When walking through the installer, choose the settings you would like best. I am making this installer for student devices, so I am going to just install UltraVNC Server.
 
-[![](https://substackcdn.com/image/fetch/$s_!H-Qr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c7a0731-3a5a-4dd6-bedb-5fdc255bd331_499x392.png)](https://substackcdn.com/image/fetch/$s_!H-Qr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c7a0731-3a5a-4dd6-bedb-5fdc255bd331_499x392.png)
+[![](images/4c7a0731-3a5a-4dd6-bedb-5fdc255bd331_499x392.png)](images/4c7a0731-3a5a-4dd6-bedb-5fdc255bd331_499x392.png)
 
 I am also going to register it as a system service to make life easier.
 
-[![](https://substackcdn.com/image/fetch/$s_!iM5y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F149b7a3b-fb06-4f45-92fe-9a84a463f957_499x392.png)](https://substackcdn.com/image/fetch/$s_!iM5y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F149b7a3b-fb06-4f45-92fe-9a84a463f957_499x392.png)
+[![](images/149b7a3b-fb06-4f45-92fe-9a84a463f957_499x392.png)](images/149b7a3b-fb06-4f45-92fe-9a84a463f957_499x392.png)
 
 After it finishes, you should have the program installed on your computer, and there should be our installer configuration file in our sources folder.
 
-[![](https://substackcdn.com/image/fetch/$s_!6OiA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8fff639-4545-4875-9504-83a4b788c1c2_635x124.png)](https://substackcdn.com/image/fetch/$s_!6OiA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe8fff639-4545-4875-9504-83a4b788c1c2_635x124.png)
+[![](images/e8fff639-4545-4875-9504-83a4b788c1c2_635x124.png)](images/e8fff639-4545-4875-9504-83a4b788c1c2_635x124.png)
 
 ### Custom Settings and Password
 
@@ -49,17 +49,17 @@ Next, you will want to configure settings for when we remote into our devices. T
 
 To start, right click on the program in your system tray and click **admin properties.**
 
-[![](https://substackcdn.com/image/fetch/$s_!AuGT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb839b57e-ac13-4ff2-ba64-93ffda417d81_337x183.png)](https://substackcdn.com/image/fetch/$s_!AuGT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb839b57e-ac13-4ff2-ba64-93ffda417d81_337x183.png)
+[![](images/b839b57e-ac13-4ff2-ba64-93ffda417d81_337x183.png)](images/b839b57e-ac13-4ff2-ba64-93ffda417d81_337x183.png)
 
 You will get a long list of things you can change (and even more if you click on the advanced options list). For this, I would recommend setting a password, setting up Encryption, DisableTrayIcon, and Forbid the user to close down WinVNC (last two under advanced options).
 
-[![](https://substackcdn.com/image/fetch/$s_!ep0F!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F825c5fe6-904a-40c8-b88b-9c2ec3141adb_632x417.png)](https://substackcdn.com/image/fetch/$s_!ep0F!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F825c5fe6-904a-40c8-b88b-9c2ec3141adb_632x417.png)
+[![](images/825c5fe6-904a-40c8-b88b-9c2ec3141adb_632x417.png)](images/825c5fe6-904a-40c8-b88b-9c2ec3141adb_632x417.png)
 
 Once you have decided on your settings, click Apply and OK. Note that you may need to restart your computer before all of these changes apply.
 
 Once you have all of your settings the way you would like them, go to **C:\Program Files\uvnc bvba\UltraVNC** or wherever you selected for the program files to go to. Here you will see lots of files, but we are interested in the **ultravnc.ini** file. This file contains the admin settings we just made. If you wish to edit them again, you can open the file in a text editor. Copy this file and put it in our sources folder.
 
-[![](https://substackcdn.com/image/fetch/$s_!2INj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a2b966a-9ceb-4df6-a506-e7693443ca8f_625x125.png)](https://substackcdn.com/image/fetch/$s_!2INj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a2b966a-9ceb-4df6-a506-e7693443ca8f_625x125.png)
+[![](images/2a2b966a-9ceb-4df6-a506-e7693443ca8f_625x125.png)](images/2a2b966a-9ceb-4df6-a506-e7693443ca8f_625x125.png)
 
 ### Custom Install Script
 
@@ -87,7 +87,7 @@ Here is the code from my script.
 
 When you are done, your sources folder should look something like this.
 
-[![](https://substackcdn.com/image/fetch/$s_!P-Tc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc73986eb-427a-482c-858f-0e2efc227bc3_659x179.png)](https://substackcdn.com/image/fetch/$s_!P-Tc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc73986eb-427a-482c-858f-0e2efc227bc3_659x179.png)
+[![](images/c73986eb-427a-482c-858f-0e2efc227bc3_659x179.png)](images/c73986eb-427a-482c-858f-0e2efc227bc3_659x179.png)
 
 ### Pack it up and send it.
 
@@ -95,11 +95,11 @@ Next, we will need to package the installer using the **IntuneWinAppUtil.exe.** 
 
 Upload this to intune as a Win32 package. When you do, the only important parts are to use the correct install commands to launch the script we made and I would use the uninstaller in the program files for uninstalling.
 
-[![](https://substackcdn.com/image/fetch/$s_!zRak!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd621a393-ce75-417c-9d46-02520229e719_781x274.png)](https://substackcdn.com/image/fetch/$s_!zRak!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd621a393-ce75-417c-9d46-02520229e719_781x274.png)
+[![](images/d621a393-ce75-417c-9d46-02520229e719_781x274.png)](images/d621a393-ce75-417c-9d46-02520229e719_781x274.png)
 
 For detection rules, I would have it reference the winvnc.exe file that is in the programs folder.
 
-[![](https://substackcdn.com/image/fetch/$s_!Muwv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5e40bbd-9185-4f39-809f-dca4536a8add_577x346.png)](https://substackcdn.com/image/fetch/$s_!Muwv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd5e40bbd-9185-4f39-809f-dca4536a8add_577x346.png)
+[![](images/d5e40bbd-9185-4f39-809f-dca4536a8add_577x346.png)](images/d5e40bbd-9185-4f39-809f-dca4536a8add_577x346.png)
 
 ### Conclusion
 
@@ -109,6 +109,6 @@ To remote into one of these computers, you will need to run the installer on you
 
 Lastly, you should be able to run the viewer program, enter your computer’s host name, and click connect. When you do, you will be asked to put in the password we set up earlier before gaining remote access to the device. Once it is pushed to all of your devices, you will be able to pick and choose devices from the intune portal to remote into.
 
-[![](https://substackcdn.com/image/fetch/$s_!PdKQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2fb87116-641c-489e-b2aa-bca06ac5379b_380x200.png)](https://substackcdn.com/image/fetch/$s_!PdKQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2fb87116-641c-489e-b2aa-bca06ac5379b_380x200.png)
+[![](images/2fb87116-641c-489e-b2aa-bca06ac5379b_380x200.png)](images/2fb87116-641c-489e-b2aa-bca06ac5379b_380x200.png)
 
 Enjoy!

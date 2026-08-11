@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/phishing-persistence-10-steps-to
 
 *Modern account compromise is about persistence, not passwords*
 
-[![](https://substackcdn.com/image/fetch/$s_!5jXy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd903143-1ed2-4eb0-94d2-fdaa7a29a0fd_1200x800.png)](https://substackcdn.com/image/fetch/$s_!5jXy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd903143-1ed2-4eb0-94d2-fdaa7a29a0fd_1200x800.png)
+[![](images/bd903143-1ed2-4eb0-94d2-fdaa7a29a0fd_1200x800.png)](images/bd903143-1ed2-4eb0-94d2-fdaa7a29a0fd_1200x800.png)
 
 So, you have a compromised M365 mailbox. What should you do to make sure you’ve really kicked the bad guy out?
 
@@ -26,7 +26,7 @@ Disclaimer: Before making major changes, preserve relevant audit evidence and co
 
 Blocking sign-in is the top priority, because it will give you time to enact the other steps below without trying to race the attacker. However, keep in mind that if the attacker has set up persistence using some of the methods below, just disabling the account and resetting the password is **not** enough.
 
-[![](https://substackcdn.com/image/fetch/$s_!_aK-!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b624975-dab5-4003-b004-20fd5be48ae5_1240x493.png)](https://substackcdn.com/image/fetch/$s_!_aK-!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0b624975-dab5-4003-b004-20fd5be48ae5_1240x493.png)
+[![](images/0b624975-dab5-4003-b004-20fd5be48ae5_1240x493.png)](images/0b624975-dab5-4003-b004-20fd5be48ae5_1240x493.png)
 
 ### Step 2: Initiate a logout of all sessions
 
@@ -34,13 +34,13 @@ The worst thing that can happen after investigating a compromised account is all
 
 > Note: A revoked session may take several minutes to fully propagate across Microsoft 365 services.
 
-[![](https://substackcdn.com/image/fetch/$s_!0aNG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8871cfef-4735-44ae-a646-520ffac58d43_902x396.png)](https://substackcdn.com/image/fetch/$s_!0aNG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8871cfef-4735-44ae-a646-520ffac58d43_902x396.png)
+[![](images/8871cfef-4735-44ae-a646-520ffac58d43_902x396.png)](images/8871cfef-4735-44ae-a646-520ffac58d43_902x396.png)
 
 ### Step 3: Change the password
 
 While not the most effective step, changing the password is an important step in preventing your attacker from accessing the account again in the future.
 
-[![](https://substackcdn.com/image/fetch/$s_!d4nY!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73ddff00-58b4-455a-b198-c6f6597e3220_1409x511.png)](https://substackcdn.com/image/fetch/$s_!d4nY!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73ddff00-58b4-455a-b198-c6f6597e3220_1409x511.png)
+[![](images/73ddff00-58b4-455a-b198-c6f6597e3220_1409x511.png)](images/73ddff00-58b4-455a-b198-c6f6597e3220_1409x511.png)
 
 > Note: Remember to disable locally as well if you sync your identities with on-prem AD, otherwise AD might re-enable them on the next sync.
 
@@ -48,7 +48,7 @@ While not the most effective step, changing the password is an important step in
 
 Verify that each available authentication method is a legitimate MFA method in control of the account owner. When in doubt, delete authentication methods and re-enroll when the account is back in good standing. Also check for newly added passwordless methods or suspicious Temporary Access Pass issuance. If an attacker has added an MFA method on their own, especially a passwordless method, they will regain access immediately after the account is re-enabled.
 
-[![](https://substackcdn.com/image/fetch/$s_!ShnF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7bda8597-624e-49f8-bd05-2de59ee543bd_1211x624.png)](https://substackcdn.com/image/fetch/$s_!ShnF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7bda8597-624e-49f8-bd05-2de59ee543bd_1211x624.png)
+[![](images/7bda8597-624e-49f8-bd05-2de59ee543bd_1211x624.png)](images/7bda8597-624e-49f8-bd05-2de59ee543bd_1211x624.png)
 
 Tip: You can click on the … next to the authentication method in M365 and click “View details” to see info on when the method was added
 
@@ -66,7 +66,7 @@ OAuth refresh tokens can allow continued access until sessions are revoked and m
 
 For the next few steps, you can technically sign in with the user’s credentials since you’ve reset them, but that muddies the audit trail. For the best experience, I delegate **Read and Manage** mailbox permissions in Exchange Online so I can investigate without generating misleading “user logged in” activity in the audit logs. While you’re here, also take a moment to make sure the attacker hasn’t set up any mailbox delegation rules themselves, and that if there are any users with additional mailbox permissions to a user’s mailbox, make sure there is a legitimate organizational need for that access.
 
-[![](https://substackcdn.com/image/fetch/$s_!EPDN!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a36d18f-96e6-4240-86d8-6c0a7ab69703_578x720.png)](https://substackcdn.com/image/fetch/$s_!EPDN!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1a36d18f-96e6-4240-86d8-6c0a7ab69703_578x720.png)
+[![](images/1a36d18f-96e6-4240-86d8-6c0a7ab69703_578x720.png)](images/1a36d18f-96e6-4240-86d8-6c0a7ab69703_578x720.png)
 
 > NOTE: Remember to remove this permission at the end of your investigation.
 
@@ -74,7 +74,7 @@ For the next few steps, you can technically sign in with the user’s credential
 
 One of the easiest things that attackers do to maintain persistence is set up mailbox rules. For example, even if your session cookies have been revoked, your password has been changed, and the account is disabled, if the attacker created an inbox rule to forward all incoming mail to a Gmail address that they control, they have essentially maintained access. They may not be in full control of the account, but they are still intercepting your communications. In many cases, I’ve seen attackers set up mailbox rules to forward specific types of messages. For example, messages related to finance.
 
-[![](https://substackcdn.com/image/fetch/$s_!y_nV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92799646-b5cd-4361-b13f-12ae5feceb47_562x98.png)](https://substackcdn.com/image/fetch/$s_!y_nV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F92799646-b5cd-4361-b13f-12ae5feceb47_562x98.png)
+[![](images/92799646-b5cd-4361-b13f-12ae5feceb47_562x98.png)](images/92799646-b5cd-4361-b13f-12ae5feceb47_562x98.png)
 
 In addition to persistence, attackers can use mailbox rules to obfuscate their activity. I’ve seen multiple cases where an attacker will initiate conversations while posing as the compromised user, and they will create mailbox rules to send all of the received messages in that conversation to an obscure or unused folder. The RSS Subscriptions folder is a common location for these messages to go. I’ve seen multiple occasions where an account has been compromised, and the attacker is carrying on conversations with vendors, banks, and other employees, and all of the messages are kept intact in the RSS folder.
 
@@ -90,7 +90,7 @@ An additional step of threat hunting you can do is if there is a malicious mailb
 
 Similar to mailbox rules, forwarding rules can allow an attacker to maintain persistence in receiving your messages. The best proactive step here is to block mail forwarding to external domains in your tenant. If that’s not possible, the next best step is to configure alerting to notify you when a user sets up a new mail forwarding rule (see information on Blumira above). Short of that, the M365 Exchange Admin Center provides visibility into what accounts are forwarding mail to external domains. To access the report, from the Exchange Admin Center, go to **Reports → Mail Flow → Auto forwarded messages report**.
 
-[![](https://substackcdn.com/image/fetch/$s_!QqUF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67bbcac7-22af-4c4b-8bb9-9f4c255fa8e9_1868x1046.png)](https://substackcdn.com/image/fetch/$s_!QqUF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F67bbcac7-22af-4c4b-8bb9-9f4c255fa8e9_1868x1046.png)
+[![](images/67bbcac7-22af-4c4b-8bb9-9f4c255fa8e9_1868x1046.png)](images/67bbcac7-22af-4c4b-8bb9-9f4c255fa8e9_1868x1046.png)
 
 ### Step 9: Audit Mail Folders
 

@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/m365-compromised-account-triage-oauth
 
 *Changing passwords doesn't always help if attackers are already inside the account*
 
-[![](https://substackcdn.com/image/fetch/$s_!tI3N!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f3c54c2-becf-4086-9495-c6b984c2f0b0_1200x800.png)](https://substackcdn.com/image/fetch/$s_!tI3N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4f3c54c2-becf-4086-9495-c6b984c2f0b0_1200x800.png)
+[![](images/4f3c54c2-becf-4086-9495-c6b984c2f0b0_1200x800.png)](images/4f3c54c2-becf-4086-9495-c6b984c2f0b0_1200x800.png)
 
 I’ve been working on an article on what I do when I encounter a potentially compromised account in Microsoft 365. It’s one I’ve stopped and started several times over the past year, and one of the main reasons for stoppage is because when I got to the Refresh Token section, it kept growing and growing. So, I’ve decided to pull it out into it’s own article that I’m going to post here without pushing to the regular newsletter, that way I can link to it from my Compromised Account Checklist. This is part of Step 5 of the [main article that will be linked here once it’s published](https://www.edtechirl.com/p/phishing-persistence-10-steps-to), too.
 
@@ -54,7 +54,7 @@ Defender for Cloud Apps provides one of the best investigative views for OAuth a
 
 This helps you identify suspicious consent grants and cloud app behavior across the tenant. Pro-tip: filter for “Rare apps with high permissions”
 
-[![](https://substackcdn.com/image/fetch/$s_!mA9p!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fbcf9b5-6f7b-41af-8e4a-9b8b2ee9a5c9_1534x626.png)](https://substackcdn.com/image/fetch/$s_!mA9p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8fbcf9b5-6f7b-41af-8e4a-9b8b2ee9a5c9_1534x626.png)
+[![](images/8fbcf9b5-6f7b-41af-8e4a-9b8b2ee9a5c9_1534x626.png)](images/8fbcf9b5-6f7b-41af-8e4a-9b8b2ee9a5c9_1534x626.png)
 
 #### Entra ID Portal (User-Consented Applications)
 
@@ -64,7 +64,7 @@ To review apps a specific user has authorized:
 
 This view reflects Enterprise Applications the user has consented to, not developer-created App Registrations.
 
-[![](https://substackcdn.com/image/fetch/$s_!LhDP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73ee05be-783d-414f-b4a2-2c55c9cc9092_995x584.png)](https://substackcdn.com/image/fetch/$s_!LhDP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73ee05be-783d-414f-b4a2-2c55c9cc9092_995x584.png)
+[![](images/73ee05be-783d-414f-b4a2-2c55c9cc9092_995x584.png)](images/73ee05be-783d-414f-b4a2-2c55c9cc9092_995x584.png)
 
 #### Enterprise Applications (Tenant-Wide Risk)
 
@@ -134,7 +134,7 @@ In Entra ID → Enterprise Applications, locate the suspicious app and take acti
 
 Disabling stops interactive use, but removal is often appropriate once validated.
 
-[![](https://substackcdn.com/image/fetch/$s_!Zwh8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bfda312-c6e9-412b-816f-3f9d10ca0ebf_1012x434.png)](https://substackcdn.com/image/fetch/$s_!Zwh8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3bfda312-c6e9-412b-816f-3f9d10ca0ebf_1012x434.png)
+[![](images/3bfda312-c6e9-412b-816f-3f9d10ca0ebf_1012x434.png)](images/3bfda312-c6e9-412b-816f-3f9d10ca0ebf_1012x434.png)
 
 #### 2a. Revoke Refresh Tokens for the Compromised User in the GUI
 
@@ -146,7 +146,7 @@ In the Entra portal:
 
 Despite the name, this action also invalidates refresh token reuse.
 
-[![](https://substackcdn.com/image/fetch/$s_!V6Uu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7419c786-3262-4394-8dc6-b26dee4de577_976x400.png)](https://substackcdn.com/image/fetch/$s_!V6Uu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7419c786-3262-4394-8dc6-b26dee4de577_976x400.png)
+[![](images/7419c786-3262-4394-8dc6-b26dee4de577_976x400.png)](images/7419c786-3262-4394-8dc6-b26dee4de577_976x400.png)
 
 #### 3. Or Use Modern PowerShell (Microsoft Graph)
 

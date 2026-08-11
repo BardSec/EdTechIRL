@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/device-logs-for-anything-and-everything
 
 *Logs for everything, everywhere, all at once.*
 
-[![](https://substackcdn.com/image/fetch/$s_!Nqg0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3ee69e7-1426-4cd1-801f-338f26c8e144_1024x1024.webp)](https://substackcdn.com/image/fetch/$s_!Nqg0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe3ee69e7-1426-4cd1-801f-338f26c8e144_1024x1024.webp)
+[![](images/e3ee69e7-1426-4cd1-801f-338f26c8e144_1024x1024.webp)](images/e3ee69e7-1426-4cd1-801f-338f26c8e144_1024x1024.webp)
 
 ### Introduction
 
@@ -18,7 +18,7 @@ One thing I adore about Intune is that it has a plethora of device data availabl
 
 Then I came across an [Article from Damien Van Robaeys on systanddeploy.com](https://www.systanddeploy.com/2024/01/log-analytics-v2-send-custom-data-with.html) detailing how to send custom logs to a Log Analytic Workspace (Definitely give it read and I highly recommend [his new book](https://www.systanddeploy.com/2024/02/learn-kql-in-one-month-book.html) if you’re looking to learn more about KQL). After seeing this article, it gave me the idea of trying to create a template that allows for easy device querying and then send that information to Log Analytics for centralized, highly customizable, logs. That is what I ended up doing, and I wanted to share my template to make it easier for others in the future.
 
-[![](https://substackcdn.com/image/fetch/$s_!X1vZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0b46aca-a52e-4300-9da8-ef6b0cd06b77_1116x768.png)](https://substackcdn.com/image/fetch/$s_!X1vZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0b46aca-a52e-4300-9da8-ef6b0cd06b77_1116x768.png)
+[![](images/c0b46aca-a52e-4300-9da8-ef6b0cd06b77_1116x768.png)](images/c0b46aca-a52e-4300-9da8-ef6b0cd06b77_1116x768.png)
 
 ### Prerequisites
 
@@ -30,7 +30,7 @@ It also assumes you have already set up a Log Analytics workspace, Data Collecti
 
 I have made a sample log you can use if you would like (all scripts are linked at the bottom of this article). My log queries for device name, device model, manufacturer, serialnumber, device type, battery health, uptime, installed printers, Drive Size, Free space on drive, startup programs, a count of pending windows updates, windows edition, windows build, and windows activation status. If you would like to query for your own information, you can use the template. You will want to gather your information in the section of the script labeled **Grabbing Info** and set whatever information you’re querying for equal to variables. After you have all of your variables, you will need to plug them into the PSObject called **$LogObject** in the **Creating Object** section.
 
-[![](https://substackcdn.com/image/fetch/$s_!Hy3w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdade89c5-4dff-4107-af1a-6e2312c74dbe_490x462.png)](https://substackcdn.com/image/fetch/$s_!Hy3w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdade89c5-4dff-4107-af1a-6e2312c74dbe_490x462.png)
+[![](images/dade89c5-4dff-4107-af1a-6e2312c74dbe_490x462.png)](images/dade89c5-4dff-4107-af1a-6e2312c74dbe_490x462.png)
 
 ### Creating a Sample Log
 
@@ -43,7 +43,7 @@ $SampelLog | out-file "C:\samplelog.json"
 
 Your log file should be in square brackets [ ] and then curly braces { } similar to below.
 
-[![](https://substackcdn.com/image/fetch/$s_!9e2c!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faadea81c-b3b5-4228-a3cb-f1f2935d379d_857x422.png)](https://substackcdn.com/image/fetch/$s_!9e2c!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faadea81c-b3b5-4228-a3cb-f1f2935d379d_857x422.png)
+[![](images/aadea81c-b3b5-4228-a3cb-f1f2935d379d_857x422.png)](images/aadea81c-b3b5-4228-a3cb-f1f2935d379d_857x422.png)
 
 Once you have this step done, you can continue with Damien’s article at the ‘Create Custom Log’ step. When you get to the point of uploading a script for your DCR, use the script we just made.
 

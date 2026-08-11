@@ -10,19 +10,19 @@ source: https://www.edtechirl.com/p/no-more-azure-ad
 
 *Sorry... this is the clickbaitiest title I could come up with, but it's true*
 
-[![](https://substackcdn.com/image/fetch/$s_!KXfh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee12a74e-b0d7-44a8-a4e5-297db5e449a3_500x500.png)](https://substackcdn.com/image/fetch/$s_!KXfh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fee12a74e-b0d7-44a8-a4e5-297db5e449a3_500x500.png)
+[![](images/ee12a74e-b0d7-44a8-a4e5-297db5e449a3_500x500.png)](images/ee12a74e-b0d7-44a8-a4e5-297db5e449a3_500x500.png)
 
 As of today, Microsoft is beginning the process of rebranding Azure AD as Microsoft Entra ID. While changing product names shouldn’t be a surprise in tech, I have to admit this one is going to take a long time to adjust to (and update documentation for). However, the most important detail you need to know related to the change:
 
 No action is needed on your part.
 
-[![](https://substackcdn.com/image/fetch/$s_!_KaA!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd90c914-880e-4dce-bbb6-e4e8b863dd62_1546x792.png)](https://substackcdn.com/image/fetch/$s_!_KaA!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd90c914-880e-4dce-bbb6-e4e8b863dd62_1546x792.png)
+[![](images/dd90c914-880e-4dce-bbb6-e4e8b863dd62_1546x792.png)](images/dd90c914-880e-4dce-bbb6-e4e8b863dd62_1546x792.png)
 
 According to Microsoft:
 
 > To simplify our product naming and unify our product family, we’re changing the name of Azure AD to Microsoft Entra ID. Capabilities and licensing plans, sign-in URLs, and APIs remain unchanged, and all existing deployments, configurations, and integrations will continue to work as before. Starting today, you’ll see notifications in the administrator portal, on our websites, in documentation, and in other places where you may interact with Azure AD. We’ll complete the name change from Azure AD to Microsoft Entra ID by the end of 2023. **No action is needed from you.**
 
-[![](https://substackcdn.com/image/fetch/$s_!CoUD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3baa6fd5-852c-4be7-a6b6-ce3e87072962_1920x1080.webp)](https://substackcdn.com/image/fetch/$s_!CoUD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3baa6fd5-852c-4be7-a6b6-ce3e87072962_1920x1080.webp)
+[![](images/3baa6fd5-852c-4be7-a6b6-ce3e87072962_1920x1080.webp)](images/3baa6fd5-852c-4be7-a6b6-ce3e87072962_1920x1080.webp)
 
 ## What else do I need to know?
 

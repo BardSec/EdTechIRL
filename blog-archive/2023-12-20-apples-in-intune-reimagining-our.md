@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/apples-in-intune-reimagining-our
 
 *Designing how we plan to manage class sets of iPads using Intune!*
 
-[![](https://substackcdn.com/image/fetch/$s_!L2pU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00028e57-e82d-4cf7-bcf4-1581094fc6d0_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!L2pU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F00028e57-e82d-4cf7-bcf4-1581094fc6d0_1024x1024.png)
+[![](images/00028e57-e82d-4cf7-bcf4-1581094fc6d0_1024x1024.png)](images/00028e57-e82d-4cf7-bcf4-1581094fc6d0_1024x1024.png)
 
 ### Introduction
 
@@ -57,7 +57,7 @@ Then we create a separate dynamic group in Intune that we will use to assign our
 
 The rule for the dynamic group looks like this. Note that you will need to replace **value** with the object ID of the homeroom group.
 
-[![](https://substackcdn.com/image/fetch/$s_!uskd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feeba31f0-2278-4cfc-809f-03e24ba64bfb_841x552.png)](https://substackcdn.com/image/fetch/$s_!uskd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feeba31f0-2278-4cfc-809f-03e24ba64bfb_841x552.png)
+[![](images/eeba31f0-2278-4cfc-809f-03e24ba64bfb_841x552.png)](images/eeba31f0-2278-4cfc-809f-03e24ba64bfb_841x552.png)
 
 `user.memberof -any (group.objectId -in ['value'])`
 

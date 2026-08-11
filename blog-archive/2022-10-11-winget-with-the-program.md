@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/winget-with-the-program
 
 # Winget with the Program
 
-[![cardboard box lot](https://images.unsplash.com/photo-1513672494107-cd9d848a383e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw3fHxwYWNrYWdlc3xlbnwwfHx8fDE2NjU0MzE5NzE&ixlib=rb-1.2.1&q=80&w=1080 "cardboard box lot")](https://images.unsplash.com/photo-1513672494107-cd9d848a383e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw3fHxwYWNrYWdlc3xlbnwwfHx8fDE2NjU0MzE5NzE&ixlib=rb-1.2.1&q=80&w=1080)
+[![cardboard box lot](images/photo-1513672494107-cd9d848a383e.jpg "cardboard box lot")](images/photo-1513672494107-cd9d848a383e.jpg)
 
 Photo by [CHUTTERSNAP](https://unsplash.com/@chuttersnap) on [Unsplash](https://unsplash.com)
 
@@ -25,7 +25,7 @@ To find out if you have winget, open a command prompt (or PowerShell) and enter:
 
 If the output looks like below, you’re in business. If not, head to the Microsoft Store and download an app from Microsoft called App Installer. Winget is included as part of this app.
 
-[![](https://substackcdn.com/image/fetch/$s_!c30Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0865a52-b071-468b-a4f5-14afdf6d436d_879x456.png)](https://substackcdn.com/image/fetch/$s_!c30Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0865a52-b071-468b-a4f5-14afdf6d436d_879x456.png)
+[![](images/c0865a52-b071-468b-a4f5-14afdf6d436d_879x456.png)](images/c0865a52-b071-468b-a4f5-14afdf6d436d_879x456.png)
 
 **What can you do with winget?**
 
@@ -59,11 +59,11 @@ You can go to Winstall.app and either pick from a pre-made “pack” of apps, o
 
 Once I select the apps, I get the option to get the command for winget either as a batch script, PS script, or as a json import.
 
-[![](https://substackcdn.com/image/fetch/$s_!on6N!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd028ea9-3d8f-4fc7-9ce2-14a0fb8fb5ae_813x463.png)](https://substackcdn.com/image/fetch/$s_!on6N!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffd028ea9-3d8f-4fc7-9ce2-14a0fb8fb5ae_813x463.png)
+[![](images/fd028ea9-3d8f-4fc7-9ce2-14a0fb8fb5ae_813x463.png)](images/fd028ea9-3d8f-4fc7-9ce2-14a0fb8fb5ae_813x463.png)
 
 I could also choose to have this package publicly available, so it’s also available here: <https://winstall.app/packs/KCaqbAS_W>
 
-[![](https://substackcdn.com/image/fetch/$s_!Qdzn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa94daadd-f39b-4861-8f9b-856bd8f3bbf1_606x558.png)](https://substackcdn.com/image/fetch/$s_!Qdzn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa94daadd-f39b-4861-8f9b-856bd8f3bbf1_606x558.png)
+[![](images/a94daadd-f39b-4861-8f9b-856bd8f3bbf1_606x558.png)](images/a94daadd-f39b-4861-8f9b-856bd8f3bbf1_606x558.png)
 
 [Packs created by @EdTechIRLdotcom - winstall](https://winstall.app/users/1503832942275186691)
 
@@ -71,7 +71,7 @@ I could also choose to have this package publicly available, so it’s also avai
 
 Installing Windows Store Apps is a little trickier, because they aren’t included in the winget repository by default. You can note this when you search for an app in winget… when I searched for “notepad,” the output looked like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!hBF1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7df4fe03-7511-4f7a-8855-18ffa1a32eb2_801x481.png)](https://substackcdn.com/image/fetch/$s_!hBF1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7df4fe03-7511-4f7a-8855-18ffa1a32eb2_801x481.png)
+[![](images/7df4fe03-7511-4f7a-8855-18ffa1a32eb2_801x481.png)](images/7df4fe03-7511-4f7a-8855-18ffa1a32eb2_801x481.png)
 
 Notice that under source, some are listed as “msstore” and some are listed as “winget.” Applications with the source “winget” are part of the winget repository and can be added through sites like Winstall.app. However, you can add items from either source by copying the string located in the Id column. For example, if you had a computer that didn’t have Windows Notepad installed for some reason, you could install it with
 

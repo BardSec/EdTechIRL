@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/how-attackers-actually-get-in
 
 *Pt. 4: Phishing, Credentials, Vendors, and Remote Access in K12*
 
-[![](https://substackcdn.com/image/fetch/$s_!BATp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F937fecb5-dc96-41b4-8011-96f3e9f95e68_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!BATp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F937fecb5-dc96-41b4-8011-96f3e9f95e68_1536x1024.png)
+[![](images/937fecb5-dc96-41b4-8011-96f3e9f95e68_1536x1024.png)](images/937fecb5-dc96-41b4-8011-96f3e9f95e68_1536x1024.png)
 
 When school districts experience a cyber incident, the first question leaders often ask is, *“How did they get in?”*
 
@@ -201,7 +201,7 @@ Based on incident data, the following measures repeatedly reduce successful intr
 
 These are not exotic solutions. They are governance-backed fundamentals. It’s important to note: these controls aren’t controls you go out and buy off the shelf. They have more to do with planning, policies, and procedures than investing in a best-in-class cybersecurity tool designed to keep out advanced threats.
 
-[![](https://substackcdn.com/image/fetch/$s_!xlnf!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a32f217-de73-4593-baff-7029da840e64_1449x740.png)](https://substackcdn.com/image/fetch/$s_!xlnf!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2a32f217-de73-4593-baff-7029da840e64_1449x740.png)
+[![](images/2a32f217-de73-4593-baff-7029da840e64_1449x740.png)](images/2a32f217-de73-4593-baff-7029da840e64_1449x740.png)
 
 ## Leadership questions to ask now
 

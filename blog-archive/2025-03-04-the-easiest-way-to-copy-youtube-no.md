@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/the-easiest-way-to-copy-youtube-no
 
 *A shameless self promotion for my browser extension :)*
 
-[![](https://substackcdn.com/image/fetch/$s_!SNaT!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F037bceb0-f856-4778-bd77-f7d152b11f60_1120x1120.jpeg)](https://substackcdn.com/image/fetch/$s_!SNaT!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F037bceb0-f856-4778-bd77-f7d152b11f60_1120x1120.jpeg)
+[![](images/037bceb0-f856-4778-bd77-f7d152b11f60_1120x1120.jpeg)](images/037bceb0-f856-4778-bd77-f7d152b11f60_1120x1120.jpeg)
 
 Nothing to see here, just a monster eating your cookies.
 
@@ -22,7 +22,7 @@ Youtube No-Cookie links are a special way to share youtube videos where the vide
 
 The way you would traditionally share these is by sharing a youtube video like normal, but then clicking the embed option, with the ‘Enable Privacy Enhanced’ toggle to on. When you do this, there will be a ‘youtube-nocookie.com’ link in the middle of your embed code. If you share this, you will get the experience mentioned above. That is a lot of steps!
 
-[![](https://substackcdn.com/image/fetch/$s_!HJjh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd933bbab-05d0-47fe-bdb8-96d6110e4e65_2640x1094.png)](https://substackcdn.com/image/fetch/$s_!HJjh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd933bbab-05d0-47fe-bdb8-96d6110e4e65_2640x1094.png)
+[![](images/d933bbab-05d0-47fe-bdb8-96d6110e4e65_2640x1094.png)](images/d933bbab-05d0-47fe-bdb8-96d6110e4e65_2640x1094.png)
 
 ### Okay, why do you use this?
 
@@ -32,7 +32,7 @@ Well, working for a school district this helps protect the students from potenti
 
 I made a browser extension! It’s incredibly simple. Whenever you click the button in the extension, it will check the URL of the tab you have open in your browser. It will check to make sure you’re on a youtube link, and assuming it is, it will automatically copy the ‘no cookie’ version of the youtube video to your clipboard.
 
-[![](https://substackcdn.com/image/fetch/$s_!jtRx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a275eca-96f3-4255-9485-c5b15fd33ecb_3008x1556.png)](https://substackcdn.com/image/fetch/$s_!jtRx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a275eca-96f3-4255-9485-c5b15fd33ecb_3008x1556.png)
+[![](images/8a275eca-96f3-4255-9485-c5b15fd33ecb_3008x1556.png)](images/8a275eca-96f3-4255-9485-c5b15fd33ecb_3008x1556.png)
 
 ### Cool! Where can I get it?
 

@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/the-powerschool-data-breach-what
 
 # The PowerSchool Data Breach: What we know today, how to check your exposure, and how to see what fields were exfiltrated
 
-[![A whimsical illustration of a cartoon burglar holding an axe and striking a desktop computer depicted with a human-like expression, featuring a monitor, keyboard, and CPU tower. The burglar wears a striped shirt, black mask, and beanie, with an exaggerated, playful expression. Sparks and binary code (0s and 1s) scatter dramatically from the computer's screen. The background is a dimly lit room with scattered papers and a simple desk, creating a humorous yet dramatic cyber-themed scene.](https://substackcdn.com/image/fetch/$s_!_LzW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdabb4e39-da5a-40f2-923b-647e835f9bf5_1024x1024.webp "A whimsical illustration of a cartoon burglar holding an axe and striking a desktop computer depicted with a human-like expression, featuring a monitor, keyboard, and CPU tower. The burglar wears a striped shirt, black mask, and beanie, with an exaggerated, playful expression. Sparks and binary code (0s and 1s) scatter dramatically from the computer's screen. The background is a dimly lit room with scattered papers and a simple desk, creating a humorous yet dramatic cyber-themed scene.")](https://substackcdn.com/image/fetch/$s_!_LzW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdabb4e39-da5a-40f2-923b-647e835f9bf5_1024x1024.webp)
+[![A whimsical illustration of a cartoon burglar holding an axe and striking a desktop computer depicted with a human-like expression, featuring a monitor, keyboard, and CPU tower. The burglar wears a striped shirt, black mask, and beanie, with an exaggerated, playful expression. Sparks and binary code (0s and 1s) scatter dramatically from the computer's screen. The background is a dimly lit room with scattered papers and a simple desk, creating a humorous yet dramatic cyber-themed scene.](images/dabb4e39-da5a-40f2-923b-647e835f9bf5_1024x1024.webp "A whimsical illustration of a cartoon burglar holding an axe and striking a desktop computer depicted with a human-like expression, featuring a monitor, keyboard, and CPU tower. The burglar wears a striped shirt, black mask, and beanie, with an exaggerated, playful expression. Sparks and binary code (0s and 1s) scatter dramatically from the computer's screen. The background is a dimly lit room with scattered papers and a simple desk, creating a humorous yet dramatic cyber-themed scene.")](images/dabb4e39-da5a-40f2-923b-647e835f9bf5_1024x1024.webp)
 
 It’s been an eventful 36 hours for PowerSchool customers. As news stories have filtered out over the course of the day, a depressing picture is forming around what could shape up to be the single largest data breach impacting K12 schools. While PowerSchool states that only a subset of schools are affected, there are wide-ranging reports of impact. Considering that PowerSchool hasn’t released a public statement that I’m aware of, here’s what we know so far.
 
@@ -31,11 +31,11 @@ To harden the PowerSource platform, PowerSchool has deactivated the compromised 
 
 While PowerSchool has notified all impacted customers, you can also check yourself for indicators of compromise (IOCs) by searching logs. To do this, navigate to System Management → Server → Download System Logs. Select your PowerSchool server, choose the **ps-log-audit** File Type, and choose the log file that encompasses Dec. 22 (it’s possible you may need to check the log that contains Dec. 21 or 23 if you don’t see indicators on the Dec. 22).
 
-[![](https://substackcdn.com/image/fetch/$s_!naQC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F258717f1-a85e-48d8-8f26-204a51d9451b_2776x1292.png)](https://substackcdn.com/image/fetch/$s_!naQC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F258717f1-a85e-48d8-8f26-204a51d9451b_2776x1292.png)
+[![](images/258717f1-a85e-48d8-8f26-204a51d9451b_2776x1292.png)](images/258717f1-a85e-48d8-8f26-204a51d9451b_2776x1292.png)
 
 Once you download the log, you can search for the IP address **91.218.50.11.** There will be several entries, but you’ll be able to see the logs where they downloaded the exported CSVs like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!rp5p!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc601217f-9500-4e3d-a6e3-e59097b45204_2654x204.png)](https://substackcdn.com/image/fetch/$s_!rp5p!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc601217f-9500-4e3d-a6e3-e59097b45204_2654x204.png)
+[![](images/c601217f-9500-4e3d-a6e3-e59097b45204_2654x204.png)](images/c601217f-9500-4e3d-a6e3-e59097b45204_2654x204.png)
 
 Characteristics to take note of include the adversary’s IP address, the name of the CSV, and the EX string at the end. We’ll need this to determine what fields were accessed.
 
@@ -43,7 +43,7 @@ Characteristics to take note of include the adversary’s IP address, the name o
 
 The list of impacted fields is pretty expansive. It’s easiest to assume everything in the Students and Teachers tables was exfiled, but to get a more precise picture, however, you can navigate to System Management → Server → Download System Logs like in the previous step. Again select your PowerSchool server, but this time select the **mass-data** file type, and select the .log files from the time period of the logs where you found the 91.218.50.11 IP address above.
 
-[![](https://substackcdn.com/image/fetch/$s_!6rcv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9e4ae89-5b9b-4979-a448-8e94001f7ee9_1816x707.png)](https://substackcdn.com/image/fetch/$s_!6rcv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9e4ae89-5b9b-4979-a448-8e94001f7ee9_1816x707.png)
+[![](images/d9e4ae89-5b9b-4979-a448-8e94001f7ee9_1816x707.png)](images/d9e4ae89-5b9b-4979-a448-8e94001f7ee9_1816x707.png)
 
 Depending on the time of day the log file was created and when your data was accessed, you may need the log from Dec. 21, 22, or 23.
 
@@ -51,7 +51,7 @@ Once you download the log file, you’ll need the EX number we identified in the
 
 This will lead to a list of the fields that were accessed in that export, along with the total number of records and the amount of data exfiltrated. Not all districts populate all of these fields, so the actual data stolen will vary from tenant to tenant.
 
-[![](https://substackcdn.com/image/fetch/$s_!FYNU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64d379-84ba-4816-9b4e-dfc6802ec590_2932x662.png)](https://substackcdn.com/image/fetch/$s_!FYNU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8a64d379-84ba-4816-9b4e-dfc6802ec590_2932x662.png)
+[![](images/8a64d379-84ba-4816-9b4e-dfc6802ec590_2932x662.png)](images/8a64d379-84ba-4816-9b4e-dfc6802ec590_2932x662.png)
 
 ## What’s next for PowerSchool customers?
 

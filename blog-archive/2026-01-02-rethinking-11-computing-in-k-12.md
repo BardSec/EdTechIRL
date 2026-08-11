@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/rethinking-11-computing-in-k-12
 
 *How Device Choice Can Shape Pedagogy*
 
-[![](https://substackcdn.com/image/fetch/$s_!Deeh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e02a869-cb79-4eb2-8a5e-aeef4a742962_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!Deeh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1e02a869-cb79-4eb2-8a5e-aeef4a742962_1536x1024.png)
+[![](images/1e02a869-cb79-4eb2-8a5e-aeef4a742962_1536x1024.png)](images/1e02a869-cb79-4eb2-8a5e-aeef4a742962_1536x1024.png)
 
 After over a decade as a 1:1 district, my district is now considering a shift from Windows laptops in grades 4–12 to a new platform. This discussion has sparked more than just tech debates; it’s a rare chance to reevaluate how well our instructional practices align with the tools we provide. Too often in education, 1:1 devices are reduced to digital textbooks or workbooks, missing the opportunity for deeper learning. As we navigate our decision-making process, I’ve found myself dusting off my teacher hat and reflecting on how the right platform can unlock, rather than dictate, better pedagogy.
 

@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/teams-security-baselines-protected
 
 *Spending 10 minutes or less will help your M365 environment be a little more secure*
 
-[![](https://substackcdn.com/image/fetch/$s_!C4NW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20a690ab-c1ee-429c-b602-3ca5076cf8e0_800x500.png)](https://substackcdn.com/image/fetch/$s_!C4NW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F20a690ab-c1ee-429c-b602-3ca5076cf8e0_800x500.png)
+[![](images/20a690ab-c1ee-429c-b602-3ca5076cf8e0_800x500.png)](images/20a690ab-c1ee-429c-b602-3ca5076cf8e0_800x500.png)
 
 In Oct. 2022, CISA released a document called [Microsoft Teams: M365 Minimum Viable Secure Configuration Baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Teams%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf). This document outlines 13 steps to take to raise your Microsoft Teams environment to a minimum viable security posture. In this series, we’ll take a look at these 13 steps over a series of articles.
 
@@ -36,7 +36,7 @@ Login to Microsoft Defender at security.microsoft.com and navigate to Email and 
 
 Walk through the Safe Links policy wizard. For Teams specifically, there is one toggle for turning Safe Links on for Teams. While outside the scope of this article, you can also set up Safe Links for Exchange and O365 from this same wizard.
 
-[![](https://substackcdn.com/image/fetch/$s_!427w!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cc41e8a-a15e-4bf0-938b-9e3e902ac6b0_698x691.png)](https://substackcdn.com/image/fetch/$s_!427w!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cc41e8a-a15e-4bf0-938b-9e3e902ac6b0_698x691.png)
+[![](images/6cc41e8a-a15e-4bf0-938b-9e3e902ac6b0_698x691.png)](images/6cc41e8a-a15e-4bf0-938b-9e3e902ac6b0_698x691.png)
 
 ## Resources
 

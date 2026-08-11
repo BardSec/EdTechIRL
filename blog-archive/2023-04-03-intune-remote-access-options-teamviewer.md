@@ -16,11 +16,11 @@ Intune has two featured remote support options that you can push to your devices
 
 The German juggernaut of Remote Access Software, TeamViewer, does have a direct tie in with Microsoft Intune. For the TeamViewer Integration, you will need to have an *existing* TeamViewer Account and connect it to your Intune tenant.
 
-[![](https://substackcdn.com/image/fetch/$s_!mgI9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd04e6431-5f67-4bd7-b0c4-233813465e1b_873x840.png)](https://substackcdn.com/image/fetch/$s_!mgI9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd04e6431-5f67-4bd7-b0c4-233813465e1b_873x840.png)
+[![](images/d04e6431-5f67-4bd7-b0c4-233813465e1b_873x840.png)](images/d04e6431-5f67-4bd7-b0c4-233813465e1b_873x840.png)
 
 Once your accounts are connected, you can remote into devices using the Remote Assistance button when looking at the Managment page of a device in Intune. By default, you can remote into your devices without any additional software as long as you are pushing the Company Portal app to those devices. If you are, company portal will be used to launch your (user attended) remote session.
 
-[![](https://substackcdn.com/image/fetch/$s_!PB1q!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F188ecc57-32c0-4610-b40d-72d1b0b79b21_1553x373.png)](https://substackcdn.com/image/fetch/$s_!PB1q!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F188ecc57-32c0-4610-b40d-72d1b0b79b21_1553x373.png)
+[![](images/188ecc57-32c0-4610-b40d-72d1b0b79b21_1553x373.png)](images/188ecc57-32c0-4610-b40d-72d1b0b79b21_1553x373.png)
 
 You can also set up TeamViewer to work with unattended remote sessions, however, you will have to push a custom TeamViewer installer separately to get this to work.
 
@@ -39,7 +39,7 @@ You can also set up TeamViewer to work with unattended remote sessions, however,
 
 I normally think of RemoteHelp as the enterprise version of Microsoft QuickAssist. It feels and looks identical. The biggest difference to QuickAssist vs RemoteHelp is that you can ‘run as administrator’ from RemoteHelp on standard user accounts. RemoteHelp is also tied to your Azure Tenant. This makes for a nice added layer of security, as only admins in your tenant can remote into your devices using the RemoteHelp app.
 
-[![](https://substackcdn.com/image/fetch/$s_!SvmP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0229b0f9-5686-4c21-9d01-ebf513bfd38b_844x459.png)](https://substackcdn.com/image/fetch/$s_!SvmP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0229b0f9-5686-4c21-9d01-ebf513bfd38b_844x459.png)
+[![](images/0229b0f9-5686-4c21-9d01-ebf513bfd38b_844x459.png)](images/0229b0f9-5686-4c21-9d01-ebf513bfd38b_844x459.png)
 
 The setup of remote help is a little lengthier, but nothing crazy. RemoteHelp is a premium add on for intune. You will need to purchase licenses for each user that you want to have access to remoting into other devices. If you already have the Intune Suite, Remote Help is included in this.
 
@@ -47,7 +47,7 @@ Once you purchase licenses, you will need to make a group in Intune for your Rem
 
 Creating a session is similar to creating a session with QuickAssist. You can either open the RemoteHelp app on your computer and send a code to your end user, or you can generate the code directly in Intune using the same Remote Assistance button on the device page, however this will just launch your RemoteHelp app as well. Once you have a code generated, you give that to your enduser within the 10 minute time window. The end user will put in the code on their RemoteHelp app. Then the admin will ask for permissions to take control of the computer or just view. The end user will then have to accept those permissions before the admin can get to work. It is a lengthy process, especially compared to TeamViewer.
 
-[![](https://substackcdn.com/image/fetch/$s_!SdDj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dd2b54b-7d89-4486-8260-bdeb9c8aca83_1081x610.png)](https://substackcdn.com/image/fetch/$s_!SdDj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9dd2b54b-7d89-4486-8260-bdeb9c8aca83_1081x610.png)
+[![](images/9dd2b54b-7d89-4486-8260-bdeb9c8aca83_1081x610.png)](images/9dd2b54b-7d89-4486-8260-bdeb9c8aca83_1081x610.png)
 
 **Pros**
 

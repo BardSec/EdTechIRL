@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/2-ways-almost-everyone-is-asking
 
 *We all do it*
 
-[![red bolt cutter on floor](https://images.unsplash.com/photo-1552775838-b0c8d3b881fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwxfHxzdGVhbHxlbnwwfHx8fDE2NjQ0MTk2OTg&ixlib=rb-1.2.1&q=80&w=1080 "red bolt cutter on floor")](https://images.unsplash.com/photo-1552775838-b0c8d3b881fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwxfHxzdGVhbHxlbnwwfHx8fDE2NjQ0MTk2OTg&ixlib=rb-1.2.1&q=80&w=1080)
+[![red bolt cutter on floor](images/photo-1552775838-b0c8d3b881fb.jpg "red bolt cutter on floor")](images/photo-1552775838-b0c8d3b881fb.jpg)
 
 Photo by [Michael Dziedzic](https://unsplash.com/@lazycreekimages) on [Unsplash](https://unsplash.com)
 
@@ -34,7 +34,7 @@ Chrome, Edge, Firefox, and Safari have built in password managers. These browser
 
 Most of these managers will also conduct password checkups. In Google’s password manager (passwords.google.com), you can conduct a password checkup to search for passwords that are weak, reused, or have been parts of known data breaches.
 
-[![](https://substackcdn.com/image/fetch/$s_!_tkv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde3ccddc-0b1a-45cb-a34e-a67b4433b5c6_1214x721.png)](https://substackcdn.com/image/fetch/$s_!_tkv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fde3ccddc-0b1a-45cb-a34e-a67b4433b5c6_1214x721.png)
+[![](images/de3ccddc-0b1a-45cb-a34e-a67b4433b5c6_1214x721.png)](images/de3ccddc-0b1a-45cb-a34e-a67b4433b5c6_1214x721.png)
 
 Password check at passwords.google.com
 
@@ -42,7 +42,7 @@ Password check at passwords.google.com
 
 If you haven’t already, check haveibeenpwned.com to see if your email address has shown up in any known data breaches. This site is constantly updated, and will let you know if your address has shown up in a breach, and if so what data was compromised. If you reuse passwords across sites, this is a good wakeup call for the damage it can do. For example, if I used my andy@edtechirl.com email address and the password “merrychristmas” for my bank, my email, my doctor’s office, and poopsenders.com, if poopsenders.com has a data breach and leaks your password, attackers now know that you use the username andy@edtechirl.com and the password merrychristmas, and they’re definitely going to try using that same combination on your bank and email. You can also sign up for notifications to be notified any time your email shows up in a breach. If you manage an organization, you can also sign up for notifications any time someone in your organization has an email account that is detected in a breach.
 
-[![](https://substackcdn.com/image/fetch/$s_!WD5W!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7c05dd6-f48f-44ad-9428-e26c2ee3984c_1925x655.png)](https://substackcdn.com/image/fetch/$s_!WD5W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7c05dd6-f48f-44ad-9428-e26c2ee3984c_1925x655.png)
+[![](images/f7c05dd6-f48f-44ad-9428-e26c2ee3984c_1925x655.png)](images/f7c05dd6-f48f-44ad-9428-e26c2ee3984c_1925x655.png)
 
 Sample output from an email search on haveibeenpwned.com
 

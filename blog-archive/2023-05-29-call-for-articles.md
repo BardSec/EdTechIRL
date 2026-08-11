@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/call-for-articles
 
 # Call for Articles
 
-[![](https://substackcdn.com/image/fetch/$s_!PLmo!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c540c94-9fff-4321-ab94-56f89b83f2ea_1920x1080.png)](https://substackcdn.com/image/fetch/$s_!PLmo!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8c540c94-9fff-4321-ab94-56f89b83f2ea_1920x1080.png)
+[![](images/8c540c94-9fff-4321-ab94-56f89b83f2ea_1920x1080.png)](images/8c540c94-9fff-4321-ab94-56f89b83f2ea_1920x1080.png)
 
 I come from an instructional background but live in a technical position now, so the goal of the blog over the past year has been to highlight pretty much all things EdTech, from classroom technology to productivity tools to cybersecurity and technical infrastructure. A year in, we've done a handful of instructional articles, but the default has definitely been content that’s more on the technical/infrastructure side of the house. To help balance this out, I wanted to put out a request to see if anyone would be interested in guest-contributing an article or articles for inclusion on edtechirl.com.
 

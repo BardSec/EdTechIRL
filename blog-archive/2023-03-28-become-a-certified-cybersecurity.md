@@ -10,13 +10,13 @@ source: https://www.edtechirl.com/p/become-a-certified-cybersecurity
 
 *Free voucher valid till March 31, 2023*
 
-[![](https://substackcdn.com/image/fetch/$s_!KC7B!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b0d54d2-d8c1-48bd-a55f-1b0f2457a530_220x220.png)](https://substackcdn.com/image/fetch/$s_!KC7B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1b0d54d2-d8c1-48bd-a55f-1b0f2457a530_220x220.png)
+[![](images/1b0d54d2-d8c1-48bd-a55f-1b0f2457a530_220x220.png)](images/1b0d54d2-d8c1-48bd-a55f-1b0f2457a530_220x220.png)
 
 If you’re not familiar with the [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework), it’s a framework for organizations to assess and develop their cybersecurity programs. It’s built around 5 essential functions: Identify - Protect - Detect - Respond - Recover.
 
 While the NIST framework is free, it’s not education-centric and while it’s an industry standard, doesn’t have wide adoption in K12 education. To assist schools with improving cyber posture, the Cybersecurity Coalition for Education (i.e., Classlink & ENA) launched a program last week aimed at helping schools conduct NIST-based self-assessments and, more novel, a process for 3rd party assessments by certified assessors. Details on the education-centric NIST rubric is available at [cybersecurityrubric.org](https://www.cybersecurityrubric.org/).
 
-[![](https://substackcdn.com/image/fetch/$s_!HtbW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F510f9e5b-aa98-49f8-bfae-df26d60b3888_1561x574.png)](http://www.cybersecurityrubric.org)
+[![](images/510f9e5b-aa98-49f8-bfae-df26d60b3888_1561x574.png)](http://www.cybersecurityrubric.org)
 
 For more details on the assessment rubic, the webinar launching the program is available at the [Classlink webinars site here](https://www.classlink.com/resources/webinars). As part of the 3rd party assessments, attending the webinar will give you information on accessing training, the rubric, and other tools, but also includes a discount voucher for the Certified Cybersecurity Rubric Evaluator that’s valid until March 31 (SPOILED: the $99 code is CCRE4ME). If you’re not ready to take the exam, you can still register for the training using the code and take the exam after March 31.
 

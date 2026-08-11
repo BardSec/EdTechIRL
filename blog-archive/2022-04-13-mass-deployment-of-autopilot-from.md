@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/mass-deployment-of-autopilot-from
 
 *Create a bootable USB drive that will wipe a device, install windows, provision the device, and enroll it into AutoPilot... with barely any user interaction*
 
-[![](https://substackcdn.com/image/fetch/$s_!tQJH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9627caa-2674-4872-aa8f-164ac77ba37d_675x380.png)](https://substackcdn.com/image/fetch/$s_!tQJH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fa9627caa-2674-4872-aa8f-164ac77ba37d_675x380.png)
+[![](images/a9627caa-2674-4872-aa8f-164ac77ba37d_675x380.png)](images/a9627caa-2674-4872-aa8f-164ac77ba37d_675x380.png)
 
 **FINAL NOTE:** After using this imaging method for a few years, I am no longer able to get it to work. I believe this is due to a change in Windows PE. For historical purposes, I’m going to leave the article as is. However, you can find an [article on the method and program I am using now, here.](https://www.edtechirl.com/p/zero-touch-usb-imaging-new-and-improved) **NOTE**: There is an update at the bottom for 2023 and how we are currently using this process. This includes how we plan on doing our device refresh this school year after using this process and changes I would make to the original process now that I know more.
 
@@ -68,25 +68,25 @@ We are going to go on the flash drive we just created and edit the 'kick off' sc
 
 To start, go ahead and open up the Invoke-Provision script in visual studio. For me it was under D:\Scripts\Invoke-Provision.ps1
 
-[![image-1647740828019.png](https://substackcdn.com/image/fetch/$s_!GEqO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F890fac21-e61a-45bb-a33a-5876bb978a4c_955x551.png "image-1647740828019.png")](https://substackcdn.com/image/fetch/$s_!GEqO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F890fac21-e61a-45bb-a33a-5876bb978a4c_955x551.png)
+[![image-1647740828019.png](images/890fac21-e61a-45bb-a33a-5876bb978a4c_955x551.png "image-1647740828019.png")](images/890fac21-e61a-45bb-a33a-5876bb978a4c_955x551.png)
 
 When you do this, near line 365 (may be a different line depending on the settings you configured) you will see this line.
 
-[![image-1647741068939.png](https://substackcdn.com/image/fetch/$s_!hi6K!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0b6bd1b-da9e-4431-955c-e27b8cc8fa77_799x264.png "image-1647741068939.png")](https://substackcdn.com/image/fetch/$s_!hi6K!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc0b6bd1b-da9e-4431-955c-e27b8cc8fa77_799x264.png)
+[![image-1647741068939.png](images/c0b6bd1b-da9e-4431-955c-e27b8cc8fa77_799x264.png "image-1647741068939.png")](images/c0b6bd1b-da9e-4431-955c-e27b8cc8fa77_799x264.png)
 
 This is setting a variable equal to user input. We already know that we want user input 3, so we are going to set the variable equal to 3, as seen below. Adding 3 will have the disk wiped, but preserve the USB drive.
 
-[![image-1647741138496.png](https://substackcdn.com/image/fetch/$s_!Djgv!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F531e8012-8cb6-45ed-8fe8-2d5d52303ed7_828x347.png "image-1647741138496.png")](https://substackcdn.com/image/fetch/$s_!Djgv!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F531e8012-8cb6-45ed-8fe8-2d5d52303ed7_828x347.png)
+[![image-1647741138496.png](images/531e8012-8cb6-45ed-8fe8-2d5d52303ed7_828x347.png "image-1647741138496.png")](images/531e8012-8cb6-45ed-8fe8-2d5d52303ed7_828x347.png)
 
 Below this on line 377, the user is prompted one final time to make sure they would like to wipe the computer. We are going to set the userinput variable equal to "Y". This just automatically accepts the prompt asking the user if they are sure they want to wipe the drive of the computer.
 
-[![image-1647741310481.png](https://substackcdn.com/image/fetch/$s_!XZjC!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F97c6b9d5-6f4e-4465-97e9-b1156b88f223_1178x198.png "image-1647741310481.png")](https://substackcdn.com/image/fetch/$s_!XZjC!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F97c6b9d5-6f4e-4465-97e9-b1156b88f223_1178x198.png)
+[![image-1647741310481.png](images/97c6b9d5-6f4e-4465-97e9-b1156b88f223_1178x198.png "image-1647741310481.png")](images/97c6b9d5-6f4e-4465-97e9-b1156b88f223_1178x198.png)
 
 The warning messages will still come up, but they will be automatically answered because we have set the variable equal to what our choice is. Otherwise, the program would stop and wait for user input.
 
 At the end, we will want to add **Restart-Computer -Force**
 
-[![image-1647741567344.png](https://substackcdn.com/image/fetch/$s_!1Si9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1176b777-e2f3-482b-b6e1-c2e6f01f6696_1073x290.png "image-1647741567344.png")](https://substackcdn.com/image/fetch/$s_!1Si9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1176b777-e2f3-482b-b6e1-c2e6f01f6696_1073x290.png)
+[![image-1647741567344.png](images/1176b777-e2f3-482b-b6e1-c2e6f01f6696_1073x290.png "image-1647741567344.png")](images/1176b777-e2f3-482b-b6e1-c2e6f01f6696_1073x290.png)
 
 This will have the computer restart when it is finished. From here, the drive should be ready. You can plug it into a computer, boot to it. This will wipe the hard drive, reinstall windows, and restart all on its own.
 
@@ -102,35 +102,35 @@ The next two sections are going to mostly be the same instructions that Sean has
 
 If you go to your [Azure AD Portal and go to App Registrations](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps) you will need to create a new app registration. I called mine 'Upload Autopilot Hashes'. Be sure to set supported account types to the top option (Accounts in Org Directory Only).
 
-[![image-1649809191010.png](https://substackcdn.com/image/fetch/$s_!mTBs!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F44b66ab0-b87f-4bd4-898b-4deb7e42df98_807x517.png "image-1649809191010.png")](https://substackcdn.com/image/fetch/$s_!mTBs!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F44b66ab0-b87f-4bd4-898b-4deb7e42df98_807x517.png)
+[![image-1649809191010.png](images/44b66ab0-b87f-4bd4-898b-4deb7e42df98_807x517.png "image-1649809191010.png")](images/44b66ab0-b87f-4bd4-898b-4deb7e42df98_807x517.png)
 
 After this we will go to authentication and click the add a platform button
 
-[![image-1649809496910.png](https://substackcdn.com/image/fetch/$s_!pOHj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F157916c9-c43c-4d25-8381-2542c52d9461_628x404.png "image-1649809496910.png")](https://substackcdn.com/image/fetch/$s_!pOHj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F157916c9-c43c-4d25-8381-2542c52d9461_628x404.png)
+[![image-1649809496910.png](images/157916c9-c43c-4d25-8381-2542c52d9461_628x404.png "image-1649809496910.png")](images/157916c9-c43c-4d25-8381-2542c52d9461_628x404.png)
 
 Select the option 'Mobile and Desktop Applications'. Check the top URI Redirect box.
 
-[![image-1649809261257.png](https://substackcdn.com/image/fetch/$s_!QScV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42bc1b35-56f4-4b99-878e-791002b85b9d_731x415.png "image-1649809261257.png")](https://substackcdn.com/image/fetch/$s_!QScV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F42bc1b35-56f4-4b99-878e-791002b85b9d_731x415.png)
+[![image-1649809261257.png](images/42bc1b35-56f4-4b99-878e-791002b85b9d_731x415.png "image-1649809261257.png")](images/42bc1b35-56f4-4b99-878e-791002b85b9d_731x415.png)
 
 After this be sure to set allow public client flow on the main settings page for the app.
 
-[![image-1649809266393.png](https://substackcdn.com/image/fetch/$s_!3hlV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc2e0879-8f92-45b2-8dde-55ff34074985_807x225.png "image-1649809266393.png")](https://substackcdn.com/image/fetch/$s_!3hlV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ffc2e0879-8f92-45b2-8dde-55ff34074985_807x225.png)
+[![image-1649809266393.png](images/fc2e0879-8f92-45b2-8dde-55ff34074985_807x225.png "image-1649809266393.png")](images/fc2e0879-8f92-45b2-8dde-55ff34074985_807x225.png)
 
 Next, remove the default permissions of the app, as they will not be needed.
 
-[![image-1649809278024.png](https://substackcdn.com/image/fetch/$s_!Kmbj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8fc738e-86de-4057-bb74-d42f1b3fba5f_807x192.png "image-1649809278024.png")](https://substackcdn.com/image/fetch/$s_!Kmbj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc8fc738e-86de-4057-bb74-d42f1b3fba5f_807x192.png)
+[![image-1649809278024.png](images/c8fc738e-86de-4057-bb74-d42f1b3fba5f_807x192.png "image-1649809278024.png")](images/c8fc738e-86de-4057-bb74-d42f1b3fba5f_807x192.png)
 
 You will need to give it permissions to Read and Write Device management settings through the Microsoft Graph API. Do this by clicking 'Add a permission' and choosing 'Microsoft Graph'. You need to give the app DeviceManagementServiceConfg Read/Write permissions.
 
-[![image-1649777787037.png](https://substackcdn.com/image/fetch/$s_!3D9S!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8a0b2694-6486-483d-8eea-a8231f4d2bc9_807x743.png "image-1649777787037.png")](https://substackcdn.com/image/fetch/$s_!3D9S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F8a0b2694-6486-483d-8eea-a8231f4d2bc9_807x743.png)
+[![image-1649777787037.png](images/8a0b2694-6486-483d-8eea-a8231f4d2bc9_807x743.png "image-1649777787037.png")](images/8a0b2694-6486-483d-8eea-a8231f4d2bc9_807x743.png)
 
 Lastly, grant admin consent to the permissions you have configure to your app.
 
-[![image-1649809754804.png](https://substackcdn.com/image/fetch/$s_!oGmQ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fba4c2fb9-2eaa-4bcd-bc12-b46ca34bd867_628x263.png "image-1649809754804.png")](https://substackcdn.com/image/fetch/$s_!oGmQ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fba4c2fb9-2eaa-4bcd-bc12-b46ca34bd867_628x263.png)
+[![image-1649809754804.png](images/ba4c2fb9-2eaa-4bcd-bc12-b46ca34bd867_628x263.png "image-1649809754804.png")](images/ba4c2fb9-2eaa-4bcd-bc12-b46ca34bd867_628x263.png)
 
 We will then need to create a 'Secret' for the app. This is similar to a certificate, but instead of it being a file it is a hash password that you can only see when you first create it. This is a pretty simple process. Just go to the clients and certificates tab and click 'New Client Secret'
 
-[![image-1649809823597.png](https://substackcdn.com/image/fetch/$s_!fzsE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F702c2f71-cefa-44c6-85f2-f5520f8660e2_628x280.png "image-1649809823597.png")](https://substackcdn.com/image/fetch/$s_!fzsE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F702c2f71-cefa-44c6-85f2-f5520f8660e2_628x280.png)
+[![image-1649809823597.png](images/702c2f71-cefa-44c6-85f2-f5520f8660e2_628x280.png "image-1649809823597.png")](images/702c2f71-cefa-44c6-85f2-f5520f8660e2_628x280.png)
 
 After you create the secret, please take note of its value, or you will have to create a new one.
 
@@ -138,7 +138,7 @@ Once you have your secret created, you will need to fill in your secret value, T
 
 [Github Link for Graph API Provision Package Command](https://github.com/managedBlog/Managed_Blog/blob/main/MEMAC/Import%20Autopilot%20Hash/Import-AutopilotHashFromPpkg.ps1)
 
-[![image-1649778142463.png](https://substackcdn.com/image/fetch/$s_!cxkl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9b667aed-6cd7-444c-ad57-0bf4b56b5b17_634x351.png "image-1649778142463.png")](https://substackcdn.com/image/fetch/$s_!cxkl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9b667aed-6cd7-444c-ad57-0bf4b56b5b17_634x351.png)
+[![image-1649778142463.png](images/9b667aed-6cd7-444c-ad57-0bf4b56b5b17_634x351.png "image-1649778142463.png")](images/9b667aed-6cd7-444c-ad57-0bf4b56b5b17_634x351.png)
 
 Note your TenantID may look like a hash instead of a domain name. You can find it on your Azure AD portal. After you have created the script, our next step will be to create a provisioning package that will run this script. This is detailed later in the same blog post above.
 
@@ -148,13 +148,13 @@ There are lots of extra things you can add to your provisioning package that are
 
 To start, open up the Windows Configuration Designer. If you do not have it, download it from the microsoft store. (if it gives you an error message at start up, try turning off windows defender and try again. Not sure why it does this, but its a common issue)
 
-[![image-1649798943283.png](https://substackcdn.com/image/fetch/$s_!GUM9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6aea7c1-4757-4f86-9aa5-00e51c67bfda_371x84.png "image-1649798943283.png")](https://substackcdn.com/image/fetch/$s_!GUM9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fd6aea7c1-4757-4f86-9aa5-00e51c67bfda_371x84.png)
+[![image-1649798943283.png](images/d6aea7c1-4757-4f86-9aa5-00e51c67bfda_371x84.png "image-1649798943283.png")](images/d6aea7c1-4757-4f86-9aa5-00e51c67bfda_371x84.png)
 
 Once it opens up, we are going to select 'Provision Desktop Devices' from the list of blue boxes. Note that in Sean's guide he tells you to set up your provision package in the advanced editor. We will need to switch to the advanced editor to add the AutoPilot Enroll script, but I would highly recommend using the simplified editor until we apply our other configurations, especially if you are not a windows provisioning wizard. Once you switch a provisioning package to the advanced editor, you cannot switch back to the simplified view.
 
 On the next screen, you will see the simplified provisioning wizard. Here is where you will want to configure any additional settings to your device. What you configure here is based on your organizations needs. For my situation, this provisioning package is going on student devices for a school system. We want them to be able to open the device on the first day and sign into Azure AD and have a few pre installed programs on the device, so students can get to work right away on the first day. Additional, lesser used programs will be pushed through intune and our secondary MDM as time goes on.
 
-[![image-1649802731189.png](https://substackcdn.com/image/fetch/$s_!nuWb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7ce2fdc1-d38b-4b99-8756-6686ccf80f4b_1918x699.png "image-1649802731189.png")](https://substackcdn.com/image/fetch/$s_!nuWb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7ce2fdc1-d38b-4b99-8756-6686ccf80f4b_1918x699.png)
+[![image-1649802731189.png](images/7ce2fdc1-d38b-4b99-8756-6686ccf80f4b_1918x699.png "image-1649802731189.png")](images/7ce2fdc1-d38b-4b99-8756-6686ccf80f4b_1918x699.png)
 
 The settings I would recommend setting up before switching to the advanced editor are:
 
@@ -165,11 +165,11 @@ The settings I would recommend setting up before switching to the advanced edito
 
 Configuring these settings is easy for the most part in the simplified editor. I would recommend testing your provisioning package before switching to the advanced editor. Once you have everything working and are ready to proceed, click the 'Switch to Advanced Editor' button in the bottom left.
 
-[![image-1649803612053.png](https://substackcdn.com/image/fetch/$s_!nE-f!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F155565d8-0b03-4ca9-b607-255650bba828_387x175.png "image-1649803612053.png")](https://substackcdn.com/image/fetch/$s_!nE-f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F155565d8-0b03-4ca9-b607-255650bba828_387x175.png)
+[![image-1649803612053.png](images/155565d8-0b03-4ca9-b607-255650bba828_387x175.png "image-1649803612053.png")](images/155565d8-0b03-4ca9-b607-255650bba828_387x175.png)
 
 After you switch to the advanced editor you are going to have a lot of extra fluff on your screen. On the lefthand list, navigate to Provisioning Commands > Primary Context > Command . If you added any software installs, they will show up on this list. Name your autopilot hash script at the top and click 'add' at the bottom. Once you add it, you will get some additional options on the left side bar.
 
-[![image-1649804035676.png](https://substackcdn.com/image/fetch/$s_!Wa_m!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1f8e4bbe-21b7-40a6-bbfb-e41d9b2bf92c_380x376.png "image-1649804035676.png")](https://substackcdn.com/image/fetch/$s_!Wa_m!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F1f8e4bbe-21b7-40a6-bbfb-e41d9b2bf92c_380x376.png)
+[![image-1649804035676.png](images/1f8e4bbe-21b7-40a6-bbfb-e41d9b2bf92c_380x376.png "image-1649804035676.png")](images/1f8e4bbe-21b7-40a6-bbfb-e41d9b2bf92c_380x376.png)
 
 We will need to click on CommandFile and browse to the script we made earlier. Under Command line we will need to input the following command to execute the script and to enroll our device in AutoPilot.
 
@@ -181,11 +181,11 @@ Lastly, we will need to set 'RestartRequired' to FALSE.
 
 After this, you can export your provisioning package at the top. When you do, you will get options to encrypt the package. If you are going for the zero touch route, I would not recommend this. I would recommend saving the package to a second flash drive so you can test that it is working and test it on a device running a fresh install of windows to make sure the device is being added to the [AutoPilot Enrollment Page](https://endpoint.microsoft.com/?ref=AdminCenter#blade/Microsoft_Intune_Enrollment/AutoPilotDevicesBlade)
 
-[![image-1649805635249.png](https://substackcdn.com/image/fetch/$s_!gRLE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0a90b405-f33c-4e8e-b936-6d857d6af252_1681x510.png "image-1649805635249.png")](https://substackcdn.com/image/fetch/$s_!gRLE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F0a90b405-f33c-4e8e-b936-6d857d6af252_1681x510.png)
+[![image-1649805635249.png](images/0a90b405-f33c-4e8e-b936-6d857d6af252_1681x510.png "image-1649805635249.png")](images/0a90b405-f33c-4e8e-b936-6d857d6af252_1681x510.png)
 
 Once you have it ready, pull up your windows install flash drive from earlier, and copy and paste the contents your provisioning package into the 'Images' partition of your windows install drive. After you are done it should look like this: one drive with two partitions. One of those that has your provision package files (on the left in the picture) and one that has a mess of windows PE files (on the right).
 
-[![image-1649804594928.png](https://substackcdn.com/image/fetch/$s_!IPTj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb9435c1e-3118-4363-93f2-25fd0d00364a_1920x1080.png "image-1649804594928.png")](https://substackcdn.com/image/fetch/$s_!IPTj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb9435c1e-3118-4363-93f2-25fd0d00364a_1920x1080.png)
+[![image-1649804594928.png](images/b9435c1e-3118-4363-93f2-25fd0d00364a_1920x1080.png "image-1649804594928.png")](images/b9435c1e-3118-4363-93f2-25fd0d00364a_1920x1080.png)
 
 #### **Conclusion**
 
@@ -225,7 +225,7 @@ We could push an AutoPilot reset to all of our devices, sync them with Intune, a
 
 To start, I am not sure how necessary Sean’s provisioning package is now for having the devices send their hardware hashes to Intune. Now what you can do is image your device, apply a provisioning package that enrolls it in AAD and applies a name template, once it’s in AAD and in the correct groups, apply an AutoPilot profile to that group with the **Convert all targeted devices to Autopilot** toggle turned on.
 
-[![](https://substackcdn.com/image/fetch/$s_!pg9r!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ea4611b-ef03-4efc-9805-196dc4eebb7c_1078x506.png)](https://substackcdn.com/image/fetch/$s_!pg9r!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6ea4611b-ef03-4efc-9805-196dc4eebb7c_1078x506.png)
+[![](images/6ea4611b-ef03-4efc-9805-196dc4eebb7c_1078x506.png)](images/6ea4611b-ef03-4efc-9805-196dc4eebb7c_1078x506.png)
 
 What this does is whenever the device picks up the Autopilot profile that is assigned to it, Intune will attempt to enroll it in the Autopilot program if it isn’t already enrolled. I’ve tested this toggle on some miscellaneous devices with good success. However, I would test this on a small batch of your own devices before relying on it.
 
@@ -233,6 +233,6 @@ What this does is whenever the device picks up the Autopilot profile that is ass
 
 Previously, I relied on Windows to automatically pull the drivers needed for the device. However, I have found that you can also add drivers onto the Install USB. To do this, you will need to go to your device’s driver page and see if they offer a driver package (Preferably, you want a Windows PE driver package, but I’ve also had some luck by adding SCCM driver packages as well). Once you have it downloaded, extract it onto the drive in the Images partition, inside of the Drivers folder.
 
-[![](https://substackcdn.com/image/fetch/$s_!23Ry!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13adce78-d6ae-4963-89ff-9edc0f066e9c_809x336.png)](https://substackcdn.com/image/fetch/$s_!23Ry!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F13adce78-d6ae-4963-89ff-9edc0f066e9c_809x336.png)
+[![](images/13adce78-d6ae-4963-89ff-9edc0f066e9c_809x336.png)](images/13adce78-d6ae-4963-89ff-9edc0f066e9c_809x336.png)
 
 Now whenever you boot to the USB, it will attempt to load and install the drivers it finds in this package. There are two down sides to this. Now you must be careful as the install drive needs to be model specific. I would **not** run this on a different model of device that doesn’t use these drivers. The other down side is that it adds time for the installation of each device. In my experience, it was adding roughly 5 minutes per device. However, to have them loaded with the correct drivers, I see this as well worth it.

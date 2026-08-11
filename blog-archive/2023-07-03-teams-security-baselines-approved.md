@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/teams-security-baselines-approved
 
 *Spending 10 minutes or less will help your M365 environment be a little more secure*
 
-[![](https://substackcdn.com/image/fetch/$s_!LyKR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff458ae6c-0dea-4cb2-8cfa-966985b3b9d1_800x500.png)](https://substackcdn.com/image/fetch/$s_!LyKR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff458ae6c-0dea-4cb2-8cfa-966985b3b9d1_800x500.png)
+[![](images/f458ae6c-0dea-4cb2-8cfa-966985b3b9d1_800x500.png)](images/f458ae6c-0dea-4cb2-8cfa-966985b3b9d1_800x500.png)
 
 In Oct. 2022, CISA released a document called [Microsoft Teams: M365 Minimum Viable Secure Configuration Baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Teams%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf). This document outlines 13 steps to take to raise your Microsoft Teams environment to a minimum viable security posture. In this series, we’ll take a look at these 13 steps over a series of articles.
 
@@ -42,7 +42,7 @@ Select the **Global (Org-wide default) policy** and set the configuration to the
 
 **Custom apps:** Block all apps, unless you have a specific custom app need.
 
-[![](https://substackcdn.com/image/fetch/$s_!U4BI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f25eef7-7235-4874-a718-03bbf70ed76b_585x530.png)](https://substackcdn.com/image/fetch/$s_!U4BI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6f25eef7-7235-4874-a718-03bbf70ed76b_585x530.png)
+[![](images/6f25eef7-7235-4874-a718-03bbf70ed76b_585x530.png)](images/6f25eef7-7235-4874-a718-03bbf70ed76b_585x530.png)
 
 Note that if you choose one of the specific allow or specific deny options that you’ll need to indicate those apps in the policy before you can save it.
 

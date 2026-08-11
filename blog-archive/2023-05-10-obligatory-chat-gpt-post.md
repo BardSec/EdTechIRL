@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/obligatory-chat-gpt-post
 
 *Instead of focusing on the Chat-GPT Devil, how about focusing on how Chat-GPT can help teachers?*
 
-[![](https://substackcdn.com/image/fetch/$s_!F8wL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc17a9c51-cf9b-4d8a-b4cb-e71b9714fec9_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!F8wL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc17a9c51-cf9b-4d8a-b4cb-e71b9714fec9_1024x1024.png)
+[![](images/c17a9c51-cf9b-4d8a-b4cb-e71b9714fec9_1024x1024.png)](images/c17a9c51-cf9b-4d8a-b4cb-e71b9714fec9_1024x1024.png)
 
 Most of the talk in schools that I’ve heard about iterative Artificial Intelligence tools like Chat-GPT has been centered around how to restrict it, namely how to block students from using it and how to detect it when it’s being used. While academic integrity has a valid place in the conversation, I think that’s missing the mark. It reminds of when I was an English teacher, which was long enough ago that I remember the speculation that having spellcheck in word processors was going to cause an entire generation of people to not be able to spell. I remember as a classroom teacher having to configure an entire computer lab to disable spellcheck in Word so students couldn’t use it to cheat. Instead of spellcheck causing the downfall of civilization, what’s really happened is that people who “can’t spell” now have a tool to help them communicate more clearly, and when that tool is used their writing is elevated. While that may be over-simplifying the issue of iterative AI, I feel like we’re dealing with a similar balancing act between usefulness and fear.
 
@@ -24,7 +24,7 @@ Standard 7.L.KL.3: When writing and speaking, choose precise language to express
 
 Entering the below prompt in Chat-GPT elicits the following response:
 
-[![](https://substackcdn.com/image/fetch/$s_!WM-6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94569ad0-7c36-44a1-acde-dd14bab62b39_930x91.png)](https://substackcdn.com/image/fetch/$s_!WM-6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F94569ad0-7c36-44a1-acde-dd14bab62b39_930x91.png)
+[![](images/94569ad0-7c36-44a1-acde-dd14bab62b39_930x91.png)](images/94569ad0-7c36-44a1-acde-dd14bab62b39_930x91.png)
 
 ---
 
@@ -83,7 +83,7 @@ Now, at a glance, that looks like a pretty solid (albeit basic) lesson that meet
 
 Let’s check back with Chat-GPT for help.
 
-[![](https://substackcdn.com/image/fetch/$s_!kaE4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5acb233-5fc4-445c-8340-1710239be09e_903x96.png)](https://substackcdn.com/image/fetch/$s_!kaE4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc5acb233-5fc4-445c-8340-1710239be09e_903x96.png)
+[![](images/c5acb233-5fc4-445c-8340-1710239be09e_903x96.png)](images/c5acb233-5fc4-445c-8340-1710239be09e_903x96.png)
 
 Sure, here's a handout with 10 examples of imprecise language and suggestions for how to make language more precise:
 
@@ -102,7 +102,7 @@ Examples of Imprecise Language and Suggestions for Precision
 9. Unnecessary words: "In my opinion, I think that pizza is really good." (Simplify the sentence by removing unnecessary words.) Suggestion: "That pizza is really good."
 10. Unclear antecedents: "After he saw her, he told her he loved her." (Who saw whom?) Suggestion: "After John saw Mary, he told her he loved her."
 
-[![](https://substackcdn.com/image/fetch/$s_!qd2o!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cb49b91-33f8-4e82-99f3-280d74b1e944_801x77.png)](https://substackcdn.com/image/fetch/$s_!qd2o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7cb49b91-33f8-4e82-99f3-280d74b1e944_801x77.png)
+[![](images/7cb49b91-33f8-4e82-99f3-280d74b1e944_801x77.png)](images/7cb49b91-33f8-4e82-99f3-280d74b1e944_801x77.png)
 
 Sure, here's an example of a news article that contains imprecise language:
 
@@ -118,7 +118,7 @@ To make the language more precise, the news article could be revised to include 
 
 "Five people were injured in a car accident on Main Street yesterday. The driver lost control of the vehicle and hit a fire hydrant, a mailbox, and a parked car before crashing into a brick wall. Two of the injured were taken to the hospital with serious injuries, while three were treated at the scene and released."
 
-[![](https://substackcdn.com/image/fetch/$s_!Lyka!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff2afa85-7199-4f59-9259-2e4256338b64_877x66.png)](https://substackcdn.com/image/fetch/$s_!Lyka!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff2afa85-7199-4f59-9259-2e4256338b64_877x66.png)
+[![](images/ff2afa85-7199-4f59-9259-2e4256338b64_877x66.png)](images/ff2afa85-7199-4f59-9259-2e4256338b64_877x66.png)
 
 Sure, here's a 6 point rubric for evaluating student writing for use of precise language:
 

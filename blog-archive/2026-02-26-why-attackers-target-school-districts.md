@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/why-attackers-target-school-districts
 
 *Pt 2: Soft Targets, High Leverage*
 
-[![](https://substackcdn.com/image/fetch/$s_!QEhc!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3edc69e-1f9d-4900-ab55-fb4d8956654b_1290x860.png)](https://substackcdn.com/image/fetch/$s_!QEhc!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff3edc69e-1f9d-4900-ab55-fb4d8956654b_1290x860.png)
+[![](images/f3edc69e-1f9d-4900-ab55-fb4d8956654b_1290x860.png)](images/f3edc69e-1f9d-4900-ab55-fb4d8956654b_1290x860.png)
 
 When district leaders ask *“Why would someone attack a school?”* they’re usually imagining a motive that doesn’t fit their reality: political extremism, ideological hostility, or some kind of targeted vendetta. Most often, they picture the stereotypical hacker in a black hoodie.
 

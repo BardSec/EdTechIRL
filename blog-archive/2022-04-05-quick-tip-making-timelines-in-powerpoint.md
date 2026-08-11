@@ -11,18 +11,18 @@ Assigning my students a digital timeline was always a nightmare, because it mean
 
 First, start with a fresh text box on your PPT slide and make a list of dates followed by events:
 
-[![](https://substackcdn.com/image/fetch/$s_!NOvl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F30ca1193-e907-40b9-bf76-e333517efaff_439x274.png)](https://substackcdn.com/image/fetch/$s_!NOvl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F30ca1193-e907-40b9-bf76-e333517efaff_439x274.png)
+[![](images/30ca1193-e907-40b9-bf76-e333517efaff_439x274.png)](images/30ca1193-e907-40b9-bf76-e333517efaff_439x274.png)
 
 Highlight and right click on the dates and select “CONVERT TO SMARTART”
 
-[![](https://substackcdn.com/image/fetch/$s_!8N6M!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2343058-2fe8-4cc3-80e4-9d487ec6366e_460x720.png)](https://substackcdn.com/image/fetch/$s_!8N6M!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2343058-2fe8-4cc3-80e4-9d487ec6366e_460x720.png)
+[![](images/c2343058-2fe8-4cc3-80e4-9d487ec6366e_460x720.png)](images/c2343058-2fe8-4cc3-80e4-9d487ec6366e_460x720.png)
 
 Next, select “BASIC TIMELINE”:
 
-[![](https://substackcdn.com/image/fetch/$s_!Ghxm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9c662c29-6ce9-43ff-b244-56217d075a9b_308x339.png)](https://substackcdn.com/image/fetch/$s_!Ghxm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F9c662c29-6ce9-43ff-b244-56217d075a9b_308x339.png)
+[![](images/9c662c29-6ce9-43ff-b244-56217d075a9b_308x339.png)](images/9c662c29-6ce9-43ff-b244-56217d075a9b_308x339.png)
 
 Voila! Timeline:
 
-[![](https://substackcdn.com/image/fetch/$s_!f_n8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1938ee6-542d-41fc-a248-e9e32f769e6a_1027x391.png)](https://substackcdn.com/image/fetch/$s_!f_n8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Ff1938ee6-542d-41fc-a248-e9e32f769e6a_1027x391.png)
+[![](images/f1938ee6-542d-41fc-a248-e9e32f769e6a_1027x391.png)](images/f1938ee6-542d-41fc-a248-e9e32f769e6a_1027x391.png)
 
 For additional details on SmartArt graphics, check out the documentation from Microsoft: <https://support.microsoft.com/en-us/topic/learn-more-about-smartart-graphics-6ea4fdb0-aa40-4fa9-9348-662d8af6ca2c>

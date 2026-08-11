@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/free-m365-playground-test-lab-for
 
 *A good place to blow up before you move to production, or as a playground while you learn*
 
-[![](https://substackcdn.com/image/fetch/$s_!Jgaa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc25fe23e-3ad6-4884-87f6-1d400c72ab06_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!Jgaa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc25fe23e-3ad6-4884-87f6-1d400c72ab06_1024x1024.png)
+[![](images/c25fe23e-3ad6-4884-87f6-1d400c72ab06_1024x1024.png)](images/c25fe23e-3ad6-4884-87f6-1d400c72ab06_1024x1024.png)
 
 Sometimes it’s nerve-racking to hit the “Save” button when you’re working in Microsoft 365. A misconfiguration here and a forgotten Conditional Access exclusion there, and it’s easy to lock yourself out or block your users from receiving their emails. To help feel better about committing changes, it’s great to have a test environment. It’s also nice when you’re planning a big architectural change or policy change and you’re curious about what it really looks like before going live. Sometimes, you just need a place where it’s safe to learn without worrying about breaking things.
 
@@ -32,26 +32,26 @@ The journey starts at the M365 Dev Center at <https://developer.microsoft.com/en
 
 When you start set up, you have two options — you can select an Instant Sandbox that includes the preconfigured users, or you can set up a blank sandbox. The primary difference, aside from the pre-provisioned data, is that the Configurable Sandbox can be set up with a custom domain name. The Instant Sandbox cannot. I went the Instant route, and I ended up taking the generic domain they assigned me and registered it as a domain on AWS as a .click domain for $3/year. While this isn’t a necessary step, it helped me more closely mirror my production environment.
 
-[![](https://substackcdn.com/image/fetch/$s_!K60Y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63cebef1-a632-47a5-a442-5a50f06bdf2c_814x718.png)](https://substackcdn.com/image/fetch/$s_!K60Y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F63cebef1-a632-47a5-a442-5a50f06bdf2c_814x718.png)
+[![](images/63cebef1-a632-47a5-a442-5a50f06bdf2c_814x718.png)](images/63cebef1-a632-47a5-a442-5a50f06bdf2c_814x718.png)
 
 There is minimal information to fill out to get started:
 
-[![](https://substackcdn.com/image/fetch/$s_!1vv6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96cc326b-cfc7-4d23-9543-b057a2840f06_430x874.png)](https://substackcdn.com/image/fetch/$s_!1vv6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F96cc326b-cfc7-4d23-9543-b057a2840f06_430x874.png)
+[![](images/96cc326b-cfc7-4d23-9543-b057a2840f06_430x874.png)](images/96cc326b-cfc7-4d23-9543-b057a2840f06_430x874.png)
 
 The message you get when you try to use a Google Voice number. This is also the last step of Set up:
 
-[![](https://substackcdn.com/image/fetch/$s_!3NkX!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feed6fb5c-c0da-4d6f-bd13-2d34a98e5cab_399x491.png)](https://substackcdn.com/image/fetch/$s_!3NkX!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Feed6fb5c-c0da-4d6f-bd13-2d34a98e5cab_399x491.png)
+[![](images/eed6fb5c-c0da-4d6f-bd13-2d34a98e5cab_399x491.png)](images/eed6fb5c-c0da-4d6f-bd13-2d34a98e5cab_399x491.png)
 
 And a successful cell phone addition:
 
-[![](https://substackcdn.com/image/fetch/$s_!9Lqg!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ce75d74-c53d-4d28-ac7a-a10c441112c7_429x562.png)](https://substackcdn.com/image/fetch/$s_!9Lqg!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ce75d74-c53d-4d28-ac7a-a10c441112c7_429x562.png)
+[![](images/5ce75d74-c53d-4d28-ac7a-a10c441112c7_429x562.png)](images/5ce75d74-c53d-4d28-ac7a-a10c441112c7_429x562.png)
 
 After submitting a valid cell phone, you’ll end up at the Developer Dashboard like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!IwuV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9b6f37f-12e4-4676-b0b5-bceec8c55f14_723x535.png)](https://substackcdn.com/image/fetch/$s_!IwuV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd9b6f37f-12e4-4676-b0b5-bceec8c55f14_723x535.png)
+[![](images/d9b6f37f-12e4-4676-b0b5-bceec8c55f14_723x535.png)](images/d9b6f37f-12e4-4676-b0b5-bceec8c55f14_723x535.png)
 
 Next, you can open up a new InPrivate/In Cognito window and go to portal.office.com or any other M365 signin location. Microsoft does let you use multiple M365 profiles in Edge, but I’ve found there’s less risk of getting your Dev and Production environments mixed up if you reserve a different browser for the different activities — i.e., Edge for Production and Chrome for Dev.
 
 After logging in with the username and password you set in the sandbox setup process and configuring MFA, you’ll have full run of an M365 tenant with admin access and E5 licensing to play, test, and learn.
 
-[![](https://substackcdn.com/image/fetch/$s_!-PF8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ebe09ea-8916-4288-9f1f-bb1526879025_1563x1018.png)](https://substackcdn.com/image/fetch/$s_!-PF8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4ebe09ea-8916-4288-9f1f-bb1526879025_1563x1018.png)
+[![](images/4ebe09ea-8916-4288-9f1f-bb1526879025_1563x1018.png)](images/4ebe09ea-8916-4288-9f1f-bb1526879025_1563x1018.png)

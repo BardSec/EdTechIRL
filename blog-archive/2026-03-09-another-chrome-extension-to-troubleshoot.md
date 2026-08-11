@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/another-chrome-extension-to-troubleshoot
 
 *My 4th Chrome Extension: WebLoad Troubleshooter*
 
-[![](https://substackcdn.com/image/fetch/$s_!iHbe!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad79a70b-370d-4fb7-9938-3f1cd3fb5c45_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!iHbe!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fad79a70b-370d-4fb7-9938-3f1cd3fb5c45_1536x1024.png)
+[![](images/ad79a70b-370d-4fb7-9938-3f1cd3fb5c45_1536x1024.png)](images/ad79a70b-370d-4fb7-9938-3f1cd3fb5c45_1536x1024.png)
 
 If you work in K12 technology, you’ve heard this before:
 

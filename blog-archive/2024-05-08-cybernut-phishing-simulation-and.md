@@ -11,7 +11,7 @@ CyberNut is a new phishing simulation and security awareness platform designed e
 
 This is NOT a paid advertisement — I just love the product!
 
-[![](https://substackcdn.com/image/fetch/$s_!OeoI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c040ba-3e3f-470f-afb5-3e664df78df7_1024x1024.webp)](https://substackcdn.com/image/fetch/$s_!OeoI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F15c040ba-3e3f-470f-afb5-3e664df78df7_1024x1024.webp)
+[![](images/15c040ba-3e3f-470f-afb5-3e664df78df7_1024x1024.webp)](images/15c040ba-3e3f-470f-afb5-3e664df78df7_1024x1024.webp)
 
 In 2017, I belonged to an organization that was hit by a very aggressive round of the Emotet banking trojan that was distributed by phishing emails. I was new in my role and I didn’t have a lot of knowledge or tools on how to stop the attack proactively. My take-away from that attack was that I needed the right tools to be able to respond quickly and efficiently. Fast forward to 2020, and we’d purchased security awareness training, phishing simulations, and phishing response tools from one of the pre-eminent names in the industry.
 
@@ -39,13 +39,13 @@ Finally, while most phishing simulation platforms are geared towards enterprise 
 
 To get started with CyberNut, they’re currently offering early adopter pricing with onboarding fees waived. The demo they’re providing also includes a free baseline test. For the baseline, implementation is fairly simple as users are uploaded via CSV. Even if you’re working with another phishing vendor, signing up for the free baseline could be a worthwhile exercise to have a comparison to your current program. For the last 8 phishing drills I’ve conducted, my organization’s phishing risk percentage has plateaued at roughly 11% with very little variation. Since that metric is based on the number of simulated phishing emails opened and links clicked, on the one hand that tells a consistent story, but the lack of variation has made me question the accuracy of the story. In my CyberNut baseline, 38% of my users opened the emails and 22% of my users clicked a link.
 
-[![](https://substackcdn.com/image/fetch/$s_!ZDvw!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc78afec1-9b0e-4ce0-a6e8-bad2423113d9_2133x1226.png)](https://substackcdn.com/image/fetch/$s_!ZDvw!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc78afec1-9b0e-4ce0-a6e8-bad2423113d9_2133x1226.png)
+[![](images/c78afec1-9b0e-4ce0-a6e8-bad2423113d9_2133x1226.png)](images/c78afec1-9b0e-4ce0-a6e8-bad2423113d9_2133x1226.png)
 
 ## Request a Demo
 
 To set up your free CyberNut trial with baseline campaign, go to [www.cybernut.com](https://www.cybernut.com) and click “have a referral code” in the upper-right hand corner of the page. When prompted for a referral code, enter **edtechirl.**
 
-[![](https://substackcdn.com/image/fetch/$s_!Z-gZ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F684e46ce-a005-4d88-8011-61a5eaba0cfb_2088x1046.png)](https://substackcdn.com/image/fetch/$s_!Z-gZ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F684e46ce-a005-4d88-8011-61a5eaba0cfb_2088x1046.png)
+[![](images/684e46ce-a005-4d88-8011-61a5eaba0cfb_2088x1046.png)](images/684e46ce-a005-4d88-8011-61a5eaba0cfb_2088x1046.png)
 
 You’ll be walked through a short survey for your contact information and current security awareness posture. After completing the demo request, CyberNut will schedule an onboarding call for your demo and setting up your baseline. In my case, the demo call took about 20 minutes and included configuring my mail tenant to allow messages from the CyberNut platform.
 
@@ -55,18 +55,18 @@ I’ve previously set up phishing simulations using KnowBe4, OhPhish, M365, and 
 
 In contrast, setting up a baseline test in CyberNut is a quick 5-10 minute commitment. Inside of the CyberNut admin console, click on Create Campaign —> Baseline Campaign.
 
-[![](https://substackcdn.com/image/fetch/$s_!l5bn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7656bf8-736b-40fa-8b95-ba605e1f8550_1846x1349.png)](https://substackcdn.com/image/fetch/$s_!l5bn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff7656bf8-736b-40fa-8b95-ba605e1f8550_1846x1349.png)
+[![](images/f7656bf8-736b-40fa-8b95-ba605e1f8550_1846x1349.png)](images/f7656bf8-736b-40fa-8b95-ba605e1f8550_1846x1349.png)
 
 Next, you’ll enter a campaign name, start and end dates, timezone, and any applicable blackout dates. There is also a prerequisite to set up allow-listing for a list of about 20 domains that the phishing samples will be sent from, but for me this part of the process was completed during my demo call.
 
-[![](https://substackcdn.com/image/fetch/$s_!Qx9o!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2ee657f-543c-4072-9d01-db8558333c9e_1416x929.png)](https://substackcdn.com/image/fetch/$s_!Qx9o!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2ee657f-543c-4072-9d01-db8558333c9e_1416x929.png)
+[![](images/c2ee657f-543c-4072-9d01-db8558333c9e_1416x929.png)](images/c2ee657f-543c-4072-9d01-db8558333c9e_1416x929.png)
 
 For the baseline, users are uploaded via CSV. Once you’ve been officially onboarded to CyberNut, there is a preferred option to connect directly to Azure or Google to import and sync users. The CSV is pretty barebones — the fields below are all that needs to be completed to kick off the test.
 
-[![](https://substackcdn.com/image/fetch/$s_!120V!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F081bca02-6800-477a-ad5c-ff17f94e59c4_914x406.png)](https://substackcdn.com/image/fetch/$s_!120V!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F081bca02-6800-477a-ad5c-ff17f94e59c4_914x406.png)
+[![](images/081bca02-6800-477a-ad5c-ff17f94e59c4_914x406.png)](images/081bca02-6800-477a-ad5c-ff17f94e59c4_914x406.png)
 
-[![](https://substackcdn.com/image/fetch/$s_!eRmh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05df36c5-e6b5-400b-9fbe-0d7042b67733_982x1110.png)](https://substackcdn.com/image/fetch/$s_!eRmh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F05df36c5-e6b5-400b-9fbe-0d7042b67733_982x1110.png)
+[![](images/05df36c5-e6b5-400b-9fbe-0d7042b67733_982x1110.png)](images/05df36c5-e6b5-400b-9fbe-0d7042b67733_982x1110.png)
 
 After the CSV is uploaded, it’s just a matter of reviewing the parameters you’ve set and confirming. Prior to the launch of the baseline you’ll receive an email from CyberNut to verify your account. And that’s it — baseline is ready to go!
 
-[![](https://substackcdn.com/image/fetch/$s_!hynn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd499c67e-58e7-48a9-9563-cfbbc41ff16d_1947x1068.png)](https://substackcdn.com/image/fetch/$s_!hynn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd499c67e-58e7-48a9-9563-cfbbc41ff16d_1947x1068.png)
+[![](images/d499c67e-58e7-48a9-9563-cfbbc41ff16d_1947x1068.png)](images/d499c67e-58e7-48a9-9563-cfbbc41ff16d_1947x1068.png)

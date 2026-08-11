@@ -14,7 +14,7 @@ A common struggle I have in IT is creating good, thorough documentation in a tim
 
 Well, ShareX has helped me dramatically with upping my documentation game. ShareX is THE screenshot tool to end all screenshot tools. It is free, open source, and has many handy tools and features built inside of it.
 
-[![](https://substackcdn.com/image/fetch/$s_!RUG6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fee29a3-5962-4624-8fe8-bbfa6ff7d50f_846x518.png)](https://substackcdn.com/image/fetch/$s_!RUG6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4fee29a3-5962-4624-8fe8-bbfa6ff7d50f_846x518.png)
+[![](images/4fee29a3-5962-4624-8fe8-bbfa6ff7d50f_846x518.png)](images/4fee29a3-5962-4624-8fe8-bbfa6ff7d50f_846x518.png)
 
 ### What makes ShareX stand out?
 
@@ -22,13 +22,13 @@ Many things! My favorites being how granular you can be with the settings to mak
 
 Most screenshot tools will do a couple of things. After you take a screenshot, you can make small edits, copy the picture to your clipboard, and save it. With ShareX, you have a **list** of things that you can have it do after taking your picture.
 
-[![](https://substackcdn.com/image/fetch/$s_!uEqD!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa716c0f-9052-4eda-a036-efbb07b3f654_253x422.png)](https://substackcdn.com/image/fetch/$s_!uEqD!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ffa716c0f-9052-4eda-a036-efbb07b3f654_253x422.png)
+[![](images/fa716c0f-9052-4eda-a036-efbb07b3f654_253x422.png)](images/fa716c0f-9052-4eda-a036-efbb07b3f654_253x422.png)
 
 The way I have mine set up is to go ahead and copy the image to my clipboard, and then to open in it the built in image editor.
 
 Speaking of the image editor, it is genuinely great. It allows for very simple and fast annotations with a variety of tools (some of my favorites being the text, highlighter, arrows, and pixelate!)
 
-[![](https://substackcdn.com/image/fetch/$s_!DH51!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89f418a2-4860-4d16-b728-69b6b739054d_1548x1012.png)](https://substackcdn.com/image/fetch/$s_!DH51!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F89f418a2-4860-4d16-b728-69b6b739054d_1548x1012.png)
+[![](images/89f418a2-4860-4d16-b728-69b6b739054d_1548x1012.png)](images/89f418a2-4860-4d16-b728-69b6b739054d_1548x1012.png)
 
 Once you assign your picture taking to a hot key, it cuts down on the time it takes to take the picture you are wanting to add to your instructions.
 
@@ -40,7 +40,7 @@ All of this together makes for an efficient solution for adding pictures to your
 
 Outside of just normal screenshots, ShareX also has a handful of random features under the ‘tools’ section that are also super handy.
 
-[![](https://substackcdn.com/image/fetch/$s_!T6c6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cbc4257-24ff-4b8a-a94a-0126cd84d0f3_198x490.png)](https://substackcdn.com/image/fetch/$s_!T6c6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8cbc4257-24ff-4b8a-a94a-0126cd84d0f3_198x490.png)
+[![](images/8cbc4257-24ff-4b8a-a94a-0126cd84d0f3_198x490.png)](images/8cbc4257-24ff-4b8a-a94a-0126cd84d0f3_198x490.png)
 
 My favorites from these are the color picker, OCR (allows for copying text from a picture), QR Code generator and reader, and the quick DNS changer.
 

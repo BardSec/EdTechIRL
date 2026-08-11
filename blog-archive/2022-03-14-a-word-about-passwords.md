@@ -9,7 +9,7 @@ source: https://www.edtechirl.com/p/a-word-about-passwords
 
 #### 
 
-[![](https://images.unsplash.com/photo-1635237393049-55046279ebb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwxNHx8cGFzc3dvcmRzfGVufDB8fHx8MTY0NzIyMzcwNA&ixlib=rb-1.2.1&q=80&w=1080)](https://images.unsplash.com/photo-1635237393049-55046279ebb8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwxNHx8cGFzc3dvcmRzfGVufDB8fHx8MTY0NzIyMzcwNA&ixlib=rb-1.2.1&q=80&w=1080)
+[![](images/photo-1635237393049-55046279ebb8.jpg)](images/photo-1635237393049-55046279ebb8.jpg)
 
 Photo by [olieman.eth](https://unsplash.com/@moneyphotos "olieman.eth") on [Unsplash](https://unsplash.com "Unsplash")
 
@@ -27,4 +27,4 @@ Password reuse keeps me awake at night. To think that everyone will use totally 
   
 To help make this case more clearly to users, we subscribe to[HaveIBeenPwned.com](https://www.haveibeenpwned.com/)'s domain notification list. Whenever HIBP posts details of another breach, if any of the folks in my domain were included in the breach, I get a notification. I then notifify those users with a sample letter outlining what service they use that was breached, the data that was breached, and instructions for changing their most important school passwords, and point out that they should change that password anywhere they use it in junction with their school email account.
 
-[![have i been pwned sample letter](https://substackcdn.com/image/fetch/$s_!-7uL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7731b7de-4f2c-48ab-812c-7f9be3636789_626x714.png "have i been pwned sample letter")](https://substackcdn.com/image/fetch/$s_!-7uL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7731b7de-4f2c-48ab-812c-7f9be3636789_626x714.png)
+[![have i been pwned sample letter](images/7731b7de-4f2c-48ab-812c-7f9be3636789_626x714.png "have i been pwned sample letter")](images/7731b7de-4f2c-48ab-812c-7f9be3636789_626x714.png)

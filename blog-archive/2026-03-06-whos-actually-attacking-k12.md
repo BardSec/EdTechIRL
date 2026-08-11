@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/whos-actually-attacking-k12
 
 *Pt 3: Ransomware Crews, Scammers, Students, and Vendors*
 
-[![](https://substackcdn.com/image/fetch/$s_!8MzG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a728df2-cdb9-4933-82c7-f43cab725c19_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!8MzG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6a728df2-cdb9-4933-82c7-f43cab725c19_1536x1024.png)
+[![](images/6a728df2-cdb9-4933-82c7-f43cab725c19_1536x1024.png)](images/6a728df2-cdb9-4933-82c7-f43cab725c19_1536x1024.png)
 
 When school leaders hear “cyber threat actors,” the mental image is often vague and intimidating: anonymous hackers, foreign governments, or shadowy groups with unlimited technical skill.
 

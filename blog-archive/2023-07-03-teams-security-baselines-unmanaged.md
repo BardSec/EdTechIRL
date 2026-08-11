@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/teams-security-baselines-unmanaged
 
 *Spending 10 minutes or less will help your M365 environment be a little more secure*
 
-[![](https://substackcdn.com/image/fetch/$s_!neHu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F622403c6-4f01-4177-9d6e-1498ef5ab850_800x500.png)](https://substackcdn.com/image/fetch/$s_!neHu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F622403c6-4f01-4177-9d6e-1498ef5ab850_800x500.png)
+[![](images/622403c6-4f01-4177-9d6e-1498ef5ab850_800x500.png)](images/622403c6-4f01-4177-9d6e-1498ef5ab850_800x500.png)
 
 In Oct. 2022, CISA released a document called [Microsoft Teams: M365 Minimum Viable Secure Configuration Baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Teams%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf). This document outlines 13 steps to take to raise your Microsoft Teams environment to a minimum viable security posture. In this series, we’ll take a look at these 13 steps over a series of articles.
 
@@ -40,7 +40,7 @@ Login to the Teams Admin Center (teams.cmd.ms) and navigate to Users —> Extern
 
 Two-way communication is not recommended, so if your settings look like the settings below, they should be reconfigured.
 
-[![](https://substackcdn.com/image/fetch/$s_!XX1U!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5834afb6-057a-4f2c-bc8d-fc2842a163bf_797x247.png)](https://substackcdn.com/image/fetch/$s_!XX1U!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5834afb6-057a-4f2c-bc8d-fc2842a163bf_797x247.png)
+[![](images/5834afb6-057a-4f2c-bc8d-fc2842a163bf_797x247.png)](images/5834afb6-057a-4f2c-bc8d-fc2842a163bf_797x247.png)
 
 ### One-way communication
 
@@ -48,7 +48,7 @@ Two-way communication is not recommended, so if your settings look like the sett
 
 This security baseline recommends that this setting should not be enabled, but can be to support a legitimate use case. To allow one-way communication initiated by your internal users, under “Teams accounts not managed by an organization,” set the toggle for “People in my org can communicate with Teams users whose accounts aren’t managed by an organization” to ON, but leave the “External users with Teams accounts not managed by an organization can contact users in my organization” unchecked like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!3E_B!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e3ea2a5-3d8e-42d4-bef7-37b2693fe832_778x245.png)](https://substackcdn.com/image/fetch/$s_!3E_B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0e3ea2a5-3d8e-42d4-bef7-37b2693fe832_778x245.png)
+[![](images/0e3ea2a5-3d8e-42d4-bef7-37b2693fe832_778x245.png)](images/0e3ea2a5-3d8e-42d4-bef7-37b2693fe832_778x245.png)
 
 ### No-way communication
 
@@ -56,7 +56,7 @@ This security baseline recommends that this setting should not be enabled, but c
 
 This is the recommended and most secure option. To disallow communication between your internal users and external unmanaged users, under “Teams accounts not managed by an organization,” set the toggle for “People in my org can communicate with Teams users whose accounts aren’t managed by an organization” to OFF like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!dAJa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4554858-c09a-44c0-9005-b65a5b20e880_760x137.png)](https://substackcdn.com/image/fetch/$s_!dAJa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe4554858-c09a-44c0-9005-b65a5b20e880_760x137.png)
+[![](images/e4554858-c09a-44c0-9005-b65a5b20e880_760x137.png)](images/e4554858-c09a-44c0-9005-b65a5b20e880_760x137.png)
 
 ## Resources:
 

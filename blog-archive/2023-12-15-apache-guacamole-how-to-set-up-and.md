@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/apache-guacamole-how-to-set-up-and
 
 # Apache Guacamole with Cloudflare: How to Set up and Secure Remote Access to All the Things
 
-[![](https://substackcdn.com/image/fetch/$s_!k0F4!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77ba8d2f-c159-45fb-bae6-307b6fc20065_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!k0F4!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77ba8d2f-c159-45fb-bae6-307b6fc20065_1024x1024.png)
+[![](images/77ba8d2f-c159-45fb-bae6-307b6fc20065_1024x1024.png)](images/77ba8d2f-c159-45fb-bae6-307b6fc20065_1024x1024.png)
 
 *Disclaimer: Providing external access to your environment is never something to be taken lightly. Please consider the sensitivity of your environment and the security controls you have in place before creating external access to internal resources, regardless of the method you use to provide access.*
 
@@ -17,13 +17,13 @@ My paranoia may come out a little in this post, but when you’re dealing with e
 
 Once configured (more on that later), Guacamole gives you a dashboard of connections over RDP, VNC, SSH, Telnet (yuck), or Kubernetes sessions with the network information and credentials already included. So once you’re in Guacamole, all you have to do it click on a connection to make a remote connection to the device inside of your browser. After you click on a connection, it will open up a session in the browser like in the image below.
 
-[![](https://substackcdn.com/image/fetch/$s_!R5FL!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc748396c-6a74-4c6e-b1f8-ff32d86de6e3_2191x1251.png)](https://substackcdn.com/image/fetch/$s_!R5FL!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc748396c-6a74-4c6e-b1f8-ff32d86de6e3_2191x1251.png)
+[![](images/c748396c-6a74-4c6e-b1f8-ff32d86de6e3_2191x1251.png)](images/c748396c-6a74-4c6e-b1f8-ff32d86de6e3_2191x1251.png)
 
 From an administrative standpoint, you can also create connection groups. For example, you can make a group for Domain Controllers that houses all of your DCs; a group for Cameras for connections to your security cameras or NVR servers; an IoT group for connections to vape sensors, lighting controllers, etc. The options are endless based on your infrastructure.
 
 The power of these groups comes in providing role-based access. If you have a staff member who needs to access all of your IoT group, but nothing else, you can assign them access to only be able to see and make connections to the IoT group when they sign in to Guacamole. Similarly, if you have a contractor or other 3rd party that needs access to a group or a specific machine, you can tailor their remote access to just that one device or group by editing their user account and checking the appropriate boxes:
 
-[![](https://substackcdn.com/image/fetch/$s_!e2XJ!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61540771-86e4-481e-872c-edf6edeca1f4_340x231.png)](https://substackcdn.com/image/fetch/$s_!e2XJ!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F61540771-86e4-481e-872c-edf6edeca1f4_340x231.png)
+[![](images/61540771-86e4-481e-872c-edf6edeca1f4_340x231.png)](images/61540771-86e4-481e-872c-edf6edeca1f4_340x231.png)
 
 As one use case for this, we have several vendors who offer support on specific systems (cameras, phones, IoT). Whereas we may have previously provided them a jumpbox accessed by TeamViewer, we can now funnel them through Guacamole. Or, in some cases, we’ve been able to cut out the jumpbox and provide access to just the webapp they need through the Cloudflare process described later in this article.
 
@@ -212,7 +212,7 @@ mysql -u root -p
 
 After MariaDB loads, you should be at a MariaDB SQL prompt like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!Mm3b!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fbce447-2aeb-4766-a439-678eea33e7a5_215x37.png)](https://substackcdn.com/image/fetch/$s_!Mm3b!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3fbce447-2aeb-4766-a439-678eea33e7a5_215x37.png)
+[![](images/3fbce447-2aeb-4766-a439-678eea33e7a5_215x37.png)](images/3fbce447-2aeb-4766-a439-678eea33e7a5_215x37.png)
 
 Once at that prompt, run the following command to change the root password (replace ‘password’ with the ‘desired password’), create the Guacamole database, create a db user for Guacamole, set the password for the Guacamole db user, and assign privileges.
 
@@ -272,7 +272,7 @@ sudo systemctl restart tomcat9 guacd mysql
 
 Now, if everything has gone to plan so far, if you go to the IP of your server at port 8080 (e.g., 192.168.1.125:8080, localhost:8080), you’ll see a landing page for Tomcat like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!urkd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe64cb103-7e97-483e-844a-0b329862743a_920x501.png)](https://substackcdn.com/image/fetch/$s_!urkd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe64cb103-7e97-483e-844a-0b329862743a_920x501.png)
+[![](images/e64cb103-7e97-483e-844a-0b329862743a_920x501.png)](images/e64cb103-7e97-483e-844a-0b329862743a_920x501.png)
 
 On the one hand, this is awesome because, well, you just made a webserver and here it is!
 
@@ -298,7 +298,7 @@ sudo systemctl restart tomcat9 guacd mysql
 
 NOW you should see a bona fide Guacamole sign in page:
 
-[![](https://substackcdn.com/image/fetch/$s_!F4fm!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e2262d0-2ead-4b63-955c-9dd6957d03b0_807x608.png)](https://substackcdn.com/image/fetch/$s_!F4fm!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2e2262d0-2ead-4b63-955c-9dd6957d03b0_807x608.png)
+[![](images/2e2262d0-2ead-4b63-955c-9dd6957d03b0_807x608.png)](images/2e2262d0-2ead-4b63-955c-9dd6957d03b0_807x608.png)
 
 For testing purposes, you can now log in to Guacamole with the un/pw combo guacadmin/guacadmin. If you’re playing around and just want this in your homelab , this can be as far as you need to go. However, this is a great time to set up some added security with MFA and Cloudflare, as well as a chance to set up your Guac for remote access. You may also note that at this point, this is an insecure HTTP site accessed by IP. We’ll fix both of these problems in the coming steps.
 
@@ -308,19 +308,19 @@ For testing purposes, you can now log in to Guacamole with the un/pw combo guaca
 
 To make MFA easier in the next step, now is a good time to disable the default guacadmin account. Start by signing in to Guacamole using the default credentials (guacadmin/guacadmin), and then go to the account info in the upper-right hand corner of the screen and select Settings → Users → +New User
 
-[![](https://substackcdn.com/image/fetch/$s_!KU62!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8338ff49-56c2-4f61-bbb5-a4cded257fd7_1268x477.png)](https://substackcdn.com/image/fetch/$s_!KU62!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8338ff49-56c2-4f61-bbb5-a4cded257fd7_1268x477.png)
+[![](images/8338ff49-56c2-4f61-bbb5-a4cded257fd7_1268x477.png)](images/8338ff49-56c2-4f61-bbb5-a4cded257fd7_1268x477.png)
 
 From here, you can create a solid, secure username and password. You can also add additional time- and date-based access restrictions. These should remain unconfigured on your admin account, but when you start to delegate access to other users, especially external users, this is a valuable tool to prevent privilege creep over time. This page is also where you can assign users access to only specific connections or connection groups.
 
-[![](https://substackcdn.com/image/fetch/$s_!mIwt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30aea4b5-e0cc-4f35-aae7-57e41dde7900_409x422.png)](https://substackcdn.com/image/fetch/$s_!mIwt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F30aea4b5-e0cc-4f35-aae7-57e41dde7900_409x422.png)
+[![](images/30aea4b5-e0cc-4f35-aae7-57e41dde7900_409x422.png)](images/30aea4b5-e0cc-4f35-aae7-57e41dde7900_409x422.png)
 
 On the administrator account, you should also be sure that you provision the new account with permission to administer Guacamole:
 
-[![](https://substackcdn.com/image/fetch/$s_!S0xr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe37d914b-1ec7-4dee-b80a-e59863071a0a_319x248.png)](https://substackcdn.com/image/fetch/$s_!S0xr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe37d914b-1ec7-4dee-b80a-e59863071a0a_319x248.png)
+[![](images/e37d914b-1ec7-4dee-b80a-e59863071a0a_319x248.png)](images/e37d914b-1ec7-4dee-b80a-e59863071a0a_319x248.png)
 
 Once you have created —and tested— your new admin account, it’s best practice to go back to Settings —> Users —> click on guacadmin and either disable or preferably delete the account. At a minimum, the password should be reset.
 
-[![](https://substackcdn.com/image/fetch/$s_!OgQl!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5dc2eb8-7869-403d-b093-87f51d1fc8f1_1170x1455.png)](https://substackcdn.com/image/fetch/$s_!OgQl!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa5dc2eb8-7869-403d-b093-87f51d1fc8f1_1170x1455.png)
+[![](images/a5dc2eb8-7869-403d-b093-87f51d1fc8f1_1170x1455.png)](images/a5dc2eb8-7869-403d-b093-87f51d1fc8f1_1170x1455.png)
 
 ## Configuring MFA
 
@@ -352,7 +352,7 @@ sudo shutdown -r
 
 After it comes back up, Guacamole should be accessible at port 8080 again. The next time you log-in, it should require MFA registration like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!WTmG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90c1d25a-2ba7-4185-9294-e887a8563c14_620x657.png)](https://substackcdn.com/image/fetch/$s_!WTmG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F90c1d25a-2ba7-4185-9294-e887a8563c14_620x657.png)
+[![](images/90c1d25a-2ba7-4185-9294-e887a8563c14_620x657.png)](images/90c1d25a-2ba7-4185-9294-e887a8563c14_620x657.png)
 
 Once you complete MFA registration, your new admin account should be active and protected by time-based OTP MFA.
 
@@ -372,11 +372,11 @@ You can use an existing domain that you already have access to, but for the sake
 
 This is where the magic starts. In Cloudflare, navigate to Zero Trust —> Access —> Tunnels and click on Create a Tunnel:
 
-[![](https://substackcdn.com/image/fetch/$s_!HJ9k!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0aa8db3a-0eff-4cd5-bc7d-ae0d8add5ed4_761x310.png)](https://substackcdn.com/image/fetch/$s_!HJ9k!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0aa8db3a-0eff-4cd5-bc7d-ae0d8add5ed4_761x310.png)
+[![](images/0aa8db3a-0eff-4cd5-bc7d-ae0d8add5ed4_761x310.png)](images/0aa8db3a-0eff-4cd5-bc7d-ae0d8add5ed4_761x310.png)
 
 Walk through the wizard to name the tunnel. If you’ve followed this guide, you’ll select Debian —> 64-bit and you’ll copy the bit of code under “If you don’t have cloudflared installed on your machine.”
 
-[![](https://substackcdn.com/image/fetch/$s_!O1Sn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc74c1bbe-30fd-4f3f-8d73-f4af5a2b9996_1082x883.png)](https://substackcdn.com/image/fetch/$s_!O1Sn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc74c1bbe-30fd-4f3f-8d73-f4af5a2b9996_1082x883.png)
+[![](images/c74c1bbe-30fd-4f3f-8d73-f4af5a2b9996_1082x883.png)](images/c74c1bbe-30fd-4f3f-8d73-f4af5a2b9996_1082x883.png)
 
 Take this bit of code and run it on the server where Guacamole lives. The code snippet is customized and contains a token to access your environment. Please safeguard this token. After the commands complete, finish the tunnel wizard.
 
@@ -384,13 +384,13 @@ Take this bit of code and run it on the server where Guacamole lives. The code s
 
 The last step of the wizard is to make up a subdomain and select the domain you attached to Cloudflare. If you purchased from Cloudflare, all this takes is clicking on the drop down and picking the domain. Finally, enter the IP and port where Cloudflare will access Guacamole (if the Cloudflare Tunnel is on the same server where your Guac webapp is hosted you can use http://localhost:8080 or http://127.0.0.1:8080).
 
-[![](https://substackcdn.com/image/fetch/$s_!kFPE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb70c8cc9-d211-48fb-9d10-bec28194bab2_1103x387.png)](https://substackcdn.com/image/fetch/$s_!kFPE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb70c8cc9-d211-48fb-9d10-bec28194bab2_1103x387.png)
+[![](images/b70c8cc9-d211-48fb-9d10-bec28194bab2_1103x387.png)](images/b70c8cc9-d211-48fb-9d10-bec28194bab2_1103x387.png)
 
 *NOTE: Be sure that you’ve selected HTTP under type. If you select HTTPS, you’ll get a Bad Gateway error from Cloudflare. That doesn’t mean you’re unencrypted though. Cloudflare serves as a reverse proxy, so your traffic will be served as HTTPS.*
 
 Your tunnel should now display as HEALTHY:
 
-[![](https://substackcdn.com/image/fetch/$s_!HcN6!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37b71a7f-9546-47b7-9017-ac112c040f1e_736x221.png)](https://substackcdn.com/image/fetch/$s_!HcN6!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37b71a7f-9546-47b7-9017-ac112c040f1e_736x221.png)
+[![](images/37b71a7f-9546-47b7-9017-ac112c040f1e_736x221.png)](images/37b71a7f-9546-47b7-9017-ac112c040f1e_736x221.png)
 
 At this point, your Guacamole instance should be accessible on the public internet (😬)
 
@@ -398,33 +398,33 @@ At this point, your Guacamole instance should be accessible on the public intern
 
 Now that Guacamole is publicly accessible, we need to place some additional restrictions on who can access it. Even though we’ve set Guacamole up to require MFA, we really want to add layers to the security and prevent bad guys from even getting that far. From the main Cloudflare page, go to Zero Trust —> Access —> Applications. From here, you’ll click +Add an Application and select Self-Hosted.
 
-[![](https://substackcdn.com/image/fetch/$s_!jW1W!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2ce0f8a-fd22-4c16-9c31-c0abe04e98bd_1155x564.png)](https://substackcdn.com/image/fetch/$s_!jW1W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2ce0f8a-fd22-4c16-9c31-c0abe04e98bd_1155x564.png)
+[![](images/c2ce0f8a-fd22-4c16-9c31-c0abe04e98bd_1155x564.png)](images/c2ce0f8a-fd22-4c16-9c31-c0abe04e98bd_1155x564.png)
 
 Next, you’ll provide a name for the application, and enter the same subdomain and domain you previously entered for your tunnel.
 
-[![](https://substackcdn.com/image/fetch/$s_!D6qt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2547c1a9-4b3e-4dac-a112-36c40570a5e6_1138x502.png)](https://substackcdn.com/image/fetch/$s_!D6qt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2547c1a9-4b3e-4dac-a112-36c40570a5e6_1138x502.png)
+[![](images/2547c1a9-4b3e-4dac-a112-36c40570a5e6_1138x502.png)](images/2547c1a9-4b3e-4dac-a112-36c40570a5e6_1138x502.png)
 
 There are also some additional configurations you can make here on the Add an Application screen to customize error messages, add a logo, or add an identity provider. To get started, you can accept all the defaults and click Next. I’ve not done this yet, but my next addition to my Guacamole setup will be to add Azure as an Identity Provider in Cloudflare to enforce Entra ID group membership as a factor in gaining access. [Update: I set up Azure as an ID provider for Cloudflare today, and I definitely recommend this route. I’ll update with details in a separate post after I have a chance to test it more]
 
 After configuring the application, it’s time to add a policy. As an example of the types of policy requirements you can add, you can require users to enter a one-time passcode sent to an email address in your organization, require sign in from the US, and require sign in only from specific IP addresses or ranges. For Guacamole in my environment, only 3 people require access, so the administrative burden of managing these 3 IP addresses plus the IP address range for our organization is light. This layer of defense on the application provides 3 specific hurdles someone has to overcome before being able to even get to the point of signing in with MFA. While this may seem like overkill, the broad exposure Guacamole can provide to your environment makes defense in depth necessary.
 
-[![](https://substackcdn.com/image/fetch/$s_!Xqvd!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1547230c-109c-4b30-bd7d-4e3f09d5f664_973x731.png)](https://substackcdn.com/image/fetch/$s_!Xqvd!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1547230c-109c-4b30-bd7d-4e3f09d5f664_973x731.png)
+[![](images/1547230c-109c-4b30-bd7d-4e3f09d5f664_973x731.png)](images/1547230c-109c-4b30-bd7d-4e3f09d5f664_973x731.png)
 
 After saving the application, if you meet the location and IP requirements you established in the app policy above, then visiting the subdomain and domain you specified will take you to a Cloudflare login page like below, where you’ll need to enter your email address and wait for the OTP code to be sent.
 
-[![](https://substackcdn.com/image/fetch/$s_!p_Se!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d46df8f-0a01-4bf6-93f8-14e7e8706399_638x866.png)](https://substackcdn.com/image/fetch/$s_!p_Se!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8d46df8f-0a01-4bf6-93f8-14e7e8706399_638x866.png)
+[![](images/8d46df8f-0a01-4bf6-93f8-14e7e8706399_638x866.png)](images/8d46df8f-0a01-4bf6-93f8-14e7e8706399_638x866.png)
 
 After authenticating with the code, you’ll be directed to the Guacamole sign in page. Notice that the domain is being served over HTTPS with a valid certificate, thanks to the Cloudflare tunnel.
 
-[![](https://substackcdn.com/image/fetch/$s_!E3YP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb01ccd29-a4a0-4b6d-a184-2e36972ce285_718x560.png)](https://substackcdn.com/image/fetch/$s_!E3YP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb01ccd29-a4a0-4b6d-a184-2e36972ce285_718x560.png)
+[![](images/b01ccd29-a4a0-4b6d-a184-2e36972ce285_718x560.png)](images/b01ccd29-a4a0-4b6d-a184-2e36972ce285_718x560.png)
 
 If you don’t meet the conditional location/IP restrictions, you’ll see a page similar to this:
 
-[![](https://substackcdn.com/image/fetch/$s_!nQA5!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F696cca42-a3c7-4690-b6e5-5a57cfebb83b_403x564.png)](https://substackcdn.com/image/fetch/$s_!nQA5!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F696cca42-a3c7-4690-b6e5-5a57cfebb83b_403x564.png)
+[![](images/696cca42-a3c7-4690-b6e5-5a57cfebb83b_403x564.png)](images/696cca42-a3c7-4690-b6e5-5a57cfebb83b_403x564.png)
 
 In addition to the application policies we configured, there are also Cloudflare settings that can be configured under Websites —> [Your Site] —> Security —> WAF (web application firewall). You can explore the Traffic Sequence diagram on the right-hand side of WAF page for options. Many of these configuration options here are free, but some do require a paid subscription. Virtually each link here is a rabbit hole you can explore for ways to make access to your Guacamole more tailored to your needs.
 
-[![](https://substackcdn.com/image/fetch/$s_!n9nP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcce654c1-0d11-4621-ab28-13a9a0c96456_1390x968.png)](https://substackcdn.com/image/fetch/$s_!n9nP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcce654c1-0d11-4621-ab28-13a9a0c96456_1390x968.png)
+[![](images/cce654c1-0d11-4621-ab28-13a9a0c96456_1390x968.png)](images/cce654c1-0d11-4621-ab28-13a9a0c96456_1390x968.png)
 
 If you decide not to use Cloudflare for a layer of defense before logging in to Guacamole, you may want to consider installing Fail2Ban on the Guacamole server and integrating it with Cloudflare to provide some customizable options for stopping brute force attacks. A good walk-through of this process can be found in this [YouTube video from #Geek2Gether](https://www.youtube.com/watch?v=qblSFoXVEos), along with other great Guacamole setup tutorials.
 
@@ -462,15 +462,15 @@ Once you’ve gathered the above information, navigate to Settings —> Connecti
 
 In the “Edit Connection” section, enter the display name you want to use for the connection on your Guacamole dashboard and select the protocol. Under location, Root is the default location. If you have a Connection Group you want to use, this is where you would assign it (note: the Connection Group has to be created before you can assign a connection to it. Create a Connection Group under Settings —> Connections —> New Group).
 
-[![](https://substackcdn.com/image/fetch/$s_!FcnG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F603a5a3b-9ccb-4d27-987f-1e4d3c7a0827_283x154.png)](https://substackcdn.com/image/fetch/$s_!FcnG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F603a5a3b-9ccb-4d27-987f-1e4d3c7a0827_283x154.png)
+[![](images/603a5a3b-9ccb-4d27-987f-1e4d3c7a0827_283x154.png)](images/603a5a3b-9ccb-4d27-987f-1e4d3c7a0827_283x154.png)
 
 Next, scroll down to the Parameters section. Here you’ll enter the Hostname (or IP) of the device you want to connect to, followed by the port number. Enter the username and password used to access the resource and enter the domain it’s a member of if applicable. Select NLA (Network Level Authentication) under security mode. I usually check the “ignore server certificate error” box. If you normally get an insecure error when trying to access this resource on prep, but ignore it and connect anyway, checking this box will have the same result.
 
-[![](https://substackcdn.com/image/fetch/$s_!NAcq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa27aa67b-457a-4c20-9a23-6076729d9fa4_475x386.png)](https://substackcdn.com/image/fetch/$s_!NAcq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa27aa67b-457a-4c20-9a23-6076729d9fa4_475x386.png)
+[![](images/a27aa67b-457a-4c20-9a23-6076729d9fa4_475x386.png)](images/a27aa67b-457a-4c20-9a23-6076729d9fa4_475x386.png)
 
 Next, save the connection and go back to the Home link in your account info to go back to the main dashboard. You should now see the connection you created in your “All Connections” list.
 
-[![](https://substackcdn.com/image/fetch/$s_!ywTt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08d3a173-7b36-45ca-921b-966b7a817145_425x564.png)](https://substackcdn.com/image/fetch/$s_!ywTt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F08d3a173-7b36-45ca-921b-966b7a817145_425x564.png)
+[![](images/08d3a173-7b36-45ca-921b-966b7a817145_425x564.png)](images/08d3a173-7b36-45ca-921b-966b7a817145_425x564.png)
 
 When you test your connection, if it times out or fails, the most common culprit is needing to all RDP through the host-based firewall on that device. In Windows, this is accessed through the Windows Defender Firewall app and clicking on “Allow an app or feature through Windows Defender Firewall” and scroll down to RDP to ensure it’s enabled. You will need admin access on the device to make this change.
 
@@ -478,7 +478,7 @@ When you test your connection, if it times out or fails, the most common culprit
 
 The process for an SSH connection is similar to the above steps but substituting SSH and the appropriate port (22 unless you’ve changed it to a non-standard port). One notable difference is that you also have the ability to use an SSH keypair to authenticate if your server is configured for keypair access.
 
-[![](https://substackcdn.com/image/fetch/$s_!KJmI!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd71fc7c1-3417-47e5-b87e-abceae33fc07_482x459.png)](https://substackcdn.com/image/fetch/$s_!KJmI!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd71fc7c1-3417-47e5-b87e-abceae33fc07_482x459.png)
+[![](images/d71fc7c1-3417-47e5-b87e-abceae33fc07_482x459.png)](images/d71fc7c1-3417-47e5-b87e-abceae33fc07_482x459.png)
 
 ## Other Neat Features to Consider in Guacamole
 

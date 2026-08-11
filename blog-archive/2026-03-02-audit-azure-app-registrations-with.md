@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/audit-azure-app-registrations-with
 
 *What We Miss During Compromised Account Cleanup*
 
-[![](https://substackcdn.com/image/fetch/$s_!n5fn!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68fb7274-deb9-424e-85a9-3e86551116ad_1024x1536.png)](https://substackcdn.com/image/fetch/$s_!n5fn!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F68fb7274-deb9-424e-85a9-3e86551116ad_1024x1536.png)
+[![](images/68fb7274-deb9-424e-85a9-3e86551116ad_1024x1536.png)](images/68fb7274-deb9-424e-85a9-3e86551116ad_1024x1536.png)
 
 It usually starts the same way:
 
@@ -107,37 +107,37 @@ Entra App Hunter exists to help you measure that radius before — and after —
 
 The app inventory can be sorted by creation date, audience, owners, permissions, or risk level. In the case of triaging a compromised account, the date sort makes it easy to look for apps created during the compromised period, and then quickly assess the risk level based on permissions.
 
-[![](https://substackcdn.com/image/fetch/$s_!oZP8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89bf67b-7944-4790-934b-b47cd6c28575_2440x1050.png)](https://substackcdn.com/image/fetch/$s_!oZP8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe89bf67b-7944-4790-934b-b47cd6c28575_2440x1050.png)
+[![](images/e89bf67b-7944-4790-934b-b47cd6c28575_2440x1050.png)](images/e89bf67b-7944-4790-934b-b47cd6c28575_2440x1050.png)
 
 ### Permissions Audit
 
 Using the Permissions Audit tab, you can hunt for overly permissive apps by looking for specific permission grants.
 
-[![](https://substackcdn.com/image/fetch/$s_!OpXy!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f751811-cbfc-4584-990a-d7f9114efd8b_2450x1002.png)](https://substackcdn.com/image/fetch/$s_!OpXy!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9f751811-cbfc-4584-990a-d7f9114efd8b_2450x1002.png)
+[![](images/9f751811-cbfc-4584-990a-d7f9114efd8b_2450x1002.png)](images/9f751811-cbfc-4584-990a-d7f9114efd8b_2450x1002.png)
 
 ## Access Creep
 
 Another danger of App Registrations/Enterprise Applications in M365 is over-permissive access. In M365 App Registrations, the default behavior is to let anyone in your tenant access the application. That makes it easy to set up an application and unintentionally make it available to more people than you intend. The App Inventory screen lets you view an app’s assignment scope at a glance. Ideally, access to an app should only be provided to users who need it. This view helps you see if an app that should only be used by IT staff is actually available to everyone in your tenant. This feature is also sortable.
 
-[![](https://substackcdn.com/image/fetch/$s_!y_HP!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F942f1bd7-e82e-47fd-a483-8879d07ab67b_2408x842.png)](https://substackcdn.com/image/fetch/$s_!y_HP!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F942f1bd7-e82e-47fd-a483-8879d07ab67b_2408x842.png)
+[![](images/942f1bd7-e82e-47fd-a483-8879d07ab67b_2408x842.png)](images/942f1bd7-e82e-47fd-a483-8879d07ab67b_2408x842.png)
 
 ### Compliance Check
 
 Another app risk is the accidental over-exposure of student data. The Compliance view identifies apps with broad permissions to read directory data, an attribute that makes an app more likely to lead to a FERPA compliance issue.
 
-[![](https://substackcdn.com/image/fetch/$s_!a_8f!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47487cb0-287c-48de-8bb0-45e19ae9594a_2000x1436.png)](https://substackcdn.com/image/fetch/$s_!a_8f!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F47487cb0-287c-48de-8bb0-45e19ae9594a_2000x1436.png)
+[![](images/47487cb0-287c-48de-8bb0-45e19ae9594a_2000x1436.png)](images/47487cb0-287c-48de-8bb0-45e19ae9594a_2000x1436.png)
 
 ### Secrets Housekeeping
 
 Outside of compromised accounts, Entra app registrations also run the risk of interrupting operations if their client secrets expire. The dashboard also has a credential tracking that lets you know which applications have expired secrets or certificates, with a timeline of what’s expiring in the next 30 days, 31-60 days, and 61-90 days.
 
-[![](https://substackcdn.com/image/fetch/$s_!Zi2v!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6db5e335-a2fb-4cb9-9627-5e6bc38039a2_2452x1166.png)](https://substackcdn.com/image/fetch/$s_!Zi2v!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6db5e335-a2fb-4cb9-9627-5e6bc38039a2_2452x1166.png)
+[![](images/6db5e335-a2fb-4cb9-9627-5e6bc38039a2_2452x1166.png)](images/6db5e335-a2fb-4cb9-9627-5e6bc38039a2_2452x1166.png)
 
 ### CSV Export
 
 Create archival history of your M365 app status by running CSV exports from the App Inventory page.
 
-[![](https://substackcdn.com/image/fetch/$s_!Z6J0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcffa4fc3-d359-4990-afe4-2fc514e2bea9_1692x640.png)](https://substackcdn.com/image/fetch/$s_!Z6J0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcffa4fc3-d359-4990-afe4-2fc514e2bea9_1692x640.png)
+[![](images/cffa4fc3-d359-4990-afe4-2fc514e2bea9_1692x640.png)](images/cffa4fc3-d359-4990-afe4-2fc514e2bea9_1692x640.png)
 
 ## How Can You Get App Hunter?
 

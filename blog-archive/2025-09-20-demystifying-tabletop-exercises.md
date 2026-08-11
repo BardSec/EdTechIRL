@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/demystifying-tabletop-exercises
 
 *Turning “What Ifs” Into Preparedness*
 
-[![](https://substackcdn.com/image/fetch/$s_!WZ2J!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F2d07a47a-7fa0-4340-8419-fad365a2485b_2560x1440.png)](https://youtu.be/sVFJZReleHE)
+[![](images/2d07a47a-7fa0-4340-8419-fad365a2485b_2560x1440.png)](images/sVFJZReleHE.jpg)
 
 In school technology, we spend a lot of time reacting to problems. A server goes down, fiber gets cut, a laptop won’t connect. You name it, it lands on our desk. The truth is, we’re so busy putting out fires that we rarely carve out time to ask: *what if?*
 

@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/cyber-risk-is-an-equity-issue
 
 *Pt 7: Why Disruptions Hit Some Students Harder Than Others*
 
-[![](https://substackcdn.com/image/fetch/$s_!o1N9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ceecec9-bfd9-4acc-9a76-92d209185cf1_3136x1344.png)](https://substackcdn.com/image/fetch/$s_!o1N9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F5ceecec9-bfd9-4acc-9a76-92d209185cf1_3136x1344.png)
+[![](images/5ceecec9-bfd9-4acc-9a76-92d209185cf1_3136x1344.png)](images/5ceecec9-bfd9-4acc-9a76-92d209185cf1_3136x1344.png)
 
 When a cyber incident disrupts a school district, the technical impact may be uniform: systems go down for everyone. But the educational impact is not the same. Some students merely lose access to instruction temporarily, while others lose essential services, stability, and daily support systems they depend on. In this way, cybersecurity failures do more than interrupt learning; they expose and deepen existing inequities.
 

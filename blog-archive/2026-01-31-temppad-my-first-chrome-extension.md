@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/temppad-my-first-chrome-extension
 
 *A temporary pastebin for you browser*
 
-[![](https://substackcdn.com/image/fetch/$s_!42Fj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cf1ceb9-c8ad-4128-ae32-589072973ae0_1280x800.png)](https://substackcdn.com/image/fetch/$s_!42Fj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6cf1ceb9-c8ad-4128-ae32-589072973ae0_1280x800.png)
+[![](images/6cf1ceb9-c8ad-4128-ae32-589072973ae0_1280x800.png)](images/6cf1ceb9-c8ad-4128-ae32-589072973ae0_1280x800.png)
 
 I constantly find myself having to keep snippets of text handy for short periods of time. And sure, there are probably hundreds of tools to help manage this in one way or another, but I found myself wishing for a good Chrome extension that would work like a temporary pastebin inside the browser. I copy and paste a lot of passwords, API keys, and general ephemera that I don’t want to autosave, either for security reasons or because I don’t want my Notepad to show up on an episode of *Hoarders* someday. I previously mentioned [a way you can make a temporary notepad in an empty Chrome tab](https://www.edtechirl.com/p/quick-tip-built-in-scratchpad-in), but even that felt a bit unwieldy.
 
@@ -18,7 +18,7 @@ My solution? I put together my first [Chrome extension, called TempPad](https://
 
 TempPad started as a scratch-my-own-itch project, but it’s already earned a permanent spot in my workflow. It’s lightweight, does exactly one thing, and then politely disappears when the browser closes, which is exactly what I wanted. If that sounds useful to you too, it might be worth a try.
 
-[![](https://substackcdn.com/image/fetch/$s_!Rjcr!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce12503f-8846-4fe8-9511-5fce888884fe_1234x1268.png)](https://substackcdn.com/image/fetch/$s_!Rjcr!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fce12503f-8846-4fe8-9511-5fce888884fe_1234x1268.png)
+[![](images/ce12503f-8846-4fe8-9511-5fce888884fe_1234x1268.png)](images/ce12503f-8846-4fe8-9511-5fce888884fe_1234x1268.png)
 
 ---
 

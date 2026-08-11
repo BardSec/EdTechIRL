@@ -7,13 +7,13 @@ source: https://www.edtechirl.com/p/azure-ad-password-protection-in-the
 
 # Azure AD Password Protection in the Cloud and On-Prem
 
-[![](https://substackcdn.com/image/fetch/$s_!cRVt!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3b8fddd-5945-431a-ac61-d93c4e2c4379_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!cRVt!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fb3b8fddd-5945-431a-ac61-d93c4e2c4379_1024x1024.png)
+[![](images/b3b8fddd-5945-431a-ac61-d93c4e2c4379_1024x1024.png)](images/b3b8fddd-5945-431a-ac61-d93c4e2c4379_1024x1024.png)
 
 So you have password history and complexity rules set up, but you know your users are using common, weak, or breached passwords. How do you tighten up those passwords?
 
 In the cloud, there is a service called Azure Active Directory Password Protection. With AAD Password Protection, Microsoft maintains a Global Banned Words list. This list contains known common passwords and passwords that have been part of data breaches. Additionally, there is an option to create a custom word list of up to 1000 words. For the custom word list, it’s a good idea to enter common words in your community - sports team, organization name, mascots, etc. AAD Password Protection will check any new passwords in your environment against this global list and the custom list, plus it will automatically check for variations of words on your custom list (i.e., if you add Nashville to your list, it will check for Nashville, N@shville, n@shv1ll3, and other common substitutions). For cloud-only accounts, configuration is super simple: it’s just a dashboard in Azure under AAD —> Authentication Methods —> Password Protection:
 
-[![](https://substackcdn.com/image/fetch/$s_!vb40!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc03c14aa-a34c-4b60-b616-65993433d01b_1329x903.png)](https://substackcdn.com/image/fetch/$s_!vb40!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc03c14aa-a34c-4b60-b616-65993433d01b_1329x903.png)
+[![](images/c03c14aa-a34c-4b60-b616-65993433d01b_1329x903.png)](images/c03c14aa-a34c-4b60-b616-65993433d01b_1329x903.png)
 
 To enforce AAD Password Protection on-prem, however, requires a little more setup and configuration than just toggling “Enable password protection on Windows Server Active Directory” to YES.
 

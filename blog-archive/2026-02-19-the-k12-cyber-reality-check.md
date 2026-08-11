@@ -10,13 +10,13 @@ source: https://www.edtechirl.com/p/the-k12-cyber-reality-check
 
 *Pt 1: It’s Not “If,” It’s “Every School Day”*
 
-[![](https://substackcdn.com/image/fetch/$s_!kh1y!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0874cc21-ff90-4412-8e82-637214c13cd8_1536x1024.png)](https://substackcdn.com/image/fetch/$s_!kh1y!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0874cc21-ff90-4412-8e82-637214c13cd8_1536x1024.png)
+[![](images/0874cc21-ff90-4412-8e82-637214c13cd8_1536x1024.png)](images/0874cc21-ff90-4412-8e82-637214c13cd8_1536x1024.png)
 
 If you lead or support a U.S. public school district, cybersecurity can’t live in the “IT problem” bucket anymore. It’s a continuity-of-learning issue, a financial risk issue, and a student privacy issue, often all at once.
 
 Here’s the reality that tends to get lost in broader “education sector” conversations: K12 public schools experience cyber incidents so frequently that, on average, more than one publicly reported incident occurs per school day. That’s not a prediction or a hypothetical. It’s what multi-year incident tracking and post-incident reporting patterns have shown across the country. This is easy to see with a glance at [K12SIX’s K12 Cyber Incident Map](https://www.k12six.org/map) that plots this data from 2016-2022.
 
-[![](https://substackcdn.com/image/fetch/$s_!SyDO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Faee7026c-f355-4f9a-9b29-d81d6962e30d_846x545.png)](https://www.k12six.org/map)
+[![](images/aee7026c-f355-4f9a-9b29-d81d6962e30d_846x545.png)](images/map.jpg)
 
 [Click here to interact with K12SIX’s Cyber Incident Map](https://www.k12six.org/map)
 

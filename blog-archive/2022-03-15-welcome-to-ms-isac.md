@@ -7,9 +7,9 @@ source: https://www.edtechirl.com/p/welcome-to-ms-isac
 
 # Welcome to MS-ISAC
 
-[![](https://substackcdn.com/image/fetch/$s_!2vU7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F07fad85f-e712-48f3-9c80-09a3c38336f7_406x124.png)](https://substackcdn.com/image/fetch/$s_!2vU7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F07fad85f-e712-48f3-9c80-09a3c38336f7_406x124.png)
+[![](images/07fad85f-e712-48f3-9c80-09a3c38336f7_406x124.png)](images/07fad85f-e712-48f3-9c80-09a3c38336f7_406x124.png)
 
-[![architectural photography of building with people in it during nighttime](https://images.unsplash.com/photo-1480944657103-7fed22359e1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw0fHxpbnRlbGxpZ2VuY2V8ZW58MHx8fHwxNjQ3MzExMDg3&ixlib=rb-1.2.1&q=80&w=1080 "architectural photography of building with people in it during nighttime")](https://images.unsplash.com/photo-1480944657103-7fed22359e1d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHw0fHxpbnRlbGxpZ2VuY2V8ZW58MHx8fHwxNjQ3MzExMDg3&ixlib=rb-1.2.1&q=80&w=1080)
+[![architectural photography of building with people in it during nighttime](images/photo-1480944657103-7fed22359e1d.jpg "architectural photography of building with people in it during nighttime")](images/photo-1480944657103-7fed22359e1d.jpg)
 
 Photo by [Mike Kononov](https://unsplash.com/@mikofilm "Mike Kononov") on [Unsplash](https://unsplash.com "Unsplash")
 

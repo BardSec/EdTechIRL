@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/instant-dns-and-email-authentication
 
 *My second Chrome extension, RecordKeeper, lets you check DNS without opening a new tab*
 
-[![](https://substackcdn.com/image/fetch/$s_!QxXp!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88dfef2a-6f45-4765-a73c-fb20385198f1_968x536.png)](https://substackcdn.com/image/fetch/$s_!QxXp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F88dfef2a-6f45-4765-a73c-fb20385198f1_968x536.png)
+[![](images/88dfef2a-6f45-4765-a73c-fb20385198f1_968x536.png)](images/88dfef2a-6f45-4765-a73c-fb20385198f1_968x536.png)
 
 I regularly find myself needing to check DNS records for whatever site I’m currently looking at. Sometimes it’s to sanity-check email authentication, sometimes it’s to confirm a nameserver change propagated, and sometimes it’s just basic curiosity. There are plenty of DNS lookup tools out there, but most of them require copying a domain, opening a new tab, pasting it into a form, and then digging through a wall of results. It’s not hard, but it *is* just enough friction to be annoying when you’re doing it often.
 

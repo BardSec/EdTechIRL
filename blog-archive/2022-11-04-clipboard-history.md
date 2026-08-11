@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/clipboard-history
 
 *Do you ever want to see something you copied and pasted earlier? Or on a different computer? *
 
-[![](https://substackcdn.com/image/fetch/$s_!gN2H!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2a43046-d67b-4d04-91d5-e5eb3edbe175_940x788.png)](https://substackcdn.com/image/fetch/$s_!gN2H!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2a43046-d67b-4d04-91d5-e5eb3edbe175_940x788.png)
+[![](images/c2a43046-d67b-4d04-91d5-e5eb3edbe175_940x788.png)](images/c2a43046-d67b-4d04-91d5-e5eb3edbe175_940x788.png)
 
 I frequently find myself multi-tasking and spreading my workload across multiple screens and sometimes multiple computers. When I’m juggling like this, I often find myself having copied something for one task, and try to paste it into another one. Once I realize I’ve pasted the wrong thing, I have to search back through a few dozen browser tabs to try to find what I’m looking for.
 
@@ -24,7 +24,7 @@ or you can use the Windows search box/magnifying glass to search for Clipboard S
 
 In Clipboard settings, toggle on Clipboard history. To be able to copy and paste across devices, you can sign in with a Microsoft account.
 
-[![](https://substackcdn.com/image/fetch/$s_!S0u1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)](https://substackcdn.com/image/fetch/$s_!S0u1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)
+[![](images/952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)](images/952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)
 
 Windows 10 Clipboard history settings page
 
@@ -32,13 +32,13 @@ To use the clipboard, instead of hitting Ctrl+V like you normally would to paste
 
 In Windows 10, the Clipboard looks like this:
 
-[![](https://substackcdn.com/image/fetch/$s_!-Yup!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcdceadf3-49b9-4294-bc3b-c24c0178b9a7_290x389.png)](https://substackcdn.com/image/fetch/$s_!-Yup!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2Fcdceadf3-49b9-4294-bc3b-c24c0178b9a7_290x389.png)
+[![](images/cdceadf3-49b9-4294-bc3b-c24c0178b9a7_290x389.png)](images/cdceadf3-49b9-4294-bc3b-c24c0178b9a7_290x389.png)
 
 Windows 10 Clipboard History
 
 In Windows 11, it picks up some additional features like the ability to insert emojis, kaomoji, GIFs, and symbols like below:
 
-[![](https://substackcdn.com/image/fetch/$s_!AoVh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7e400742-3dc9-4556-a0b7-4975da86dacc_361x398.png)](https://substackcdn.com/image/fetch/$s_!AoVh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F7e400742-3dc9-4556-a0b7-4975da86dacc_361x398.png)
+[![](images/7e400742-3dc9-4556-a0b7-4975da86dacc_361x398.png)](images/7e400742-3dc9-4556-a0b7-4975da86dacc_361x398.png)
 
 Windows 11 Clipboard history
 

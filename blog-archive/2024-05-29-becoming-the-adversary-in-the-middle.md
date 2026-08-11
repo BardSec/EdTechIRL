@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/becoming-the-adversary-in-the-middle
 
 *How-to: Setting up an EvilGinx Server*
 
-[![](https://substackcdn.com/image/fetch/$s_!vytU!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7a4d980-454c-4a6e-ad40-72a19416b1b0_1792x1024.webp)](https://substackcdn.com/image/fetch/$s_!vytU!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd7a4d980-454c-4a6e-ad40-72a19416b1b0_1792x1024.webp)
+[![](images/d7a4d980-454c-4a6e-ad40-72a19416b1b0_1792x1024.webp)](images/d7a4d980-454c-4a6e-ad40-72a19416b1b0_1792x1024.webp)
 
 In a [previous article](https://www.edtechirl.com/p/why-is-phish-resistant-mfa-important) we talked about the importance of phish-resistant MFA and included a demo of bypassing MFA using the widely available program called EvilGinx. I keep coming back to EvilGinx because I’m still floored both by how powerful it is and by how simple to set up and use it is. This time, we’re going to look at what’s involved in setting up an EvilGinx server from start to finish.
 
@@ -66,7 +66,7 @@ Launch EvilGinx
 
 At this point, you’re going to see EvilGinx launch for the first time:
 
-[![](https://substackcdn.com/image/fetch/$s_!Kqnh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0b4e620-4047-4108-8f06-10f3b5ee2ad4_1534x710.png)](https://substackcdn.com/image/fetch/$s_!Kqnh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe0b4e620-4047-4108-8f06-10f3b5ee2ad4_1534x710.png)
+[![](images/e0b4e620-4047-4108-8f06-10f3b5ee2ad4_1534x710.png)](images/e0b4e620-4047-4108-8f06-10f3b5ee2ad4_1534x710.png)
 
 Next, tell EvilGinx to use your domain name (mine is pleasepleasedont.click)
 

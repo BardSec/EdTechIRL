@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/world-language-and-math-teachers
 
 *Two Windows Tools for Quick Access to Symbols and Special Characters*
 
-[![](https://substackcdn.com/image/fetch/$s_!mcF8!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69565e97-088b-4327-a67a-eb621aafe076_2240x1260.png)](https://substackcdn.com/image/fetch/$s_!mcF8!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F69565e97-088b-4327-a67a-eb621aafe076_2240x1260.png)
+[![](images/69565e97-088b-4327-a67a-eb621aafe076_2240x1260.png)](images/69565e97-088b-4327-a67a-eb621aafe076_2240x1260.png)
 
 When I need to use a special character like an é, I usually go to Beyoncé’s Wikipedia page and copy and paste. Don’t be like me.
 
@@ -24,15 +24,15 @@ To enable Clipboard History, you can use the Windows search box/magnifying glass
 
 In Clipboard settings, toggle on Clipboard history. If you want to be able to copy and paste across devices, you can sign in with a Microsoft account, but this step is optional for our purposes with language symbols.
 
-[![](https://substackcdn.com/image/fetch/$s_!S0u1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)](https://substackcdn.com/image/fetch/$s_!S0u1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fbucketeer-e05bbc84-baa3-437e-9518-adb32be77984.s3.amazonaws.com%2Fpublic%2Fimages%2F952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)
+[![](images/952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)](images/952dc6a3-6564-42c3-bee1-2d5d6b2ff161_1024x800.png)
 
 To use the clipboard, instead of hitting Ctrl+V like you normally would to paste, instead press the Windows Key+V. It will pull up a box like this where you can pick which image or text you’d like to paste. The highlighted menu item below will open a tab for Symbols, under which there is an option for Language Symbols. For math folks, there are also categories for Geometric Symbols and Math Symbols.
 
-[![](https://substackcdn.com/image/fetch/$s_!q2HW!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5bf5c07-c66e-48d2-93fe-bc7803ec2bfd_880x463.png)](https://substackcdn.com/image/fetch/$s_!q2HW!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fe5bf5c07-c66e-48d2-93fe-bc7803ec2bfd_880x463.png)
+[![](images/e5bf5c07-c66e-48d2-93fe-bc7803ec2bfd_880x463.png)](images/e5bf5c07-c66e-48d2-93fe-bc7803ec2bfd_880x463.png)
 
 Scroll through the language symbols, and practice using the ones you’ll be most likely to use IRL. Once you’ve used them, they’ll now show up as Recent:
 
-[![](https://substackcdn.com/image/fetch/$s_!5AFO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb5714cf-5354-4560-9df1-ead4135a5e20_352x253.png)](https://substackcdn.com/image/fetch/$s_!5AFO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fcb5714cf-5354-4560-9df1-ead4135a5e20_352x253.png)
+[![](images/cb5714cf-5354-4560-9df1-ead4135a5e20_352x253.png)](images/cb5714cf-5354-4560-9df1-ead4135a5e20_352x253.png)
 
 ### Method 2: PowerToys
 
@@ -42,18 +42,18 @@ The second method utilizes one of my favorite Microsoft utilities: PowerToys for
 
 After installation, you’ll have a whole suite of new Windows tools.
 
-[![](https://substackcdn.com/image/fetch/$s_!npvu!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40ccb8b3-ecb4-4536-8eee-1af5b668e3af_1140x740.png)](https://substackcdn.com/image/fetch/$s_!npvu!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F40ccb8b3-ecb4-4536-8eee-1af5b668e3af_1140x740.png)
+[![](images/40ccb8b3-ecb4-4536-8eee-1af5b668e3af_1140x740.png)](images/40ccb8b3-ecb4-4536-8eee-1af5b668e3af_1140x740.png)
 
 My most commonly used tools are Awake, a utility that keeps your computer from going to sleep (like Caffeine or Amphetamine for MacOS), Mouse Without Borders (a utility for using the same mouse across sessions on multiple computers… similar to Synergy), Keyboard Manager (for programming custom keys), etc., etc. There are tons of tools here. But for our purposes, Quick Accent is the answer:
 
-[![](https://substackcdn.com/image/fetch/$s_!OYm7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F957701ef-86ff-469a-8836-9f1c848c6f4a_814x744.png)](https://substackcdn.com/image/fetch/$s_!OYm7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F957701ef-86ff-469a-8836-9f1c848c6f4a_814x744.png)
+[![](images/957701ef-86ff-469a-8836-9f1c848c6f4a_814x744.png)](images/957701ef-86ff-469a-8836-9f1c848c6f4a_814x744.png)
 
 When you launch Quick Accent, you’ll first need to enable it. Then, there are a variety of configuration options. In the example above, the activation key is set to “Left, Right, or Space.” What this means is that if you want to insert an é, you would press the “E” key on your keyboard and then immediately hit either the left arrow, right arrow, or space bar while E is still pressed. It takes a teensy bit of practice to get it to activate the accent without typing eeeeeeeeeeee, but you’ll notice that as soon as you get the timing right, a small toolbar will show at the top of your screen with the different accent options for that particular letter. You can then cycle through these options by pressing the space bar, or release both keys to default to the first option.
 
-[![](https://substackcdn.com/image/fetch/$s_!hP5B!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F167b77dc-2ea3-4072-a422-9c1edbe48870_544x49.png)](https://substackcdn.com/image/fetch/$s_!hP5B!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F167b77dc-2ea3-4072-a422-9c1edbe48870_544x49.png)
+[![](images/167b77dc-2ea3-4072-a422-9c1edbe48870_544x49.png)](images/167b77dc-2ea3-4072-a422-9c1edbe48870_544x49.png)
 
 The default settings should work well, but you can additionally configure Quick Accent to sort characters based on usage frequency; increase or decrease the delay time for activating the accent keys; change the toolbar position; or exclude apps from activating Quick Accent. You can also tweak which character sets you want Quick Accent to draw from.
 
-[![](https://substackcdn.com/image/fetch/$s_!IK3W!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd40fe809-688f-4498-b9c4-f8a43a16d071_779x652.png)](https://substackcdn.com/image/fetch/$s_!IK3W!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd40fe809-688f-4498-b9c4-f8a43a16d071_779x652.png)
+[![](images/d40fe809-688f-4498-b9c4-f8a43a16d071_779x652.png)](images/d40fe809-688f-4498-b9c4-f8a43a16d071_779x652.png)
 
 Once it’s activated and configured, Quick Accent will continue to run, waiting to be summoned for any Beyoncé or Resumé needs you may have.

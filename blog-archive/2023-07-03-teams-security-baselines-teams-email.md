@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/teams-security-baselines-teams-email
 
 *Spending 10 minutes or less will help your M365 environment be a little more secure*
 
-[![](https://substackcdn.com/image/fetch/$s_!7j3x!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff452203d-0be8-488d-b74c-6cd8355e383a_800x500.png)](https://substackcdn.com/image/fetch/$s_!7j3x!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Ff452203d-0be8-488d-b74c-6cd8355e383a_800x500.png)
+[![](images/f452203d-0be8-488d-b74c-6cd8355e383a_800x500.png)](images/f452203d-0be8-488d-b74c-6cd8355e383a_800x500.png)
 
 In Oct. 2022, CISA released a document called [Microsoft Teams: M365 Minimum Viable Secure Configuration Baseline](https://www.cisa.gov/sites/default/files/publications/Microsoft%20Teams%20M365%20Minimum%20Viable%20SCB%20Draft%20v0.1.pdf). This document outlines 13 steps to take to raise your Microsoft Teams environment to a minimum viable security posture. In this series, we’ll take a look at these 13 steps over a series of articles.
 
@@ -34,7 +34,7 @@ If users are already utilizing this feature, it would be wise to communicate the
 
 Login to the Teams Admin Center (teams.cmd.ms) and navigate to Teams —> Teams Settings and scroll down to Email integration. Set the toggle for “Users can send emails to a channel email address” to OFF.
 
-[![](https://substackcdn.com/image/fetch/$s_!f-N0!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0baffc66-6c3b-4072-83aa-df7c4240ff1d_854x169.png)](https://substackcdn.com/image/fetch/$s_!f-N0!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0baffc66-6c3b-4072-83aa-df7c4240ff1d_854x169.png)
+[![](images/0baffc66-6c3b-4072-83aa-df7c4240ff1d_854x169.png)](images/0baffc66-6c3b-4072-83aa-df7c4240ff1d_854x169.png)
 
 ### 
 

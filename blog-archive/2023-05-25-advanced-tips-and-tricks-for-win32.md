@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/advanced-tips-and-tricks-for-win32
 
 *Win32 for the win!*
 
-[![](https://substackcdn.com/image/fetch/$s_!GrH2!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3585fb9-dded-44dd-a22e-08e8821268c7_1024x1024.png)](https://substackcdn.com/image/fetch/$s_!GrH2!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa3585fb9-dded-44dd-a22e-08e8821268c7_1024x1024.png)
+[![](images/a3585fb9-dded-44dd-a22e-08e8821268c7_1024x1024.png)](images/a3585fb9-dded-44dd-a22e-08e8821268c7_1024x1024.png)
 
 ### Intro
 
@@ -57,7 +57,7 @@ Finding command line arguments for EXE installers can be very tricky if you’re
 
 If you need to find the install arguments of an EXE, you can often go to command prompt, change directory so that you are in the same folder as the installer, and run *installername.exe /? **.*** This will often provide you with a pop-up box of the silent install switches. This also works with MSIs.
 
-[![Command line arguments from Microsoft Remote Help](https://substackcdn.com/image/fetch/$s_!Ndkh!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F637d9d9f-2958-4a89-bb9c-31cee66456d5_1353x746.png "Command line arguments from Microsoft Remote Help")](https://substackcdn.com/image/fetch/$s_!Ndkh!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F637d9d9f-2958-4a89-bb9c-31cee66456d5_1353x746.png)
+[![Command line arguments from Microsoft Remote Help](images/637d9d9f-2958-4a89-bb9c-31cee66456d5_1353x746.png "Command line arguments from Microsoft Remote Help")](images/637d9d9f-2958-4a89-bb9c-31cee66456d5_1353x746.png)
 
 Command line arguments from Microsoft Remote Help
 
@@ -69,27 +69,27 @@ Unfortunately, this doesn’t work 100% of the time, but is definitely worthwhil
 
 Sometimes you can use 7Zip to unpackage installers and find other installers inside that are easier to work with. For example, if you unzip the consumer version of adobe acrobat reader, you have an MSI installer on the inside.
 
-[![](https://substackcdn.com/image/fetch/$s_!UPvG!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd00a3de-2429-49c2-9ef6-e021f993e61f_1147x477.png)](https://substackcdn.com/image/fetch/$s_!UPvG!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fbd00a3de-2429-49c2-9ef6-e021f993e61f_1147x477.png)
+[![](images/bd00a3de-2429-49c2-9ef6-e021f993e61f_1147x477.png)](images/bd00a3de-2429-49c2-9ef6-e021f993e61f_1147x477.png)
 
 ### Tip 5: Installer Shield
 
 If you’ve worked with computers long enough, chances are that you will recognize this logo.
 
-[![InstallShield: App Reviews, Features, Pricing & Download | AlternativeTo](https://substackcdn.com/image/fetch/$s_!ZMgO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a9130b6-b86d-4c35-b584-357beaa6d7bd_280x280.png "InstallShield: App Reviews, Features, Pricing & Download | AlternativeTo")](https://substackcdn.com/image/fetch/$s_!ZMgO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7a9130b6-b86d-4c35-b584-357beaa6d7bd_280x280.png)
+[![InstallShield: App Reviews, Features, Pricing & Download | AlternativeTo](images/7a9130b6-b86d-4c35-b584-357beaa6d7bd_280x280.png "InstallShield: App Reviews, Features, Pricing & Download | AlternativeTo")](images/7a9130b6-b86d-4c35-b584-357beaa6d7bd_280x280.png)
 
 This is the logo for InstallShield, a proprietary software used to create installers. It is pretty commonly used by many companies for packaging their software into an installer. If you have a software with this logo, you can try extracting it and sometimes there is an MSI inside. To do this, use the following command.
 
 > setup.exe /s /x /b"C:\FolderInWhichMSIWillBeExtracted" /v"/qn"
 
-[![](https://substackcdn.com/image/fetch/$s_!QlKR!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91ade91c-d028-47ef-bc74-0c1593dbaae3_160x39.png)](https://substackcdn.com/image/fetch/$s_!QlKR!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F91ade91c-d028-47ef-bc74-0c1593dbaae3_160x39.png)
+[![](images/91ade91c-d028-47ef-bc74-0c1593dbaae3_160x39.png)](images/91ade91c-d028-47ef-bc74-0c1593dbaae3_160x39.png)
 
-[![Image preview](https://substackcdn.com/image/fetch/$s_!YYsE!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77b0b4e5-0f42-4cdb-a1c0-41623181edb8_806x338.png "Image preview")](https://substackcdn.com/image/fetch/$s_!YYsE!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F77b0b4e5-0f42-4cdb-a1c0-41623181edb8_806x338.png)
+[![Image preview](images/77b0b4e5-0f42-4cdb-a1c0-41623181edb8_806x338.png "Image preview")](images/77b0b4e5-0f42-4cdb-a1c0-41623181edb8_806x338.png)
 
 ### Tip 6: Pushing Powershell Scripts as Win32
 
 I know, you can also upload powershell scripts under the devices tab without packaging it as a Win32. However, you get lots of added benefits from doing this as a Win32. For one, it seems to be much faster in my experience. Another is that you get the option to add a powershell script to Company Portal as a kiosk install. I have done this to add ‘hotfixes’ to company portal. I have one in mine that will activate windows on the end user device (in case of emergencies), allowing them to self-service the issue without them ever seeing the license and without me needing to put it in for them.
 
-[![](https://substackcdn.com/image/fetch/$s_!VeeB!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c582898-92e8-4c53-9cf0-c6bda6c7fae6_1498x281.png)](https://substackcdn.com/image/fetch/$s_!VeeB!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F4c582898-92e8-4c53-9cf0-c6bda6c7fae6_1498x281.png)
+[![](images/4c582898-92e8-4c53-9cf0-c6bda6c7fae6_1498x281.png)](images/4c582898-92e8-4c53-9cf0-c6bda6c7fae6_1498x281.png)
 
 To create something like this, all you need to do is create your powershell script and package it with Win32. Your install script should look something like this.
 
@@ -133,10 +133,10 @@ What we can do is we can download the package intune uses without installing it 
 
 After we run this, it will download the installer to a folder in the current users downloads. In this folder, we have the installer and a yaml file.
 
-[![](https://substackcdn.com/image/fetch/$s_!csFH!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a5e9237-ed95-4d40-940b-c39d88cbf996_862x465.png)](https://substackcdn.com/image/fetch/$s_!csFH!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a5e9237-ed95-4d40-940b-c39d88cbf996_862x465.png)
+[![](images/9a5e9237-ed95-4d40-940b-c39d88cbf996_862x465.png)](images/9a5e9237-ed95-4d40-940b-c39d88cbf996_862x465.png)
 
 If you open the yaml file in a text editor, it will give you lots of information about the package, including install parameters.
 
-[![](https://substackcdn.com/image/fetch/$s_!1pAx!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1710a4ac-6565-4432-a841-a601bec44da6_878x694.png)](https://substackcdn.com/image/fetch/$s_!1pAx!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1710a4ac-6565-4432-a841-a601bec44da6_878x694.png)
+[![](images/1710a4ac-6565-4432-a841-a601bec44da6_878x694.png)](images/1710a4ac-6565-4432-a841-a601bec44da6_878x694.png)
 
 Not sure how often this works, but definitely worth checking on trickier program installs.

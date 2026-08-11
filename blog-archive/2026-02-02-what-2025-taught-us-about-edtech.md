@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/what-2025-taught-us-about-edtech
 
 *Insights from CoSN's 2025 State of EdTech District Leadership report *
 
-[![](https://substackcdn.com/image/fetch/$s_!OExV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19dcd073-53c3-4930-800b-2bdc2a6f4480_1200x800.png)](https://substackcdn.com/image/fetch/$s_!OExV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F19dcd073-53c3-4930-800b-2bdc2a6f4480_1200x800.png)
+[![](images/19dcd073-53c3-4930-800b-2bdc2a6f4480_1200x800.png)](images/19dcd073-53c3-4930-800b-2bdc2a6f4480_1200x800.png)
 
 With winter weather settling in where I live, I’ve taken a little time to cozy up with my e-reader and work through some of my stack of “I’ll read this later” reports, articles, and notes that piled up over the fall semester. One of those was CoSN’s *2025 State of EdTech District Leadership* report, released back in May and promptly buried under day-to-day urgencies.
 
@@ -36,7 +36,7 @@ The deeper signal, however, is not adoption, but how governance lagged behind us
 
 Many districts allowed AI based on use case, but nearly half (43%) lacked formal guidelines. Policies were often retrofitted into acceptable use or academic integrity documents, rather than treated as a new class of system risk.
 
-[![](https://substackcdn.com/image/fetch/$s_!vLK9!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37f1d346-da0b-41cc-96b9-c521215165a3_552x235.png)](https://substackcdn.com/image/fetch/$s_!vLK9!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F37f1d346-da0b-41cc-96b9-c521215165a3_552x235.png)
+[![](images/37f1d346-da0b-41cc-96b9-c521215165a3_552x235.png)](images/37f1d346-da0b-41cc-96b9-c521215165a3_552x235.png)
 
 2025 State of EdTech District Leadership, p. 11
 
@@ -62,7 +62,7 @@ Yet at the same time, most EdTech leaders rated their districts’ risk exposure
 
 That mismatch should make us uncomfortable.
 
-[![](https://substackcdn.com/image/fetch/$s_!uARa!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02da0270-681c-42a3-aefe-45c4a2a82808_571x351.png)](https://substackcdn.com/image/fetch/$s_!uARa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F02da0270-681c-42a3-aefe-45c4a2a82808_571x351.png)
+[![](images/02da0270-681c-42a3-aefe-45c4a2a82808_571x351.png)](images/02da0270-681c-42a3-aefe-45c4a2a82808_571x351.png)
 
 p. 18
 
@@ -82,7 +82,7 @@ If one finding in the 2025 report deserves board-level attention, it is the near
 
 The data is blunt. Loss or disruption of E-Rate funding would be catastrophic or severely damaging for most districts, across all geographies. Overall, 74% of respondents said the loss of E-Rate would have a significant negative impact, with 40% describing the disruption as major and 34% as catastrophic. Connectivity is no longer a support service; it is the backbone of instruction, assessment, safety systems, and AI-enabled learning.
 
-[![](https://substackcdn.com/image/fetch/$s_!cI7X!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F479677bf-9e6a-409d-9316-d9be0a15d4bc_505x352.png)](https://substackcdn.com/image/fetch/$s_!cI7X!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F479677bf-9e6a-409d-9316-d9be0a15d4bc_505x352.png)
+[![](images/479677bf-9e6a-409d-9316-d9be0a15d4bc_505x352.png)](images/479677bf-9e6a-409d-9316-d9be0a15d4bc_505x352.png)
 
 p. 25
 

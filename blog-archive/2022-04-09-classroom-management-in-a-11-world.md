@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/classroom-management-in-a-11-world
 
 # Classroom Management in a 1:1 World
 
-[![MacBook Pro turned on](https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwzfHxsYXB0b3B8ZW58MHx8fHwxNjQ5NDcyNjAw&ixlib=rb-1.2.1&q=80&w=1080 "MacBook Pro turned on")](https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzMDAzMzh8MHwxfHNlYXJjaHwzfHxsYXB0b3B8ZW58MHx8fHwxNjQ5NDcyNjAw&ixlib=rb-1.2.1&q=80&w=1080)
+[![MacBook Pro turned on](images/photo-1525547719571-a2d4ac8945e2.jpg "MacBook Pro turned on")](images/photo-1525547719571-a2d4ac8945e2.jpg)
 
 Photo by [Andras Vas](https://unsplash.com/@wasdrew) on [Unsplash](https://unsplash.com)
 

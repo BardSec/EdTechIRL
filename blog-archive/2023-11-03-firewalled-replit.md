@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/firewalled-replit
 
 *Winning a Round of the Content Filter Whack-a-Mole Game*
 
-[![Replit: The software creation platform. IDE, AI, and Deployments - Replit](https://substackcdn.com/image/fetch/$s_!U6Wb!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F895b8eed-9d7b-4ac6-9542-7edfbbf97d1f_1200x630.png "Replit: The software creation platform. IDE, AI, and Deployments - Replit")](https://substackcdn.com/image/fetch/$s_!U6Wb!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F895b8eed-9d7b-4ac6-9542-7edfbbf97d1f_1200x630.png)
+[![Replit: The software creation platform. IDE, AI, and Deployments - Replit](images/895b8eed-9d7b-4ac6-9542-7edfbbf97d1f_1200x630.png "Replit: The software creation platform. IDE, AI, and Deployments - Replit")](images/895b8eed-9d7b-4ac6-9542-7edfbbf97d1f_1200x630.png)
 
 One of the least fun parts of managing devices for students is the Big Brother aspect of content filtering and striking the balance between technical controls and classroom management. A frequent flyer in this area is Replit. Replit is a robust cloud IDE for coding that offers free team accounts for educators. Think of a shared Google Sheet, but optimized for writing and sharing code.
 

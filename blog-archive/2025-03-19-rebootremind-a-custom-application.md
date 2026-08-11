@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/rebootremind-a-custom-application
 
 *Computers need sleep too!*
 
-[![A cartoon-style computer with a tired and exhausted expression. The monitor screen displays droopy eyes with bags underneath, and the keyboard appears slouched. The CPU looks fatigued but without sweat drops. A coffee cup sits beside it, half-empty. The background is a dimly lit office desk with scattered papers and wires.](https://substackcdn.com/image/fetch/$s_!sHa1!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171217f-cb66-42cb-a3a3-446a2aa4c0c9_1024x1024.webp "A cartoon-style computer with a tired and exhausted expression. The monitor screen displays droopy eyes with bags underneath, and the keyboard appears slouched. The CPU looks fatigued but without sweat drops. A coffee cup sits beside it, half-empty. The background is a dimly lit office desk with scattered papers and wires.")](https://substackcdn.com/image/fetch/$s_!sHa1!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F1171217f-cb66-42cb-a3a3-446a2aa4c0c9_1024x1024.webp)
+[![A cartoon-style computer with a tired and exhausted expression. The monitor screen displays droopy eyes with bags underneath, and the keyboard appears slouched. The CPU looks fatigued but without sweat drops. A coffee cup sits beside it, half-empty. The background is a dimly lit office desk with scattered papers and wires.](images/1171217f-cb66-42cb-a3a3-446a2aa4c0c9_1024x1024.webp "A cartoon-style computer with a tired and exhausted expression. The monitor screen displays droopy eyes with bags underneath, and the keyboard appears slouched. The CPU looks fatigued but without sweat drops. A coffee cup sits beside it, half-empty. The background is a dimly lit office desk with scattered papers and wires.")](images/1171217f-cb66-42cb-a3a3-446a2aa4c0c9_1024x1024.webp)
 
 ### Introduction
 
@@ -22,7 +22,7 @@ To avoid these issues, I wrote my own application in python so standard users co
 
 (Also, I mentioned Intune in the title of this and will be walking through how to deploy this with Intune, but I’m sure it could be pushed with other MDMs as well)
 
-[![](https://substackcdn.com/image/fetch/$s_!zpVO!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd76fbf9e-b272-4e39-b3ea-62613e202c33_645x352.png)](https://substackcdn.com/image/fetch/$s_!zpVO!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fd76fbf9e-b272-4e39-b3ea-62613e202c33_645x352.png)
+[![](images/d76fbf9e-b272-4e39-b3ea-62613e202c33_645x352.png)](images/d76fbf9e-b272-4e39-b3ea-62613e202c33_645x352.png)
 
 Just pretend that says 115 days instead of 0
 
@@ -64,7 +64,7 @@ Let’s go ahead and compile our python program. I’m doing this in VS Code wit
 3. Next, type the following command, and the GUI below should pop up.  
    **python -m auto\_py\_to\_exe**
 
-   [![](https://substackcdn.com/image/fetch/$s_!P9ij!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2c16f29-8b75-4012-a54f-5308717a9e4d_945x991.png)](https://substackcdn.com/image/fetch/$s_!P9ij!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb2c16f29-8b75-4012-a54f-5308717a9e4d_945x991.png)
+   [![](images/b2c16f29-8b75-4012-a54f-5308717a9e4d_945x991.png)](images/b2c16f29-8b75-4012-a54f-5308717a9e4d_945x991.png)
 
    There’s a lot of buttons here, but there’s only 4 things you have to configure.  
      
@@ -78,7 +78,7 @@ Let’s go ahead and compile our python program. I’m doing this in VS Code wit
    ```
 4. This will run for a minute or two, and once it’s done, you should see this folder wherever you specified for your output directory.
 
-[![](https://substackcdn.com/image/fetch/$s_!zmvj!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a652a57-51a6-4fb0-999c-80f9e2325823_1062x337.png)](https://substackcdn.com/image/fetch/$s_!zmvj!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F9a652a57-51a6-4fb0-999c-80f9e2325823_1062x337.png)
+[![](images/9a652a57-51a6-4fb0-999c-80f9e2325823_1062x337.png)](images/9a652a57-51a6-4fb0-999c-80f9e2325823_1062x337.png)
 
 Great! Now on to packaging this up for Intune.
 
@@ -91,7 +91,7 @@ Let’s go ahead and start piecing together a source folder for our Intune packa
 - The RebootRemind.xml file that contains the blueprint for our Scheduled Task.
 - The HeroImage.png from my github, or your own custom image. **Put this inside the rebootremind folder with the exe.**
 
-  [![](https://substackcdn.com/image/fetch/$s_!vW4M!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb430252d-69c8-4cab-9aca-d7f5b1d21e4d_707x135.png)](https://substackcdn.com/image/fetch/$s_!vW4M!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fb430252d-69c8-4cab-9aca-d7f5b1d21e4d_707x135.png)
+  [![](images/b430252d-69c8-4cab-9aca-d7f5b1d21e4d_707x135.png)](images/b430252d-69c8-4cab-9aca-d7f5b1d21e4d_707x135.png)
 
 I’m going to assume you’re familiar with IntuneWinAppUtil.exe for packaging apps as win32.
 
@@ -107,7 +107,7 @@ powershell.exe -ExecutionPolicy Bypass -file remove-rebootremind.ps1
 
 **Detection**
 
-[![](https://substackcdn.com/image/fetch/$s_!BqNq!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6cbcda-35a3-4f97-99ef-bb749ee75545_848x540.png)](https://substackcdn.com/image/fetch/$s_!BqNq!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F6d6cbcda-35a3-4f97-99ef-bb749ee75545_848x540.png)
+[![](images/6d6cbcda-35a3-4f97-99ef-bb749ee75545_848x540.png)](images/6d6cbcda-35a3-4f97-99ef-bb749ee75545_848x540.png)
 
 ### Conclusion
 

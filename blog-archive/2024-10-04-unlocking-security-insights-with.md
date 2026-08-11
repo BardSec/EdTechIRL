@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/unlocking-security-insights-with
 
 *Happy Cybersecurity Awareness Month!*
 
-[![Search in sidebar query](https://substackcdn.com/image/fetch/$s_!9xXF!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3af3e1a0-be74-4e01-bc8c-b464a35a8745_3000x3000.jpeg "Search in sidebar query")](https://substackcdn.com/image/fetch/$s_!9xXF!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F3af3e1a0-be74-4e01-bc8c-b464a35a8745_3000x3000.jpeg)
+[![Search in sidebar query](images/3af3e1a0-be74-4e01-bc8c-b464a35a8745_3000x3000.jpeg "Search in sidebar query")](images/3af3e1a0-be74-4e01-bc8c-b464a35a8745_3000x3000.jpeg)
 
 This newsletter/blog’s mission has always been to equip K-12 stakeholders with the tools and knowledge they need to enhance education and protect our schools from digital threats. That’s why I’m thrilled to share a new resource to amplify this goal: the Zero Breach Zone Podcast!
 
