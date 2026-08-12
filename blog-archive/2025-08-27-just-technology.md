@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/just-technology
 
 *What do I wish stakeholders knew about technology in schools?*
 
-[![Generated image](images/a17fc4e7-e57a-4cf0-9430-f4dc822121aa_1024x1024.png)](images/a17fc4e7-e57a-4cf0-9430-f4dc822121aa_1024x1024.png)
+[![Generated image](images/a17fc4e7-e57a-4cf0-9430-f4dc822121aa_1024x1024.png "Generated image")](images/a17fc4e7-e57a-4cf0-9430-f4dc822121aa_1024x1024.png)
 
 A co-worker in another department recently asked me what I wish people outside of IT knew about IT. I gave one of many correct answers to the question, but it kept nagging at me: if I could have people outside of tech know one thing about technology, what would it be. After a few days of reflection, I think I’ve settled on what that one thing would be:
 

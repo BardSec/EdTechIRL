@@ -38,7 +38,7 @@ As I started learning more and more about mac, the more I’ve learned that a lo
 
 LowProfile is a way to view the MDM profile payloads you have pushed to your mac and what they are set to. You can do this as well through the settings app on mac, but I find that LowProfile gives you more detail and is easier to navigate. LowProfile also will let you know if it finds issues within your apple profiles, such as using deprecated payloads.
 
-[![Example](images/d960939f-390c-4008-b67e-4490cbf4a1e7_1372x884.png)](images/d960939f-390c-4008-b67e-4490cbf4a1e7_1372x884.png)
+[![Example](images/d960939f-390c-4008-b67e-4490cbf4a1e7_1372x884.png "Example")](images/d960939f-390c-4008-b67e-4490cbf4a1e7_1372x884.png)
 
 #### [SuspiciousPackage](https://mothersruin.com/software/SuspiciousPackage/) - A pkg inspection and debugging tool
 
@@ -50,7 +50,7 @@ SuspiciousPackage is a tool used for inspecting what a pkg installer does before
 
 (warning, the site for this one looks pretty iffy, but I’ve seen it highly recommended on multiple reddit and JAMF threads). Packages allows for an easy way to create .pkg files. This can be handy so you can push things like scripts or custom apps on devices through your MDM.
 
-[![something big](images/8514ebee-98e8-449a-b8ae-fcdaabc0e0f5_996x554.png)](images/8514ebee-98e8-449a-b8ae-fcdaabc0e0f5_996x554.png)
+[![something big](images/8514ebee-98e8-449a-b8ae-fcdaabc0e0f5_996x554.png "something big")](images/8514ebee-98e8-449a-b8ae-fcdaabc0e0f5_996x554.png)
 
 #### [desktoppr](https://github.com/scriptingosx/desktoppr) - CLI tool for managing the wallpaper on Mac
 
@@ -70,7 +70,7 @@ We’ve mentioned Homebrew a bunch of times on this site. I’m sure most people
 
 Royal TSX is the remote connection manager that I didn’t know I needed. Note, this is a ‘freemium’ software. For free, you can have up to 10 connections, but for $65 one time, you get full access to the software and a year of updates. Royal TS (the windows version of the same software) quickly became my favorite remote management software because of many of the features it has built in. Royal TSX, the mac counter part, is no different. What really makes Royal stand out for me is their approach to credential management. They treat credentials as its own object in the interface and assign different credential identities to each of your connections, or to a parent folder and let everything inside inherit the same credentials. Now, whenever you have a password change, all you have to do is change the password to the credential object, opposed to editing the settings on every single connection you have saved. It’s a real time saver and has so many cool features, I could write an entire article just for it. I highly recommend you give it a try!
 
-[![Royal Apps](images/07e94ef2-f2b8-41c1-b2c7-db16a978bd3b_1960x1200.png)](images/07e94ef2-f2b8-41c1-b2c7-db16a978bd3b_1960x1200.png)
+[![Royal Apps](images/07e94ef2-f2b8-41c1-b2c7-db16a978bd3b_1960x1200.png "Royal Apps")](images/07e94ef2-f2b8-41c1-b2c7-db16a978bd3b_1960x1200.png)
 
 #### [Munki](https://www.munki.org/munki/) - MDM Agnostic Software Deployment and Management
 
@@ -82,7 +82,7 @@ Full disclaimer, this is a tool I’m not currently using, but it’s so notorio
 
 The more you get into managing macs, the more you will realize that permissions are a bigger bear here than they are on Windows. From what I can tell, Apple has a different philosophy on user permissions and requires some app permissions (like screen recording, microphone access, location access, etc.) require consent from the user and can’t be automatically allowed by an admin in the background. This can be **very** annoying at times. However, Apple does have a system for allowing you to manage app permission for the user called Privacy Preferences Policy Control, or PPPC. PPPC Utility is a tool where you can point it to an app (or multiple apps) and quickly define all the app permissions you’d like to set on a given device. Once you have it configured, it will generate a .mobileconfig file to deploy to your devices. Note, this app is developed by JAMF, but you can use it with any MDM.
 
-[![Start by adding to the Applications table](images/7a5954a4-17aa-46a5-a69b-92ba08a6a14f_1085x834.png)](images/7a5954a4-17aa-46a5-a69b-92ba08a6a14f_1085x834.png)
+[![Start by adding to the Applications table](images/7a5954a4-17aa-46a5-a69b-92ba08a6a14f_1085x834.png "Start by adding to the Applications table")](images/7a5954a4-17aa-46a5-a69b-92ba08a6a14f_1085x834.png)
 
 #### [UTM](https://mac.getutm.app/) - Type2 Virtualization on Mac
 

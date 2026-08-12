@@ -29,7 +29,7 @@ Instructure treats these as a separate hosted environment, but in the eyes of a 
 
 This is a classic “Supply Chain Lite” problem. Even if your core district tenant is locked down, if tenant isolation is vulnerable, access to your users’ data might be sitting in a less-secure corner of the same vendor’s ecosystem.
 
-[![threat-landscape](images/869ab885-867b-4a04-9b9e-461e3d757ee6_1456x971.webp)](images/869ab885-867b-4a04-9b9e-461e3d757ee6_1456x971.webp)
+[![threat-landscape](images/869ab885-867b-4a04-9b9e-461e3d757ee6_1456x971.webp "threat-landscape")](images/869ab885-867b-4a04-9b9e-461e3d757ee6_1456x971.webp)
 
 ## Relationship Data: The Real Prize
 
@@ -65,7 +65,7 @@ Attackers will use this data to target:
 2. **Parents:** With “overdue fee” notifications or “behavioral reports” that look like they’re coming from a real teacher.
 3. **Staff:** With impersonation attempts against the help desk.
 
-[![phishing-example](images/4e955d8c-baef-42d3-a70d-65741f3a46d9_1280x1600.webp)](images/4e955d8c-baef-42d3-a70d-65741f3a46d9_1280x1600.webp)
+[![phishing-example](images/4e955d8c-baef-42d3-a70d-65741f3a46d9_1280x1600.webp "phishing-example")](images/4e955d8c-baef-42d3-a70d-65741f3a46d9_1280x1600.webp)
 
 When a message contains a real student ID and a real class name, the human brain stops looking for the red flags. It looks “local,” and in K12, “local” equals “trustworthy.”
 

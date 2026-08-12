@@ -15,11 +15,11 @@ I don’t have a lot of information on this one, but Canvas/Instructure has suff
 
 It has since been taken offline, and Canvas currently has a scheduled maintenance notice posted:
 
-[![Comment image, no alternative text available](images/1e666f57-dd10-4f1f-847d-9e78872c6584_480x340.png)](images/1e666f57-dd10-4f1f-847d-9e78872c6584_480x340.png)
+[![Comment image, no alternative text available](images/1e666f57-dd10-4f1f-847d-9e78872c6584_480x340.png "Comment image, no alternative text available")](images/1e666f57-dd10-4f1f-847d-9e78872c6584_480x340.png)
 
 UPDATE: Based on monitoring in SupportStudioK12, it looks like the total outage time for Canvas came in right under 6 hours, though this monitoring doesn’t show the time period that the ShinyHunters messages had taken over the site before Canvas took it down.
 
-[![Image preview](images/c307ad68-fe5e-4668-acbc-37718076c156_1237x732.png)](images/c307ad68-fe5e-4668-acbc-37718076c156_1237x732.png)
+[![Image preview](images/c307ad68-fe5e-4668-acbc-37718076c156_1237x732.png "Image preview")](images/c307ad68-fe5e-4668-acbc-37718076c156_1237x732.png)
 
 ## The List
 

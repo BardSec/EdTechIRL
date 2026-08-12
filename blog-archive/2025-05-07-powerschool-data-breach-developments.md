@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/powerschool-data-breach-developments
 
 *Same Breach, Different Verse*
 
-[![Generated image](images/a0573b50-9235-456d-a985-2add07c97e46_1024x1024.png)](images/a0573b50-9235-456d-a985-2add07c97e46_1024x1024.png)
+[![Generated image](images/a0573b50-9235-456d-a985-2add07c97e46_1024x1024.png "Generated image")](images/a0573b50-9235-456d-a985-2add07c97e46_1024x1024.png)
 
 When PowerSchool announced in January that they had been the victim of a data breach in December 2024, they informed customers that they had paid the ransom and had witnessed the attackers deleting the compromised data. The explanation given in the PowerSchool-hosted webinar was that the attackers’ business model depended on victims trusting them to **really** delete the data in order for them to be able to viably collect ransoms from attacks in the future. Since then, we’ve all sort of been waiting for the other shoe to drop.
 

@@ -41,7 +41,7 @@ Not artificial scarcity. Not hype. Just making sure the first experience is soli
 
 By managing the intake, I can give every IT Director and Tech Coordinator who joins direct attention. If something isn’t intuitive, I’ll fix it. If a workflow feels clunky, I’ll smooth it out. That’s founder-led onboarding. And honestly, it’s the only way I wanted to launch this.
 
-[![Chaos to Order - 100k Tickets Visualization](images/6c93f8d9-9e25-4746-bc9c-d01445ea7de6_1536x1024.webp)](images/6c93f8d9-9e25-4746-bc9c-d01445ea7de6_1536x1024.webp)
+[![Chaos to Order - 100k Tickets Visualization](images/6c93f8d9-9e25-4746-bc9c-d01445ea7de6_1536x1024.webp "Chaos to Order - 100k Tickets Visualization")](images/6c93f8d9-9e25-4746-bc9c-d01445ea7de6_1536x1024.webp)
 
 ### **Built from 100,000 Real District Tickets**
 
@@ -74,7 +74,7 @@ That means:
 - **Public Pricing:** No “Contact Sales” wall. No pricing games. The price is on the [home page](https://www.supportstudiok12.com/home), and every feature is included in every paid plan.
 - **No Per-Agent Fees:** Your team grows. Your bill shouldn’t punish you for it.
 
-[![Hand-picked Onboarding Illustration](images/590f4dd2-1f7b-4b6e-b6f1-dc42b08b53a0_1536x1024.webp)](images/590f4dd2-1f7b-4b6e-b6f1-dc42b08b53a0_1536x1024.webp)
+[![Hand-picked Onboarding Illustration](images/590f4dd2-1f7b-4b6e-b6f1-dc42b08b53a0_1536x1024.webp "Hand-picked Onboarding Illustration")](images/590f4dd2-1f7b-4b6e-b6f1-dc42b08b53a0_1536x1024.webp)
 
 ### **No Opaque AI (Seriously)**
 
@@ -82,7 +82,7 @@ AI is the buzzword of the ~~year~~ decade. Every help desk seems to be stapling 
 
 Our AI features are toggleable and explainable. Your data never trains public models. We use AI to draft knowledge base articles and summarize long ticket threads, but we’re not pretending a black box should run your support operation. It’s there to help. Not to take the wheel from the people who actually know the district.
 
-[![Explainable AI and Transparency Toggle](images/77e6a88a-ec6e-4c2f-8725-949495df253f_1536x1024.webp)](images/77e6a88a-ec6e-4c2f-8725-949495df253f_1536x1024.webp)
+[![Explainable AI and Transparency Toggle](images/77e6a88a-ec6e-4c2f-8725-949495df253f_1536x1024.webp "Explainable AI and Transparency Toggle")](images/77e6a88a-ec6e-4c2f-8725-949495df253f_1536x1024.webp)
 
 ### **One Tool Instead of Six Subscriptions**
 

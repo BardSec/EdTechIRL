@@ -10,7 +10,7 @@ source: https://www.edtechirl.com/p/summer-phishing-trip
 
 *MFA-bypassing Cookie Theft Attacks are on the Rise thanks to Sneaky 2FA and Phishing as a Service*
 
-[![Generated image](images/d39c9a67-c3c6-4462-8aa8-b5836a8b5398_1024x1024.png)](images/d39c9a67-c3c6-4462-8aa8-b5836a8b5398_1024x1024.png)
+[![Generated image](images/d39c9a67-c3c6-4462-8aa8-b5836a8b5398_1024x1024.png "Generated image")](images/d39c9a67-c3c6-4462-8aa8-b5836a8b5398_1024x1024.png)
 
 I don’t know about what you’re seeing, but my organization has seen a large uptick in cookie-theft phishing attacks that are consistent with the Sneaky 2FA phishing toolkit. I’ve traditionally only seen one or two of this style of email each month, but in the past two weeks, I’ve seen 60+. The scary part about this toolkit is that it’s built specifically to get around multifactor authentication, one of the core defenses most organizations rely on today. Instead of brute-forcing or password spraying, this tool intercepts MFA tokens in real-time, rendering that second step effectively useless.
 

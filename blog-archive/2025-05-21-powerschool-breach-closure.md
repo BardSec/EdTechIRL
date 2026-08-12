@@ -7,7 +7,7 @@ source: https://www.edtechirl.com/p/powerschool-breach-closure
 
 # Closer to PowerSchool Breach Closure
 
-[![Generated image](images/502b175e-2f0b-4c02-a2f7-bed4d55a5c6e_1536x1024.png)](images/502b175e-2f0b-4c02-a2f7-bed4d55a5c6e_1536x1024.png)
+[![Generated image](images/502b175e-2f0b-4c02-a2f7-bed4d55a5c6e_1536x1024.png "Generated image")](images/502b175e-2f0b-4c02-a2f7-bed4d55a5c6e_1536x1024.png)
 
 For those of us keeping up with the PowerSchool data breach, a 19-year-old student at Assumption University in Worcester, Massachusetts, has agreed to plead guilty to several federal charges after hacking into the systems of two U.S. companies and attempting to extort millions in ransom payments (one telecom provider and an unnamed educational software company that has been confirmed elsewhere as PowerSchool).
 
