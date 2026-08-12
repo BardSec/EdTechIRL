@@ -11,6 +11,8 @@ blog-archive/            Markdown copies of every published article
   index.md               Notes on what the archive is
   YYYY-MM-DD-<slug>.md   One file per article, oldest 2022-03-14
   images/                Every image referenced by the archive, stored locally
+tools/
+  refresh_archive.py     Pull newly published articles into the archive
 ```
 
 ## The archive
@@ -44,20 +46,48 @@ CDN URL. They are likely broken on the live site as well.
 
 ## Keeping the archive current
 
-The archive is built from Substack's public post data. For each article, the post page
-embeds a `window._preloads` JSON blob containing `body_html`; that HTML is converted to
-Markdown with [pandoc](https://pandoc.org) and cleaned up to match the conventions above
-(fenced code blocks, plain-text captions, no raw HTML, cover image as the first block).
+`tools/refresh_archive.py` handles this. It requires [pandoc](https://pandoc.org)
+(`brew install pandoc`), needs no API key, and is safe to re-run — it only writes
+articles that are missing.
 
-To find articles that are on the site but not yet archived, compare the slugs in each
-file's `source:` field against the publication's archive listing:
-
-```
-https://www.edtechirl.com/api/v1/archive?sort=new&limit=50&offset=0
+```sh
+tools/refresh_archive.py --check      # report what's missing, write nothing
+tools/refresh_archive.py              # fetch missing articles + vendor their images
+tools/refresh_archive.py --verify 8   # self-test against articles already archived
 ```
 
-Note that this endpoint's pagination is inconsistent — overlap the offset windows and
-deduplicate by post `id` rather than trusting a single pass.
+Other flags: `--slug <slug>` force-regenerates specific articles (repeatable), and
+`--no-images` skips image vendoring.
+
+### How it works
+
+Each Substack post page embeds a `window._preloads` JSON blob containing the article's
+`body_html`. The script pulls that out, strips Substack's UI chrome, converts to Markdown
+with pandoc, and post-processes the result to match the conventions above. Missing
+articles are found by comparing each local file's `source:` slug against the publication's
+archive listing at `/api/v1/archive`.
+
+A few details are load-bearing and easy to regress:
+
+- **Code blocks are removed before pandoc runs and reinserted verbatim afterwards.**
+  Substack emits a doubled `<pre><code><code>`, which makes pandoc fall back to indented
+  blocks instead of fences, and the later cleanup passes would eat shell line-continuation
+  backslashes.
+- **`<a>` and `<img>` are reduced to the attributes GFM can express.** A link carrying
+  `class`/`target`/`data-*` forces pandoc to emit raw HTML, which the stray-HTML pass then
+  deletes — silently dropping the image.
+- **The cover image is prepended only if it doesn't already open the body**, since for many
+  posts it appears in both places.
+
+### Verifying the converter
+
+Substack changes its markup from time to time. `--verify N` regenerates N articles that are
+already archived and reports how many lines differ from the stored copy.
+
+Non-zero counts are not automatically failures — Substack re-renders old posts, and articles
+edited after archiving will legitimately differ. What matters is the pattern: drift confined
+to older posts is normal, but a **recent** article suddenly differing suggests their markup
+changed and the converter needs attention.
 
 ## Content calendar
 
